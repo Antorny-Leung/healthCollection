@@ -1,0 +1,12 @@
+2020-03-18 14:46:07,541 INFO 8997 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49432463ms at 2020-03-19 04:30:00.004
+2020-03-18 14:46:07,541 INFO 8997 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33232459ms at 2020-03-19 00:00:00.000
+2020-03-18 14:46:07,542 INFO 8997 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33233459ms at 2020-03-19 00:00:01.000
+2020-03-18 14:46:07,314 INFO 8998 [egg-schedule]: register schedule /Volumes/Work/ylz/health_collection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-18 14:46:07,314 INFO 8998 [egg-schedule]: register schedule /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-18 14:46:07,314 INFO 8998 [egg-schedule]: register schedule /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-18 14:52:09,986 INFO 9142 [egg-schedule]: register schedule /Volumes/Work/ylz/health_collection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-03-18 14:52:09,986 INFO 9142 [egg-schedule]: register schedule /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-03-18 14:52:09,986 INFO 9142 [egg-schedule]: register schedule /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-03-18 14:52:10,294 INFO 9130 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49069710ms at 2020-03-19 04:30:00.004
+2020-03-18 14:52:10,295 INFO 9130 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32869705ms at 2020-03-19 00:00:00.000
+2020-03-18 14:52:10,296 INFO 9130 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32870705ms at 2020-03-19 00:00:01.001

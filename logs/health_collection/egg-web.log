@@ -1,0 +1,28 @@
+2020-03-18 14:46:07,272 INFO 8998 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/health_collection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-18 14:46:07,315 INFO 8998 [egg-multipart] stream mode enable
+2020-03-18 14:46:07,464 INFO 8998 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/health_collection/app/public
+2020-03-18 14:46:07,469 INFO 8998 [egg-security] use csrf middleware
+2020-03-18 14:46:07,471 INFO 8998 [egg-security] use methodnoallow middleware
+2020-03-18 14:46:07,472 INFO 8998 [egg-security] use noopen middleware
+2020-03-18 14:46:07,472 INFO 8998 [egg-security] use nosniff middleware
+2020-03-18 14:46:07,473 INFO 8998 [egg-security] use xssProtection middleware
+2020-03-18 14:46:07,474 INFO 8998 [egg-security] use xframe middleware
+2020-03-18 14:46:07,476 INFO 8998 [egg-security] use dta middleware
+2020-03-18 14:46:07,476 INFO 8998 [egg-security] compose 7 middlewares into one security middleware
+2020-03-18 14:46:07,498 INFO 8998 [egg:core] dump config after load, 7ms
+2020-03-18 14:46:07,522 INFO 8998 [egg-watcher:application] watcher start success
+2020-03-18 14:46:07,531 INFO 8998 [egg:core] dump config after ready, 6ms
+2020-03-18 14:52:09,925 INFO 9142 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/health_collection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-18 14:52:09,987 INFO 9142 [egg-multipart] stream mode enable
+2020-03-18 14:52:10,191 INFO 9142 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/health_collection/app/public
+2020-03-18 14:52:10,199 INFO 9142 [egg-security] use csrf middleware
+2020-03-18 14:52:10,201 INFO 9142 [egg-security] use methodnoallow middleware
+2020-03-18 14:52:10,203 INFO 9142 [egg-security] use noopen middleware
+2020-03-18 14:52:10,205 INFO 9142 [egg-security] use nosniff middleware
+2020-03-18 14:52:10,206 INFO 9142 [egg-security] use xssProtection middleware
+2020-03-18 14:52:10,208 INFO 9142 [egg-security] use xframe middleware
+2020-03-18 14:52:10,210 INFO 9142 [egg-security] use dta middleware
+2020-03-18 14:52:10,210 INFO 9142 [egg-security] compose 7 middlewares into one security middleware
+2020-03-18 14:52:10,227 INFO 9142 [egg:core] dump config after load, 7ms
+2020-03-18 14:52:10,256 INFO 9142 [egg-watcher:application] watcher start success
+2020-03-18 14:52:10,285 INFO 9142 [egg:core] dump config after ready, 27ms

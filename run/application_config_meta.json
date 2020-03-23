@@ -1,0 +1,293 @@
+{
+  "keys": "/Volumes/Work/ylz/health_collection/config/config.default.js",
+  "middleware": "/Volumes/Work/ylz/health_collection/config/config.default.js",
+  "session": {
+    "maxAge": "/Volumes/Work/ylz/health_collection/node_modules/egg-session/config/config.default.js",
+    "key": "/Volumes/Work/ylz/health_collection/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Volumes/Work/ylz/health_collection/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Volumes/Work/ylz/health_collection/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "type": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "policy": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Volumes/Work/ylz/health_collection/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Volumes/Work/ylz/health_collection/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Volumes/Work/ylz/health_collection/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Volumes/Work/ylz/health_collection/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Volumes/Work/ylz/health_collection/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Volumes/Work/ylz/health_collection/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Volumes/Work/ylz/health_collection/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Volumes/Work/ylz/health_collection/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Volumes/Work/ylz/health_collection/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Volumes/Work/ylz/health_collection/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Volumes/Work/ylz/health_collection/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Volumes/Work/ylz/health_collection/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Volumes/Work/ylz/health_collection/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Volumes/Work/ylz/health_collection/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Volumes/Work/ylz/health_collection/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Volumes/Work/ylz/health_collection/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Volumes/Work/ylz/health_collection/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Volumes/Work/ylz/health_collection/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Volumes/Work/ylz/health_collection/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Volumes/Work/ylz/health_collection/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Volumes/Work/ylz/health_collection/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Volumes/Work/ylz/health_collection/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Volumes/Work/ylz/health_collection/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Volumes/Work/ylz/health_collection/node_modules/egg-static/config/config.default.js",
+    "dir": "/Volumes/Work/ylz/health_collection/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Volumes/Work/ylz/health_collection/node_modules/egg-static/config/config.default.js",
+    "preload": "/Volumes/Work/ylz/health_collection/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Volumes/Work/ylz/health_collection/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Volumes/Work/ylz/health_collection/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Volumes/Work/ylz/health_collection/node_modules/egg-view/config/config.default.js",
+    "cache": "/Volumes/Work/ylz/health_collection/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Volumes/Work/ylz/health_collection/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Volumes/Work/ylz/health_collection/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Volumes/Work/ylz/health_collection/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "name": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "cookies": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "proxy": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "version": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "description": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "private": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "eslint": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "stop": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "dev": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "debug": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "test": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "test-local": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "cov": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "lint": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "ci": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "autod": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "url": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "license": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "HOME": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "rundir": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "notFound": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "sitefile": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "middlewares": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "httpClient": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "encoding": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "formLimit": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "textLimit": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "strict": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "depth": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "encoding": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "env": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "level": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "buffer": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "appLogName": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "logging": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "port": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+      "hostname": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/config.default.js"
+}

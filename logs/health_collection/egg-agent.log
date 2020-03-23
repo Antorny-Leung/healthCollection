@@ -1,0 +1,21 @@
+2020-03-18 14:46:05,555 INFO 8997 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/health_collection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-03-18 14:46:05,577 INFO 8997 [egg:core] dump config after load, 9ms
+2020-03-18 14:46:05,693 INFO 8997 [egg-watcher] Start watching: ["/Volumes/Work/ylz/health_collection/app","/Volumes/Work/ylz/health_collection/config","/Volumes/Work/ylz/health_collection/mocks","/Volumes/Work/ylz/health_collection/mocks_proxy","/Volumes/Work/ylz/health_collection/app.js"]
+2020-03-18 14:46:05,693 INFO 8997 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/app"
+2020-03-18 14:46:05,694 INFO 8997 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/config"
+2020-03-18 14:46:05,694 INFO 8997 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/mocks"
+2020-03-18 14:46:05,694 INFO 8997 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/mocks_proxy"
+2020-03-18 14:46:05,694 INFO 8997 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/app.js"
+2020-03-18 14:46:05,694 INFO 8997 [egg-watcher:agent] watcher start success
+2020-03-18 14:46:05,712 INFO 8997 [egg:core] dump config after ready, 10ms
+2020-03-18 14:46:07,476 INFO 8997 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Volumes/Work/ylz/health_collection/app/public","stat":{"dev":16777224,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2249691,"size":68,"blocks":0,"atimeMs":1584513967000,"mtimeMs":1584513967000,"ctimeMs":1584513967000,"birthtimeMs":1584513967000,"atime":"2020-03-18T06:46:07.000Z","mtime":"2020-03-18T06:46:07.000Z","ctime":"2020-03-18T06:46:07.000Z","birthtime":"2020-03-18T06:46:07.000Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-03-18 14:52:03,064 INFO 9130 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/health_collection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-03-18 14:52:03,090 INFO 9130 [egg:core] dump config after load, 7ms
+2020-03-18 14:52:03,233 INFO 9130 [egg-watcher] Start watching: ["/Volumes/Work/ylz/health_collection/app","/Volumes/Work/ylz/health_collection/config","/Volumes/Work/ylz/health_collection/mocks","/Volumes/Work/ylz/health_collection/mocks_proxy","/Volumes/Work/ylz/health_collection/app.js"]
+2020-03-18 14:52:03,233 INFO 9130 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/app"
+2020-03-18 14:52:03,233 INFO 9130 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/config"
+2020-03-18 14:52:03,233 INFO 9130 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/mocks"
+2020-03-18 14:52:03,233 INFO 9130 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/mocks_proxy"
+2020-03-18 14:52:03,234 INFO 9130 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/app.js"
+2020-03-18 14:52:03,234 INFO 9130 [egg-watcher:agent] watcher start success
+2020-03-18 14:52:03,290 INFO 9130 [egg:core] dump config after ready, 6ms
