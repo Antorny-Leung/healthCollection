@@ -5,7 +5,6 @@ module.exports = app => {
   const UserSchema = new mongoose.Schema({
     name: { type: String, required: true }, // 姓名
     height: { type: Number, default: 0 }, // 身高
-    weight: { type: mongoose.Schema.Types.ObjectId, ref: 'Weight' }, // 体重
     gender: { type: String }, // 性别
     creatbirthday: { type: Date, default: Date.now }, // 出生日期
     bloodtype: { type: String }, // 血型
@@ -17,16 +16,23 @@ module.exports = app => {
     education: { type: String }, // 文化程度
     medicaretype: { type: Number, default: 0 }, // 医保类型 |0城镇职工基本医疗保险|1新型农村合作医疗|2城镇居民基本医疗保险
     career: { type: String }, // 职业
-    sportrecord: { type: mongoose.Schema.Types.ObjectId, ref: 'Sportrecord' }, // 运动记录
-    bloodglucose: { type: mongoose.Schema.Types.ObjectId, ref: 'Bloodglucose' }, // 血糖
-    heartrate: { type: mongoose.Schema.Types.ObjectId, ref: 'HeartRate' }, // 心率
-    sleep: { type: mongoose.Schema.Types.ObjectId, ref: 'Sleep' }, // 睡眠
-    bloodpressure: { type: mongoose.Schema.Types.ObjectId, ref: ' BloodPressure' }, // 血压
-    oxyhemoglobin: { type: mongoose.Schema.Types.ObjectId, ref: 'Oxyhemoglobin' }, // 血氧饱和度
-    pressure: { type: mongoose.Schema.Types.ObjectId, ref: 'Pressure' }, // 压力
-    temperature: { type: mongoose.Schema.Types.ObjectId, ref: 'Temperature' }, // 体温
+    stepdataId: { type: String }, // 步行记录
+    weightId: { type: String }, // 体重
+    fatrateId: { type: String }, // 体脂
+    distancedataId: { type: String }, // 运动距离记录
+    speeddataId: { type: String }, // 运动速度记录
+    energeId: { type: String }, // 运动热量消耗记录
+    heartratedataId: { type: String }, // 心率
+    temperaturedataId: { type: String }, // 体温
+    bloodglucosedataId: { type: String }, // 血糖
+    bloodpressuredataId: { type: String }, // 血压
+    oxyhemoglobindataId: { type: String }, // 血氧饱和度
+    sleepdataId: { type: String }, // 睡眠
+    pressuredataId: { type: String }, // 压力
     account: { type: String, unique: true, required: true }, // 账户
     password: { type: String, required: true }, // 密码
+    access_token: { type: String }, // 华为at
+    refresh_token: { type: String }, // 华为rt
     createdAt: { type: Date, default: Date.now }, // 创建日期
     note: { type: String }, // 保留字段
     extra: { type: mongoose.Schema.Types.Mixed },

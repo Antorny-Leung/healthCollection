@@ -25,11 +25,11 @@ module.exports = appInfo => {
 
   config.hihealth = {
     redirect_uri: '',
-    client_id: '',
-    secret: '',
+    client_id: 101940703,
+    client_secret: '49ef1739569836badaef9d735c589e6ac181e52319d4b23eb6aa391142fbbb5d',
     // 获取授权码
-    getAuthorizationCode: `https://login.cloud.huawei.com/oauth2/v2/authorize?response_type=code&client_id=CLIENT_ID
-    &redirect_uri=REDIRECT_URI&scope=https://www.huawei.com/health/profile.readonly+https://www.huawei.com/health/sport.readonly+
+    getAuthorizationCode: `https://login.cloud.huawei.com/oauth2/v2/authorize?response_type=code&client_id=101940703
+    &redirect_uri=http://qbz7cj.natappfree.cc&scope=https://www.huawei.com/health/profile.readonly+https://www.huawei.com/health/sport.readonly+
     https://www.huawei.com/health/health.wgt.readonly+https://www.huawei.com/health/health.slp.readonly+
     https://www.huawei.com/health/health.hr.readonly+https://www.huawei.com/health/health.ecg.readonly+
     https://www.huawei.com/health/health.bg.readonly+https://www.huawei.com/health/motionpath.readonly+
@@ -59,6 +59,44 @@ module.exports = appInfo => {
     getUserInfo: 'https://healthopen.hicloud.com/rest.php? nsp_ts={timestamp}&nsp_svc=com.huawei.fit.getUserInfo', //  profileType 0全部/1用户基本信息/2用户设置目标
     // 查询绑定设备信息
     getDeviceInfo: 'https://healthopen.hicloud.com/rest.php? nsp_ts={timestamp}&nsp_svc=com.huawei.fit.getDeviceInfo', // deviceCode（long）
+  };
+
+  config.hmscore = {
+    baseurl: 'https://health-api.cloud.huawei.com/hihealth/v1/',
+    redirect_uri: 'http://ucbfd3.natappfree.cc/api/oauth/getAccessToken',
+    client_id: 101940703,
+    client_secret: '49ef1739569836badaef9d735c589e6ac181e52319d4b23eb6aa391142fbbb5d',
+
+    // 获取授权码
+    getAuthorizationCode: `https://login.cloud.huawei.com/oauth2/v2/authorize?
+    response_type=code&client_id=101940703&redirect_uri=http://z2qiy2.natappfree.cc/api/oauth/getAccessToken
+    &scope=https://www.huawei.com/healthkit/heightweight.both+https://www.huawei.com/healthkit/goals.both+
+    https://www.huawei.com/healthkit/index.both+https://www.huawei.com/healthkit/step.both+
+    https://www.huawei.com/healthkit/distance.both+https://www.huawei.com/healthkit/speed.both+
+    https://www.huawei.com/healthkit/calories.both+https://www.huawei.com/healthkit/pulmonary.both+
+    https://www.huawei.com/healthkit/strength.both+https://www.huawei.com/healthkit/activity.both+
+    https://www.huawei.com/healthkit/location.both+https://www.huawei.com/healthkit/bodyfat.both+
+    https://www.huawei.com/healthkit/sleep.both+https://www.huawei.com/healthkit/heartrate.both+
+    https://www.huawei.com/healthkit/stress.both+https://www.huawei.com/healthkit/relaxtraining.both+
+    https://www.huawei.com/healthkit/nutrition.both+https://www.huawei.com/healthkit/hearthealth.both+
+    https://www.huawei.com/healthkit/bloodglucose.both+https://www.huawei.com/healthkit/bloodpressure.both+
+    https://www.huawei.com/healthkit/oxygensaturation.both+https://www.huawei.com/healthkit/bodytemperature.both+
+    https://www.huawei.com/healthkit/reproductive.both&access_type=offline&display=page
+    `,
+
+    // 获取AccessToken
+    getAccessToken: 'https://oauth-login.cloud.huawei.com/oauth2/v2/token', // grant_type=authorization_code,code=acode,client_id,client_secret,redirect_uri
+
+    // 更新access_token|POST
+    refreshAccessToken: 'https://oauth-login.cloud.huawei.com/oauth2/v2/token', // grant_type=refresh_token,refresh_token=refresh_token,client_id,client_secret,redirect_uri
+
+    // 创建一个数据采集器|POST
+    createdataCollectors: 'dataCollectors',
+    // 删除一个数据采集器|DELETE
+    deletedataCollectors: 'dataCollectors',
+    // 查询数据采集器内数据|GET/dataCollectorId
+    getdataCollectors: 'dataCollectors/DATACOLLECTORID/sampleSets/STARTTIME-ENDTIME',
+
   };
 
   // use for cookie sign key, should change to your own and keep security

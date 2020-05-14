@@ -1,0 +1,836 @@
+2020-04-07 15:24:26,111 ERROR 3426 [-/127.0.0.1/-/1ms GET /] nodejs.OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at new OverwriteModelError (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports.app (/Volumes/Work/ylz/healthCollection/app/model/user.js:36:19)
+    at getExports (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Volumes/Work/ylz/healthCollection/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at app.beforeStart (/Volumes/Work/ylz/healthCollection/node_modules/egg-mongoose/lib/mongoose.js:50:7)
+    at Object.callFn (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/lifecycle.js:256:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:834:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+message: "Cannot overwrite `User` model once compiled."
+name: "OverwriteModelError"
+pid: 3426
+hostname: bogon
+
+2020-04-07 15:34:15,284 ERROR 3522 [-/127.0.0.1/-/10806ms GET /api/oauth/getAccessToken] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":221,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3522
+hostname: bogon
+
+2020-04-07 15:36:08,432 ERROR 3522 [-/127.0.0.1/-/34599ms GET /api/oauth/getAccessToken?authorization_code=CV6MLnEAGZvmQ4QJjCWpJGTVYqCUcvODMp907g%2B4UsLHZ4agD5rt0ExmmBx2%2FR8FpUV7rhvB3CGcP1WRV2znamAc8GYz80136eHKD2zWh%2FnsgZ%2Bbjw7dbMZfu82E8Y8yXn2uNBijN9EvC8vix%2Bi4TzFP2D%2F7vZ%2F9gybGkbB0XtAC3rZA56Ey7d2LHhN3X%2F4JuSoUHjRyiQM%3D] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":387,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.19.161","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3522
+hostname: bogon
+
+2020-04-07 15:38:16,232 ERROR 4299 [-/127.0.0.1/-/8852ms GET /api/oauth/getAccessToken?sub_error=20132&error_description=invalid+ticket&error=1201] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":238,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4299
+hostname: bogon
+
+2020-04-07 15:39:32,127 ERROR 4299 [-/127.0.0.1/-/38037ms GET /api/oauth/getAccessToken?authorization_code=CV6MLzkPrzEUK2U3yAiwgZyrS0CfRoz%2Fo6l2VnMvDT2lVxO1sJXJABZlwa7WXBoEM%2FwtOvBu4e%2F4t20vM5rga6i%2FhVD3vCwrJnJkP0ypW6ukjyzyIbnKuOQHHf3Kyz7i00QbkLoOvMLGOj%2FKbZHVkkapju2fWQ0sN4clDLXq1fAoVVyQaruf4%2BxPZDvOUC7Y20bLizXvsB4%3D] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":142,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4299
+hostname: bogon
+
+2020-04-07 15:39:49,803 ERROR 4421 [-/127.0.0.1/-/1655ms GET /api/oauth/getAccessToken?sub_error=20132&error_description=invalid+ticket&error=1201] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":235,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4421
+hostname: bogon
+
+2020-04-07 15:40:34,296 ERROR 4421 [-/127.0.0.1/-/11782ms GET /api/oauth/getAccessToken?authorization_code=CV6ML5JcMdcfunid%2FyJwkYByGeqZfeGgWz1BIqyyEjNB3V%2B39LaDQZh%2Frj2MG30y0bRHzvEhi%2FYXM59T7GrVlW%2By1oXE1BTBwXPIRvwSTTpeQ8%2B2Os7E7AnCv222Yhjsrn%2B9%2B2khc6GI762gt2hdcYZYSqgJpiF87WSg4uiJq%2BP4tgxDWjkX9iCLKNEAAISHHZn6C4e9cLA%3D] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":146,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4421
+hostname: bogon
+
+2020-04-07 15:41:43,038 ERROR 4421 [-/undefined/-/9817ms GET /api/oauth/getAccessToken?sub_error=20132&error_description=invalid+ticket&error=1201] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":272,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 4421
+hostname: bogon
+
+2020-04-07 16:17:56,103 ERROR 4421 [-/undefined/-/2163093ms GET /api/oauth/getAccessToken?authorization_code=CV6ML%2Bw%2B7ziPaBJzdvxB6Wn52cl%2FKg2WzCwNmzfUE7PMdUh71FUKxiyTVk%2F4IoDKbYKr%2BotUXLvaxM72ue0ErTUDCCMgupJt6xm8fi4mSNAL3gUsp8GhdZ4BUkADdEX%2B52zeS7gHhbL5CRooVfOgiFocgv4UxRbkmGFLoNlQZjaFQnSEf%2Bh1UQ7YqFqddp%2FqQdVQb0mtPHs%3D] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":4,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":2},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":438,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 4421
+hostname: bogon
+
+2020-04-07 16:17:56,526 ERROR 4421 [-/undefined/-/752ms GET /api/oauth/getAccessToken?authorization_code=CV6ML%2Bw%2B7ziPaBJzdvxB6Wn52cl%2FKg2WzCwNmzfUE7PMdUh71FUKxiyTVk%2F4IoDKbYKr%2BotUXLvaxM72ue0ErTUDCCMgupJt6xm8fi4mSNAL3gUsp8GhdZ4BUkADdEX%2B52zeS7gHhbL5CRooVfOgiFocgv4UxRbkmGFLoNlQZjaFQnSEf%2Bh1UQ7YqFqddp%2FqQdVQb0mtPHs%3D] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":5,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":633,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 4421
+hostname: bogon
+
+2020-04-07 16:18:09,043 ERROR 4421 [-/undefined/-/3613ms GET /api/oauth/getAccessToken?authorization_code=CV6ML%2Bw%2B7ziPaBJzdvxB6Wn52cl%2FKg2WzCwNmzfUE7PMdUh71FUKxiyTVk%2F4IoDKbYKr%2BotUXLvaxM72ue0ErTUDCCMgupJt6xm8fi4mSNAL3gUsp8GhdZ4BUkADdEX%2B52zeS7gHhbL5CRooVfOgiFocgv4UxRbkmGFLoNlQZjaFQnSEf%2Bh1UQ7YqFqddp%2FqQdVQb0mtPHs%3D] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":6,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":162,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 4421
+hostname: bogon
+
+2020-04-07 16:18:35,708 ERROR 4421 [-/127.0.0.1/-/9880ms GET /api/oauth/getAccessToken] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":7,"createSocketErrorCount":0,"closeSocketCount":6,"errorSocketCount":7,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":238,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4421
+hostname: bogon
+
+2020-04-07 16:18:56,255 ERROR 4421 [-/127.0.0.1/-/10274ms GET /api/oauth/getAccessToken] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":8,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":8,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":371,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4421
+hostname: bogon
+
+2020-04-07 16:19:51,055 ERROR 4421 [-/127.0.0.1/-/8784ms GET /api/oauth/getAccessToken] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":9,"createSocketErrorCount":0,"closeSocketCount":8,"errorSocketCount":9,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":840,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4421
+hostname: bogon
+
+2020-04-07 16:23:48,721 ERROR 4421 [-/undefined/-/117064ms GET /api/oauth/getAccessToken?authorization_code=CV6MOUrEoAdCA8g%2BAh35ttKTR6yIoyVGXaaKIjFk1YeCMiwSL4uy1wKQXVzIO%2By%2FrcdmtIZaNahGvsUeEvwWas658fERi9xzgdoUM39csypiQl%2B1c19ReWBTwoQdLLbEWG56PncExW0dgqmJX9ozW4xARui4LsFlKelrf2g7eLEFhvvZnFYRYLP%2BvnO%2FeEb5Gv4Sqnf6IdA%3D] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":10,"createSocketErrorCount":0,"closeSocketCount":9,"errorSocketCount":10,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":1024,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 4421
+hostname: bogon
+
+2020-04-07 16:31:25,498 ERROR 7606 [-/127.0.0.1/-/5039ms GET /api/oauth/getAccessToken?authorization_code=CV6MO4NdJrGhWgbD9nBg0i5X7W9%2BjVXgFgY%2BC2TFfkm9Kba3SAVE7Qln410fD69bUmQTUokfY01tS1Tv5VnBWSAkz4GJOw8EMmluUw9pev6LPLmatZeDwqECW7VuulDz3JEsZHTJTvAnXHet17IeI6IPC72ysXJIGJ5d%2BkQnO4c6QKupOTh1c8yvNnxYAr2UcBBXpvXcQHk%3D] nodejs.Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"oauth-login.cloud.huawei.com:443:::::::::healthopen.hicloud.com:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (healthopen.hicloud.com) (healthopen.hicloud.com) (healthopen.hicloud.com)
+    at Object.checkServerIdentity (tls.js:239:17)
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1068:27)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket._finishInit (_tls_wrap.js:636:8)
+reason: "Host: healthopen.hicloud.com. is not in the cert's altnames: DNS:*.cloud.huawei.com"
+host: "healthopen.hicloud.com"
+cert: {"subject":{"C":"CN","ST":"Jiangsu","L":"Nanjing","O":"Huawei Software Technologies CO.Ltd","OU":"Cloud Platform Dept CNDR","CN":"*.cloud.huawei.com"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"subjectaltname":"DNS:*.cloud.huawei.com","infoAccess":{"OCSP - URI":["http://ocsp.dcocsp.cn"],"CA Issuers - URI":["http://cacerts.digicert-cn.com/SecureSiteCA.crt"]},"modulus":"EC06B2369CFFA79CFBC2CEFBCE4D3460CA83F0399683037705623A1E79AEADD351D00FF81C8A3ED16A7D5E7DC275A7FF701A042537859F1FD1B9C785E0A157FCB1F6B30345844883F40C682D40AAD76A1776D6AB0C60D5D0FB76C65A10115961B1815BC6AE404D8E0794408F0EADE1CD5D6B8A30EA97A95FB8A2F0FCF82228384211537CF0512D8428D1C2BD147ACDC0EB532B16919DAA72C0CA65525E58ADDBE7FC8A57EEBFBE83A640AF34E2D775BC2234607419A645F846B29CB904672C857430560526E20BFE76D023157A57212BE3B0DBEFD2EDE823147F01F7962AA940E4BE0E436B6EB238779319F96F00284D7A5A8F24FEA9406BCA81CD433E76D79B","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 ec 06 b2 36 9c ff a7 9c fb c2 ce fb ce 4d 34 60 ca ...(294) >","valid_from":"Nov 14 00:00:00 2018 GMT","valid_to":"Feb 12 12:00:00 2021 GMT","fingerprint":"8A:66:C6:CE:1C:F7:F2:7B:5B:BB:96:41:5C:E7:0C:70:D0:69:A5:35","fingerprint256":"55:3C:80:38:4E:89:C6:7B:45:65:88:43:C5:FB:52:1D:F1:36:36:76:DE:CB:3D:24:C9:37:AF:B0:8B:88:A8:22","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"06EDAC57F3D329EFB66AF24AB929D608","raw":"<Buffer 30 82 06 a1 30 82 05 89 a0 03 02 01 02 02 10 06 ed ac 57 f3 d3 29 ef b6 6a f2 4a b9 29 d6 08 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 58 31 0b ...(1701) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"Secure Site CA"},"issuer":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert-cn.com"]},"modulus":"C7BB3DD377D1E92829034F147612845086476B6220ECA3CD913B70312D7ED3C612E504840CCE03431CB8F233FC759932C94F49FF45829BC365BF981AEC7380C6174972FF823CFE2869DC7C11B76B9A3007AC63AFEB8A07BEDEC89DAEEECCB77792BAB17747687AEC51A531EF140CA36948718D27D9C74C21D5FE96EE9ACF9BB579D15713B9D8F8AC8FB1B475D470502E173E1B71AA5372BBB969A675BFA176BAC30231533EC49C4465CB14338B93C5D21F5B91544C8D1D6CFF0DC9992BFD65732F9F5A1B0044E1953424A0658049AD905A4B3D1EC90B362E9DA7EEEE7324E58636E960CE99ECE95838F30F127CC5A922CF2916613E60749604DD42E551EDF559","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 c7 bb 3d d3 77 d1 e9 28 29 03 4f 14 76 12 84 50 86 ...(294) >","valid_from":"May 17 12:30:13 2018 GMT","valid_to":"May 17 12:30:13 2030 GMT","fingerprint":"8D:FB:5E:1B:D7:D7:42:8E:0A:A8:A8:CD:09:36:7B:F4:97:CE:FD:2F","fingerprint256":"B2:6E:B3:10:F8:FA:F0:EF:5B:0D:0B:71:AA:65:EC:05:0F:A3:AD:E2:91:34:FB:43:8A:B6:44:02:88:FA:6E:67","ext_key_usage":["1.3.6.1.5.5.7.3.1","1.3.6.1.5.5.7.3.2"],"serialNumber":"05D1FC592E72DD1CD023CD1818DAA71F","raw":"<Buffer 30 82 04 a3 30 82 03 8b a0 03 02 01 02 02 10 05 d1 fc 59 2e 72 dd 1c d0 23 cd 18 18 da a7 1f 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ...(1191) >","issuerCertificate":{"subject":{"C":"US","O":"DigiCert Inc","OU":"www.digicert.com","CN":"DigiCert Global Root CA"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"infoAccess":{"OCSP - URI":["http://ocsp.digicert.com"]},"modulus":"E23BE11172DEA8A4D3A357AA50A28F0B7790C9A2A5EE12CE965B010920CC0193A74E30B753F743C46900579DE28D22DD870640008109CECE1B83BFDFCD3B7146E2D666C705B37627168F7B9E1E957DEEB748A308DAD6AF7A0C3906657F4A5D1FBC17F8ABBEEE28D7747F7A78995985686E5C23324BBF4EC0E85A6DE370BF7710BFFC01F685D9A844105832A97518D5D1A2BE47E2276AF49A33F84908608BD45FB43A84BFA1AA4A4C7D3ECF4F5F6C765EA04B37919EDC22E66DCE141A8E6ACBFECDB3146417C75B299E32BFF2EEFAD30B42D4ABB74132DA0CD4EFF881D5BB8D583FB51BE84928A270DA3104DDF7B216F24C0A4E07A8ED4A3D5EB57FA390C3AF27","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 3b e1 11 72 de a8 a4 d3 a3 57 aa 50 a2 8f 0b 77 ...(294) >","valid_from":"Dec  7 12:17:34 2016 GMT","valid_to":"May 10 12:00:00 2025 GMT","fingerprint":"FB:20:FA:8A:6A:93:B3:75:F0:54:81:4F:9E:00:27:3E:A5:1A:61:38","fingerprint256":"6D:AC:BB:89:45:13:7B:1D:AD:42:11:B0:43:6E:FB:E0:6F:12:AC:E3:69:04:97:3B:45:AE:25:74:08:23:D3:69","serialNumber":"0F5BC3A176CB789E2020C7893C8167B4","raw":"<Buffer 30 82 04 60 30 82 03 48 a0 03 02 01 02 02 10 0f 5b c3 a1 76 cb 78 9e 20 20 c7 89 3c 81 67 b4 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5a 31 0b ...(1124) >","issuerCertificate":{"subject":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"issuer":{"C":"IE","O":"Baltimore","OU":"CyberTrust","CN":"Baltimore CyberTrust Root"},"modulus":"A304BB22AB983D57E826729AB579D429E2E1E89580B1B0E35B8E2B299A64DFA15DEDB009056DDB282ECE62A262FEB488DA12EB38EB219DC0412B01527B8877D31C8FC7BAB988B56A09E773E81140A7D1CCCA628D2DE58F0BA650D2A850C328EAF5AB25878A9A961CA967B83F0CD5F7F952132FC21BD57070F08FC012CA06CB9AE1D9CA337A77D6F8ECB9F16844424813D2C0C2A4AE5E60FEB6A605FCB4DD075902D459189863F5A563E0900C7D5DB2067AF385EAEBD403AE5E843E5FFF15ED69BCF939367275CF77524DF3C9902CB93DE5C923533F1F2498215C079929BDC63AECE76E863A6B97746333BD681831F0788D76BFFC9E8E5D2A86A74D90DC271A39","exponent":"0x10001","pubkey":"<Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a3 04 bb 22 ab 98 3d 57 e8 26 72 9a b5 79 d4 29 e2 ...(294) >","valid_from":"May 12 18:46:00 2000 GMT","valid_to":"May 12 23:59:00 2025 GMT","fingerprint":"D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74","fingerprint256":"16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D6:44:AC:95:CD:4B:93:DB:F3:F2:6A:EB","serialNumber":"020000B9","raw":"<Buffer 30 82 03 77 30 82 02 5f a0 03 02 01 02 02 04 02 00 00 b9 30 0d 06 09 2a 86 48 86 f7 0d 01 01 05 05 00 30 5a 31 0b 30 09 06 03 55 04 06 13 02 49 45 31 ...(891) >","issuerCertificate":"~issuerCertificate~issuerCertificate~issuerCertificate"}}}}
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":548,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.19.161","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 7606
+hostname: bogon
+
+2020-04-08 12:06:10,229 ERROR 3487 [-/127.0.0.1/-/17ms GET /api/huawei/getHealthData] nodejs.TypeError: service.user.find(...).populate is not a function
+    at UserService.show (/Volumes/Work/ylz/healthCollection/app/service/user.js:70:8)
+    at HuaWeiController.getHealthData (/Volumes/Work/ylz/healthCollection/app/controller/huawei.js:242:42)
+    at Object.callFn (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/Work/ylz/healthCollection/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/Work/ylz/healthCollection/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/Work/ylz/healthCollection/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/Work/ylz/healthCollection/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/Work/ylz/healthCollection/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Volumes/Work/ylz/healthCollection/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Volumes/Work/ylz/healthCollection/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+
+pid: 3487
+hostname: bogon
+
+2020-04-08 12:07:51,104 WARN 3893 [-/127.0.0.1/-/91ms GET /api/huawei/getHealthData?type=8] nodejs.NotFoundError: 该用户未授权
+    at Object.throw (/Volumes/Work/ylz/healthCollection/node_modules/koa/lib/context.js:97:11)
+    at HuaWeiController.getHealthData (/Volumes/Work/ylz/healthCollection/app/controller/huawei.js:244:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "该用户未授权"
+pid: 3893
+hostname: bogon
+
+2020-04-08 12:08:41,839 WARN 3893 [-/127.0.0.1/-/17033ms GET /api/huawei/getHealthData?type=8] nodejs.NotFoundError: 该用户未授权
+    at Object.throw (/Volumes/Work/ylz/healthCollection/node_modules/koa/lib/context.js:97:11)
+    at HuaWeiController.getHealthData (/Volumes/Work/ylz/healthCollection/app/controller/huawei.js:244:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "该用户未授权"
+pid: 3893
+hostname: bogon
+
+2020-04-08 12:37:39,085 ERROR 4056 [-/127.0.0.1/-/5685ms GET /api/oauth/getAccessToken?authorization_code=CV6NVjUC1STZBTJdJq2LNuIA2G5Rs2Pv7G8vfTfs5mNMjZk%2FlCjiqBdOGdLPsZjEE0J85dbfadOqizZS5HcuIZVauPds0GtYCQVxN6Yr4SIFj6tTezu%2BLWygMTU5hCnppPkYTJBC4H3rv3UGWFA6e346%2FvG0eR2qnfMCRn1j00KHtDgIIfzPZanPqwUZQmetGXAiOksjVcV34xxHk4baNieyZ1yD%2BrUsLdZJPw%3D%3D] nodejs.ResponseTimeoutError: Response timeout for 5000ms, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Volumes/Work/ylz/healthCollection/node_modules/urllib/lib/urllib.js:940:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ResponseTimeoutError"
+requestId: 2
+data: undefined
+path: "/oauth2/v2/token"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5680,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.19.161","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4056
+hostname: bogon
+
+2020-04-08 13:03:14,957 ERROR 8674 [-/127.0.0.1/-/112ms GET /api/huawei/getHealthData?type=8] nodejs.TypeError: formurlencoded is not a function
+    at HuaWeiController.getHealthData (/Volumes/Work/ylz/healthCollection/app/controller/huawei.js:246:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8674
+hostname: bogon
+
+2020-04-08 13:04:43,065 ERROR 8674 [-/127.0.0.1/-/20024ms GET /api/huawei/getHealthData?type=8] nodejs.TypeError: formurlencoded is not a function
+    at HuaWeiController.getHealthData (/Volumes/Work/ylz/healthCollection/app/controller/huawei.js:246:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8674
+hostname: bogon
+
+2020-04-12 21:45:45,417 ERROR 46105 [-/127.0.0.1/-/68ms GET /api/hms/getStep] nodejs.RequestError: getaddrinfo ENOTFOUND datacollectors datacollectors:80, POST http://dataCollectors -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"datacollectors:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (datacollectors) (datacollectors) (datacollectors)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "datacollectors"
+host: "datacollectors"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":20,"keepAliveSocket":false,"requestUrls":["http://datacollectors/"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 46105
+hostname: MacBook-Pro.local
+
+2020-04-12 21:48:40,049 ERROR 46105 [-/127.0.0.1/-/42ms GET /api/hms/getStep] nodejs.RequestError: getaddrinfo ENOTFOUND datacollectors datacollectors:80, POST http://dataCollectors -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"datacollectors:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (datacollectors) (datacollectors) (datacollectors)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "datacollectors"
+host: "datacollectors"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":24,"keepAliveSocket":false,"requestUrls":["http://datacollectors/"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 46105
+hostname: MacBook-Pro.local
+
+2020-04-12 21:49:58,789 ERROR 46105 [-/127.0.0.1/-/34866ms GET /api/hms/getStep] nodejs.RequestError: getaddrinfo ENOTFOUND datacollectors datacollectors:80, POST http://dataCollectors -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"datacollectors:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (datacollectors) (datacollectors) (datacollectors)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "datacollectors"
+host: "datacollectors"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":20,"keepAliveSocket":false,"requestUrls":["http://datacollectors/"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 46105
+hostname: MacBook-Pro.local
+
+2020-04-12 22:49:55,660 ERROR 51638 [-/127.0.0.1/-/14544ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 51638
+hostname: MacBook-Pro.local
+
+2020-04-12 22:50:24,389 ERROR 51638 [-/127.0.0.1/-/17862ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 51638
+hostname: MacBook-Pro.local
+
+2020-04-12 23:01:36,966 ERROR 52540 [-/127.0.0.1/-/12263ms GET /api/oauth/getAccessToken?authorization_code=CV6TLlKRbH%2FZdeI%2F9xk7isn1WvHv8YRqAUNeIu5qDqOD85NGopQvj%2BqbF6OIvUQAusMNIzPhEuBhxsjGGVtmXbqym5UwoD7ITsw3ukRO47cJqyts2xDrsOZ9ru2lAetK4HYy8S7J2UpbQHgZYD5L%2F59hsHdStHCnnGB5ScGcW9e7lYpyVqL1D2uW9Q8%2B1%2FL6RiO0ia7FhYidguQc8irEDg0jdj7fGfr8jW4%3D] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":3,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Volumes/Work/ylz/healthCollection/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 4
+data: undefined
+path: "/oauth2/v2/token"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":12257,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.19.161","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 52540
+hostname: MacBook-Pro.local
+
+2020-04-12 23:04:36,146 ERROR 52540 [-/127.0.0.1/-/8894ms GET /api/oauth/getAccessToken?authorization_code=CV6TLwp9%2Bg23GiCGkY4dOuTOyztaTbgMKSJ3nqVtaKJAkZoTDJWsiQLj%2Fv6gtRmXgafbmgD2XCO57B7ue3oxfvAuYkAAhTGjcA5bhWQmpGnmY%2F0GSpGJLCb3YGTbve1aKjcCaBF80ZHUHgKs0fyWkl9sLYhSfBvirUTTOseQ7lQyoOBli0RIuhhhsGNi9WH8Isaignyn2Cpdv%2FkjbqmCJMOkeAadvkKzdeU%3D] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, POST https://oauth-login.cloud.huawei.com/oauth2/v2/token -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":7,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":0,"timeoutSocketCount":5,"requestCount":5,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Volumes/Work/ylz/healthCollection/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 7
+data: undefined
+path: "/oauth2/v2/token"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8888,"keepAliveSocket":false,"requestUrls":["https://oauth-login.cloud.huawei.com/oauth2/v2/token"],"timing":null,"remoteAddress":"49.4.36.198","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 52540
+hostname: MacBook-Pro.local
+
+2020-04-12 23:05:06,837 ERROR 52540 [-/127.0.0.1/-/11770ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 52540
+hostname: MacBook-Pro.local
+
+2020-04-13 09:35:23,579 ERROR 1084 [-/127.0.0.1/-/30072ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1084
+hostname: bogon
+
+2020-04-13 09:38:05,036 ERROR 2342 [-/127.0.0.1/-/33624ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2342
+hostname: bogon
+
+2020-04-13 09:42:49,673 ERROR 2666 [-/127.0.0.1/-/58527ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2666
+hostname: bogon
+
+2020-04-13 09:43:15,467 ERROR 2666 [-/127.0.0.1/-/10264ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2666
+hostname: bogon
+
+2020-04-13 09:43:43,902 ERROR 2666 [-/127.0.0.1/-/8995ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2666
+hostname: bogon
+
+2020-04-13 09:46:31,120 ERROR 2895 [-/127.0.0.1/-/54232ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2895
+hostname: bogon
+
+2020-04-13 09:48:00,121 ERROR 3047 [-/127.0.0.1/-/488ms GET /api/hms/getWeight] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getWeight (/Volumes/Work/ylz/healthCollection/app/service/hms.js:208:67)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3047
+hostname: bogon
+
+2020-04-13 09:49:00,222 ERROR 3047 [-/127.0.0.1/-/31832ms GET /api/hms/getWeight] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getWeight (/Volumes/Work/ylz/healthCollection/app/service/hms.js:208:67)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3047
+hostname: bogon
+
+2020-04-13 09:49:40,264 ERROR 3203 [-/127.0.0.1/-/28183ms GET /api/hms/getWeight] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getWeight (/Volumes/Work/ylz/healthCollection/app/service/hms.js:208:67)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3203
+hostname: bogon
+
+2020-04-13 10:19:52,440 ERROR 3576 [-/127.0.0.1/-/73560ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3576
+hostname: bogon
+
+2020-04-13 10:34:15,273 ERROR 3576 [-/127.0.0.1/-/25593ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3576
+hostname: bogon
+
+2020-04-13 10:34:28,068 ERROR 3576 [-/127.0.0.1/-/8097ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3576
+hostname: bogon
+
+2020-04-13 10:50:54,168 ERROR 3576 [-/127.0.0.1/-/88979ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3576
+hostname: bogon
+
+2020-04-13 10:51:24,229 ERROR 3576 [-/127.0.0.1/-/26152ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3576
+hostname: bogon
+
+2020-04-13 10:51:43,044 ERROR 3576 [-/127.0.0.1/-/12587ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3576
+hostname: bogon
+
+2020-04-13 10:52:01,224 ERROR 3576 [-/127.0.0.1/-/15108ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:120:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3576
+hostname: bogon
+
+2020-04-13 11:12:34,932 ERROR 7171 [-/127.0.0.1/-/30517ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:122:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7171
+hostname: bogon
+
+2020-04-13 11:16:10,941 ERROR 7434 [-/127.0.0.1/-/29307ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:122:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7434
+hostname: bogon
+
+2020-04-13 11:20:40,681 ERROR 7711 [-/127.0.0.1/-/64992ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:123:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7711
+hostname: bogon
+
+2020-04-13 11:23:20,768 ERROR 7939 [-/127.0.0.1/-/24232ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:123:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7939
+hostname: bogon
+
+2020-04-13 11:25:46,270 ERROR 7939 [-/127.0.0.1/-/16043ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:123:61)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7939
+hostname: bogon
+
+2020-04-13 11:40:17,866 ERROR 8910 [-/127.0.0.1/-/19727ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:126:61)
+
+pid: 8910
+hostname: bogon
+
+2020-04-13 14:03:13,833 ERROR 12557 [-/127.0.0.1/-/95209ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:126:61)
+
+pid: 12557
+hostname: bogon
+
+2020-04-13 14:10:01,092 ERROR 14323 [-/127.0.0.1/-/75ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:98:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14323
+hostname: bogon
+
+2020-04-13 14:10:17,744 ERROR 14323 [-/127.0.0.1/-/28ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:98:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14323
+hostname: bogon
+
+2020-04-13 14:31:20,292 ERROR 15197 [-/127.0.0.1/-/72651ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:137:61)
+
+pid: 15197
+hostname: bogon
+
+2020-04-13 14:33:21,366 ERROR 15197 [-/127.0.0.1/-/28949ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:137:61)
+
+pid: 15197
+hostname: bogon
+
+2020-04-13 14:34:48,791 ERROR 15197 [-/127.0.0.1/-/44377ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:137:61)
+
+pid: 15197
+hostname: bogon
+
+2020-04-13 14:36:56,492 ERROR 15643 [-/127.0.0.1/-/24ms GET /api/hms/getStep] nodejs.TypeError: Date.getTime is not a constructor
+    at HmsCoreController.getStep (/Volumes/Work/ylz/healthCollection/app/controller/hms.js:12:74)
+    at Object.callFn (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/Work/ylz/healthCollection/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/Work/ylz/healthCollection/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/Work/ylz/healthCollection/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/Work/ylz/healthCollection/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/Work/ylz/healthCollection/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/Work/ylz/healthCollection/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Volumes/Work/ylz/healthCollection/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Volumes/Work/ylz/healthCollection/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Volumes/Work/ylz/healthCollection/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Volumes/Work/ylz/healthCollection/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Volumes/Work/ylz/healthCollection/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Volumes/Work/ylz/healthCollection/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 15643
+hostname: bogon
+
+2020-04-13 14:49:18,536 ERROR 16146 [-/127.0.0.1/-/93268ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:137:61)
+
+pid: 16146
+hostname: bogon
+
+2020-04-13 15:04:31,943 ERROR 16895 [-/127.0.0.1/-/18177ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:137:61)
+
+pid: 16895
+hostname: bogon
+
+2020-04-13 15:14:38,895 ERROR 18626 [-/127.0.0.1/-/45ms GET /api/hms/getStep] nodejs.MissingSchemaError: Schema hasn't been registered for model " Bloodpressure".
+Use mongoose.model(name, schema)
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/connection.js:1095:11)
+    at getModelsMapForPopulate (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/model.js:4300:21)
+    at _populate (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/model.js:4270:5)
+    at cb (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/model.js:4245:5)
+    at promiseOrCallback (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/model.js:4243:10)
+    at model.Query.Query._completeOne (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/query.js:2097:9)
+    at Immediate.Query.base.findOne.call (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/query.js:2136:10)
+    at Immediate.<anonymous> (/Volumes/Work/ylz/healthCollection/node_modules/mquery/lib/utils.js:116:16)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+message: "Schema hasn't been registered for model \" Bloodpressure\".\nUse mongoose.model(name, schema)"
+name: "MissingSchemaError"
+pid: 18626
+hostname: bogon
+
+2020-04-13 15:19:20,467 ERROR 18965 [-/127.0.0.1/-/40795ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:137:61)
+
+pid: 18965
+hostname: bogon
+
+2020-04-13 15:58:41,857 ERROR 1146 [-/127.0.0.1/-/48ms GET /api/hms/getStep] nodejs.MissingSchemaError: Schema hasn't been registered for model " Bloodpressure".
+Use mongoose.model(name, schema)
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/connection.js:1095:11)
+    at getModelsMapForPopulate (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/model.js:4300:21)
+    at _populate (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/model.js:4270:5)
+    at cb (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/model.js:4245:5)
+    at promiseOrCallback (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/model.js:4243:10)
+    at model.Query.Query._completeOne (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/query.js:2097:9)
+    at Immediate.Query.base.findOne.call (/Volumes/Work/ylz/healthCollection/node_modules/mongoose/lib/query.js:2136:10)
+    at Immediate.<anonymous> (/Volumes/Work/ylz/healthCollection/node_modules/mquery/lib/utils.js:116:16)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+message: "Schema hasn't been registered for model \" Bloodpressure\".\nUse mongoose.model(name, schema)"
+name: "MissingSchemaError"
+pid: 1146
+hostname: bogon
+
+2020-04-13 16:41:02,962 ERROR 2716 [-/127.0.0.1/-/557ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:121:61)
+
+pid: 2716
+hostname: bogon
+
+2020-04-13 16:42:30,683 ERROR 2716 [-/127.0.0.1/-/68259ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:121:61)
+
+pid: 2716
+hostname: bogon
+
+2020-04-13 16:42:51,718 ERROR 2716 [-/127.0.0.1/-/17490ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:121:61)
+
+pid: 2716
+hostname: bogon
+
+2020-04-13 16:59:33,278 ERROR 2716 [-/127.0.0.1/-/14319ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:121:61)
+
+pid: 2716
+hostname: bogon
+
+2020-04-13 17:01:24,078 ERROR 2716 [-/127.0.0.1/-/19853ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:121:61)
+
+pid: 2716
+hostname: bogon
+
+2020-04-13 17:02:30,031 ERROR 2716 [-/127.0.0.1/-/10305ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:121:61)
+
+pid: 2716
+hostname: bogon
+
+2020-04-13 17:05:43,606 ERROR 2716 [-/127.0.0.1/-/169946ms GET /api/hms/getStep] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getStep (/Volumes/Work/ylz/healthCollection/app/service/hms.js:121:61)
+
+pid: 2716
+hostname: bogon
+
+2020-04-13 17:27:54,411 ERROR 7296 [-/127.0.0.1/-/9637ms GET /api/hms/getOxyhemoglobine] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getOxyhemoglobine (/Volumes/Work/ylz/healthCollection/app/service/hms.js:1063:88)
+
+pid: 7296
+hostname: bogon
+
+2020-04-13 17:29:53,365 ERROR 7296 [-/127.0.0.1/-/25502ms GET /api/hms/getOxyhemoglobine] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getOxyhemoglobine (/Volumes/Work/ylz/healthCollection/app/service/hms.js:1063:88)
+
+pid: 7296
+hostname: bogon
+
+2020-04-13 17:32:36,505 ERROR 7745 [-/127.0.0.1/-/26356ms GET /api/hms/getOxyhemoglobine] nodejs.TypeError: Cannot read property 'length' of undefined
+    at HmsService.getOxyhemoglobine (/Volumes/Work/ylz/healthCollection/app/service/hms.js:1062:88)
+
+pid: 7745
+hostname: bogon
+
+2020-04-13 17:34:15,259 ERROR 7936 [-/127.0.0.1/-/19352ms GET /api/hms/getOxyhemoglobine] nodejs.TypeError: Cannot read property 'value' of undefined
+    at HmsService.getOxyhemoglobine (/Volumes/Work/ylz/healthCollection/app/service/hms.js:1062:100)
+
+pid: 7936
+hostname: bogon
+
+2020-04-20 10:51:50,763 ERROR 2281 [-/127.0.0.1/-/1ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:198:13)
+    at createConnection (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/pool.js:561:14)
+    at connect (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/pool.js:994:11)
+    at makeConnection (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:31:7)
+    at callback (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:264:5)
+    at Socket.err (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:294:7)
+    at Object.onceWrapper (events.js:286:20)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "MongoNetworkError"
+pid: 2281
+hostname: bogon
+
+2020-04-20 11:01:29,474 ERROR 2569 [-/127.0.0.1/-/14319ms GET /api/hms/getOxyhemoglobine] nodejs.TypeError: Cannot read property 'value' of undefined
+    at HmsService.getOxyhemoglobine (/Volumes/Work/ylz/healthCollection/app/service/hms.js:1062:100)
+
+pid: 2569
+hostname: bogon
+
+2020-04-20 11:01:45,846 ERROR 2569 [-/127.0.0.1/-/4852ms GET /api/hms/getOxyhemoglobine] nodejs.TypeError: Cannot read property 'value' of undefined
+    at HmsService.getOxyhemoglobine (/Volumes/Work/ylz/healthCollection/app/service/hms.js:1062:100)
+
+pid: 2569
+hostname: bogon
+

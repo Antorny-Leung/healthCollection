@@ -19,3 +19,1107 @@
 2020-03-18 14:52:03,234 INFO 9130 [egg-watcher] Start watching: "/Volumes/Work/ylz/health_collection/app.js"
 2020-03-18 14:52:03,234 INFO 9130 [egg-watcher:agent] watcher start success
 2020-03-18 14:52:03,290 INFO 9130 [egg:core] dump config after ready, 6ms
+2020-04-07 15:18:15,248 INFO 2983 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 15:18:15,270 INFO 2983 [egg:core] dump config after load, 5ms
+2020-04-07 15:18:15,452 INFO 2983 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 15:18:15,452 INFO 2983 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 15:18:15,452 INFO 2983 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 15:18:15,453 INFO 2983 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 15:18:15,453 INFO 2983 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 15:18:15,453 INFO 2983 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 15:18:15,454 INFO 2983 [egg-watcher:agent] watcher start success
+2020-04-07 15:18:15,546 INFO 2983 [egg:core] dump config after ready, 68ms
+2020-04-07 15:19:13,327 INFO 3090 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 15:19:13,343 INFO 3090 [egg:core] dump config after load, 6ms
+2020-04-07 15:19:13,442 INFO 3090 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 15:19:13,442 INFO 3090 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 15:19:13,443 INFO 3090 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 15:19:13,443 INFO 3090 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 15:19:13,443 INFO 3090 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 15:19:13,443 INFO 3090 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 15:19:13,444 INFO 3090 [egg-watcher:agent] watcher start success
+2020-04-07 15:19:13,494 INFO 3090 [egg:core] dump config after ready, 37ms
+2020-04-07 15:22:44,625 INFO 3324 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 15:22:44,640 INFO 3324 [egg:core] dump config after load, 6ms
+2020-04-07 15:22:44,736 INFO 3324 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 15:22:44,736 INFO 3324 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 15:22:44,737 INFO 3324 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 15:22:44,737 INFO 3324 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 15:22:44,737 INFO 3324 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 15:22:44,738 INFO 3324 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 15:22:44,739 INFO 3324 [egg-watcher:agent] watcher start success
+2020-04-07 15:22:44,777 INFO 3324 [egg:core] dump config after ready, 13ms
+2020-04-07 15:24:18,299 INFO 3405 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 15:24:18,313 INFO 3405 [egg:core] dump config after load, 4ms
+2020-04-07 15:24:18,408 INFO 3405 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 15:24:18,408 INFO 3405 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 15:24:18,409 INFO 3405 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 15:24:18,409 INFO 3405 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 15:24:18,409 INFO 3405 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 15:24:18,409 INFO 3405 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 15:24:18,409 INFO 3405 [egg-watcher:agent] watcher start success
+2020-04-07 15:24:18,440 INFO 3405 [egg:core] dump config after ready, 10ms
+2020-04-07 15:26:41,761 INFO 3496 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 15:26:41,776 INFO 3496 [egg:core] dump config after load, 6ms
+2020-04-07 15:26:41,875 INFO 3496 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 15:26:41,875 INFO 3496 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 15:26:41,875 INFO 3496 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 15:26:41,875 INFO 3496 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 15:26:41,875 INFO 3496 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 15:26:41,876 INFO 3496 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 15:26:41,876 INFO 3496 [egg-watcher:agent] watcher start success
+2020-04-07 15:26:41,982 INFO 3496 [egg:core] dump config after ready, 72ms
+2020-04-07 15:37:53,033 INFO 4285 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 15:37:53,051 INFO 4285 [egg:core] dump config after load, 5ms
+2020-04-07 15:37:53,154 INFO 4285 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 15:37:53,154 INFO 4285 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 15:37:53,155 INFO 4285 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 15:37:53,155 INFO 4285 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 15:37:53,155 INFO 4285 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 15:37:53,155 INFO 4285 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 15:37:53,156 INFO 4285 [egg-watcher:agent] watcher start success
+2020-04-07 15:37:53,219 INFO 4285 [egg:core] dump config after ready, 28ms
+2020-04-07 15:39:32,195 WARN 4285 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-07 15:39:31,987 INFO 4285 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1033,"blocks":8,"atimeMs":1586245171000,"mtimeMs":1586245171000,"ctimeMs":1586245171000,"birthtimeMs":1584887917000,"atime":"2020-04-07T07:39:31.000Z","mtime":"2020-04-07T07:39:31.000Z","ctime":"2020-04-07T07:39:31.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-07 15:42:53,207 ERROR 4285 nodejs.ClusterClientNoResponseError: client no response in 70434ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4285
+hostname: bogon
+
+2020-04-07 16:22:53,535 ERROR 4285 nodejs.ClusterClientNoResponseError: client no response in 77614ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4285
+hostname: bogon
+
+2020-04-07 16:24:43,594 WARN 4285 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-07 16:24:43,386 INFO 4285 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1424,"blocks":8,"atimeMs":1586247883000,"mtimeMs":1586247883000,"ctimeMs":1586247883000,"birthtimeMs":1584887917000,"atime":"2020-04-07T08:24:43.000Z","mtime":"2020-04-07T08:24:43.000Z","ctime":"2020-04-07T08:24:43.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-07 16:26:10,518 WARN 4285 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/config/config.default.js change
+2020-04-07 16:26:10,314 INFO 4285 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/config/config.default.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252862,"size":4085,"blocks":8,"atimeMs":1586247970000,"mtimeMs":1586247970000,"ctimeMs":1586247970000,"birthtimeMs":1584504687000,"atime":"2020-04-07T08:26:10.000Z","mtime":"2020-04-07T08:26:10.000Z","ctime":"2020-04-07T08:26:10.000Z","birthtime":"2020-03-18T04:11:27.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-07 16:26:11,668 WARN 4285 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-07 16:26:11,463 INFO 4285 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1449,"blocks":8,"atimeMs":1586247971000,"mtimeMs":1586247971000,"ctimeMs":1586247971000,"birthtimeMs":1584887917000,"atime":"2020-04-07T08:26:11.000Z","mtime":"2020-04-07T08:26:11.000Z","ctime":"2020-04-07T08:26:11.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-07 16:30:27,055 INFO 7585 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 16:30:27,071 INFO 7585 [egg:core] dump config after load, 5ms
+2020-04-07 16:30:27,270 INFO 7585 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 16:30:27,270 INFO 7585 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 16:30:27,270 INFO 7585 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 16:30:27,271 INFO 7585 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 16:30:27,271 INFO 7585 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 16:30:27,271 INFO 7585 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 16:30:27,272 INFO 7585 [egg-watcher:agent] watcher start success
+2020-04-07 16:30:27,397 INFO 7585 [egg:core] dump config after ready, 59ms
+2020-04-07 16:32:02,098 WARN 7585 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-07 16:32:01,643 INFO 7585 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1169,"blocks":8,"atimeMs":1586248321000,"mtimeMs":1586248321000,"ctimeMs":1586248321000,"birthtimeMs":1584887917000,"atime":"2020-04-07T08:32:01.000Z","mtime":"2020-04-07T08:32:01.000Z","ctime":"2020-04-07T08:32:01.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-07 16:33:21,728 WARN 7585 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-07 16:33:21,526 INFO 7585 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1169,"blocks":8,"atimeMs":1586248401000,"mtimeMs":1586248401000,"ctimeMs":1586248401000,"birthtimeMs":1584887917000,"atime":"2020-04-07T08:33:21.000Z","mtime":"2020-04-07T08:33:21.000Z","ctime":"2020-04-07T08:33:21.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-07 16:33:24,732 WARN 7585 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-07 16:33:24,528 INFO 7585 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1169,"blocks":8,"atimeMs":1586248404000,"mtimeMs":1586248404000,"ctimeMs":1586248404000,"birthtimeMs":1584887917000,"atime":"2020-04-07T08:33:24.000Z","mtime":"2020-04-07T08:33:24.000Z","ctime":"2020-04-07T08:33:24.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-07 16:36:02,714 INFO 8159 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 16:36:02,734 INFO 8159 [egg:core] dump config after load, 5ms
+2020-04-07 16:36:02,833 INFO 8159 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 16:36:02,834 INFO 8159 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 16:36:02,834 INFO 8159 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 16:36:02,834 INFO 8159 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 16:36:02,835 INFO 8159 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 16:36:02,835 INFO 8159 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 16:36:02,835 INFO 8159 [egg-watcher:agent] watcher start success
+2020-04-07 16:36:02,938 INFO 8159 [egg:core] dump config after ready, 63ms
+2020-04-07 16:47:13,582 INFO 8980 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 16:47:13,597 INFO 8980 [egg:core] dump config after load, 5ms
+2020-04-07 16:47:13,699 INFO 8980 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 16:47:13,699 INFO 8980 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 16:47:13,700 INFO 8980 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 16:47:13,700 INFO 8980 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 16:47:13,700 INFO 8980 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 16:47:13,700 INFO 8980 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 16:47:13,700 INFO 8980 [egg-watcher:agent] watcher start success
+2020-04-07 16:47:13,800 INFO 8980 [egg:core] dump config after ready, 63ms
+2020-04-07 16:48:33,714 ERROR 8980 nodejs.ClusterClientNoResponseError: client no response in 70810ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 8980
+hostname: bogon
+
+2020-04-07 16:55:43,858 INFO 9965 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-07 16:55:43,875 INFO 9965 [egg:core] dump config after load, 6ms
+2020-04-07 16:55:43,979 INFO 9965 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-07 16:55:43,979 INFO 9965 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-07 16:55:43,979 INFO 9965 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-07 16:55:43,979 INFO 9965 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-07 16:55:43,979 INFO 9965 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-07 16:55:43,980 INFO 9965 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-07 16:55:43,980 INFO 9965 [egg-watcher:agent] watcher start success
+2020-04-07 16:55:44,012 INFO 9965 [egg:core] dump config after ready, 8ms
+2020-04-07 16:57:23,991 ERROR 9965 nodejs.ClusterClientNoResponseError: client no response in 63671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 9965
+hostname: bogon
+
+2020-04-08 11:49:45,716 INFO 2120 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 11:49:45,740 INFO 2120 [egg:core] dump config after load, 11ms
+2020-04-08 11:49:45,843 INFO 2120 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 11:49:45,843 INFO 2120 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 11:49:45,844 INFO 2120 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 11:49:45,844 INFO 2120 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 11:49:45,844 INFO 2120 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 11:49:45,844 INFO 2120 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 11:49:45,845 INFO 2120 [egg-watcher:agent] watcher start success
+2020-04-08 11:49:45,927 INFO 2120 [egg:core] dump config after ready, 68ms
+2020-04-08 11:54:34,255 WARN 2120 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-08 11:54:34,043 INFO 2120 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1222,"blocks":8,"atimeMs":1586318073000,"mtimeMs":1586318073000,"ctimeMs":1586318073000,"birthtimeMs":1584887917000,"atime":"2020-04-08T03:54:33.000Z","mtime":"2020-04-08T03:54:33.000Z","ctime":"2020-04-08T03:54:33.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 11:58:13,784 INFO 3038 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 11:58:13,799 INFO 3038 [egg:core] dump config after load, 5ms
+2020-04-08 11:58:13,884 INFO 3038 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 11:58:13,884 INFO 3038 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 11:58:13,884 INFO 3038 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 11:58:13,884 INFO 3038 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 11:58:13,884 INFO 3038 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 11:58:13,884 INFO 3038 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 11:58:13,885 INFO 3038 [egg-watcher:agent] watcher start success
+2020-04-08 11:58:13,974 INFO 3038 [egg:core] dump config after ready, 57ms
+2020-04-08 12:02:04,166 WARN 3038 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/user.js change
+2020-04-08 12:02:03,958 INFO 3038 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/user.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252861,"size":4289,"blocks":16,"atimeMs":1586318523000,"mtimeMs":1586318523000,"ctimeMs":1586318523000,"birthtimeMs":1584695620000,"atime":"2020-04-08T04:02:03.000Z","mtime":"2020-04-08T04:02:03.000Z","ctime":"2020-04-08T04:02:03.000Z","birthtime":"2020-03-20T09:13:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 12:02:05,112 WARN 3038 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-08 12:02:36,170 WARN 3038 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-08 12:02:35,966 INFO 3038 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1228,"blocks":8,"atimeMs":1586318555000,"mtimeMs":1586318555000,"ctimeMs":1586318555000,"birthtimeMs":1584887917000,"atime":"2020-04-08T04:02:35.000Z","mtime":"2020-04-08T04:02:35.000Z","ctime":"2020-04-08T04:02:35.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 12:07:07,555 WARN 3038 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/user.js change
+2020-04-08 12:07:07,354 INFO 3038 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/user.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252861,"size":4291,"blocks":16,"atimeMs":1586318827000,"mtimeMs":1586318827000,"ctimeMs":1586318827000,"birthtimeMs":1584695620000,"atime":"2020-04-08T04:07:07.000Z","mtime":"2020-04-08T04:07:07.000Z","ctime":"2020-04-08T04:07:07.000Z","birthtime":"2020-03-20T09:13:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 12:08:55,804 WARN 3038 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 12:08:55,599 INFO 3038 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11595,"blocks":24,"atimeMs":1586318935000,"mtimeMs":1586318935000,"ctimeMs":1586318935000,"birthtimeMs":1584695526000,"atime":"2020-04-08T04:08:55.000Z","mtime":"2020-04-08T04:08:55.000Z","ctime":"2020-04-08T04:08:55.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 12:42:34,351 ERROR 3038 nodejs.ClusterClientNoResponseError: client no response in 60542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3038
+hostname: bogon
+
+2020-04-08 12:49:38,805 INFO 7826 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 12:49:38,821 INFO 7826 [egg:core] dump config after load, 5ms
+2020-04-08 12:49:38,937 INFO 7826 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 12:49:38,937 INFO 7826 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 12:49:38,937 INFO 7826 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 12:49:38,938 INFO 7826 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 12:49:38,938 INFO 7826 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 12:49:38,938 INFO 7826 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 12:49:38,939 INFO 7826 [egg-watcher:agent] watcher start success
+2020-04-08 12:49:39,008 INFO 7826 [egg:core] dump config after ready, 34ms
+2020-04-08 13:02:34,871 INFO 8655 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 13:02:34,899 INFO 8655 [egg:core] dump config after load, 8ms
+2020-04-08 13:02:35,042 INFO 8655 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 13:02:35,043 INFO 8655 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 13:02:35,043 INFO 8655 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 13:02:35,044 INFO 8655 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 13:02:35,044 INFO 8655 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 13:02:35,044 INFO 8655 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 13:02:35,045 INFO 8655 [egg-watcher:agent] watcher start success
+2020-04-08 13:02:35,131 INFO 8655 [egg:core] dump config after ready, 40ms
+2020-04-08 13:05:09,644 WARN 8655 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:05:09,434 INFO 8655 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11758,"blocks":24,"atimeMs":1586322309000,"mtimeMs":1586322309000,"ctimeMs":1586322309000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:05:09.000Z","mtime":"2020-04-08T05:05:09.000Z","ctime":"2020-04-08T05:05:09.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:08:41,178 INFO 9184 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 13:08:41,196 INFO 9184 [egg:core] dump config after load, 6ms
+2020-04-08 13:08:41,323 INFO 9184 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 13:08:41,323 INFO 9184 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 13:08:41,324 INFO 9184 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 13:08:41,324 INFO 9184 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 13:08:41,324 INFO 9184 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 13:08:41,324 INFO 9184 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 13:08:41,325 INFO 9184 [egg-watcher:agent] watcher start success
+2020-04-08 13:08:41,507 INFO 9184 [egg:core] dump config after ready, 148ms
+2020-04-08 13:13:21,400 WARN 9184 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:13:21,192 INFO 9184 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11802,"blocks":24,"atimeMs":1586322801000,"mtimeMs":1586322801000,"ctimeMs":1586322801000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:13:21.000Z","mtime":"2020-04-08T05:13:21.000Z","ctime":"2020-04-08T05:13:21.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:14:20,445 INFO 9722 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 13:14:20,460 INFO 9722 [egg:core] dump config after load, 5ms
+2020-04-08 13:14:20,559 INFO 9722 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 13:14:20,559 INFO 9722 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 13:14:20,559 INFO 9722 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 13:14:20,559 INFO 9722 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 13:14:20,560 INFO 9722 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 13:14:20,560 INFO 9722 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 13:14:20,560 INFO 9722 [egg-watcher:agent] watcher start success
+2020-04-08 13:14:20,648 INFO 9722 [egg:core] dump config after ready, 70ms
+2020-04-08 13:16:20,578 ERROR 9722 nodejs.ClusterClientNoResponseError: client no response in 72557ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 9722
+hostname: bogon
+
+2020-04-08 13:16:57,756 WARN 9722 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:16:57,545 INFO 9722 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11812,"blocks":24,"atimeMs":1586323017000,"mtimeMs":1586323017000,"ctimeMs":1586323017000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:16:57.000Z","mtime":"2020-04-08T05:16:57.000Z","ctime":"2020-04-08T05:16:57.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:21:00,623 ERROR 9722 nodejs.ClusterClientNoResponseError: client no response in 60105ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 9722
+hostname: bogon
+
+2020-04-08 13:23:59,424 WARN 9722 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:23:59,180 INFO 9722 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11806,"blocks":24,"atimeMs":1586323439000,"mtimeMs":1586323439000,"ctimeMs":1586323439000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:23:59.000Z","mtime":"2020-04-08T05:23:59.000Z","ctime":"2020-04-08T05:23:59.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:23:59,223 INFO 9722 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11806,"blocks":24,"atimeMs":1586323439000,"mtimeMs":1586323439000,"ctimeMs":1586323439000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:23:59.000Z","mtime":"2020-04-08T05:23:59.000Z","ctime":"2020-04-08T05:23:59.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:24:56,178 INFO 9722 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11814,"blocks":24,"atimeMs":1586323496000,"mtimeMs":1586323496000,"ctimeMs":1586323496000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:24:56.000Z","mtime":"2020-04-08T05:24:56.000Z","ctime":"2020-04-08T05:24:56.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:24:56,379 WARN 9722 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:25:58,298 INFO 9722 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11875,"blocks":24,"atimeMs":1586323558000,"mtimeMs":1586323558000,"ctimeMs":1586323558000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:25:58.000Z","mtime":"2020-04-08T05:25:58.000Z","ctime":"2020-04-08T05:25:58.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:25:58,499 WARN 9722 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:26:43,528 INFO 10922 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 13:26:43,547 INFO 10922 [egg:core] dump config after load, 5ms
+2020-04-08 13:26:43,671 INFO 10922 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 13:26:43,671 INFO 10922 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 13:26:43,671 INFO 10922 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 13:26:43,671 INFO 10922 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 13:26:43,671 INFO 10922 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 13:26:43,671 INFO 10922 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 13:26:43,672 INFO 10922 [egg-watcher:agent] watcher start success
+2020-04-08 13:26:43,710 INFO 10922 [egg:core] dump config after ready, 16ms
+2020-04-08 13:26:54,884 WARN 10922 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:26:54,674 INFO 10922 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11875,"blocks":24,"atimeMs":1586323614000,"mtimeMs":1586323614000,"ctimeMs":1586323614000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:26:54.000Z","mtime":"2020-04-08T05:26:54.000Z","ctime":"2020-04-08T05:26:54.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:34:51,362 WARN 10922 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/oauth.js change
+2020-04-08 13:34:51,156 INFO 10922 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/oauth.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252843,"size":1228,"blocks":8,"atimeMs":1586324091000,"mtimeMs":1586324091000,"ctimeMs":1586324091000,"birthtimeMs":1584887917000,"atime":"2020-04-08T05:34:51.000Z","mtime":"2020-04-08T05:34:51.000Z","ctime":"2020-04-08T05:34:51.000Z","birthtime":"2020-03-22T14:38:37.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:36:02,909 INFO 11771 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 13:36:02,925 INFO 11771 [egg:core] dump config after load, 5ms
+2020-04-08 13:36:03,059 INFO 11771 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 13:36:03,059 INFO 11771 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 13:36:03,062 INFO 11771 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 13:36:03,062 INFO 11771 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 13:36:03,062 INFO 11771 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 13:36:03,062 INFO 11771 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 13:36:03,064 INFO 11771 [egg-watcher:agent] watcher start success
+2020-04-08 13:36:03,170 INFO 11771 [egg:core] dump config after ready, 90ms
+2020-04-08 13:37:53,563 WARN 11771 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:37:53,357 INFO 11771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11874,"blocks":24,"atimeMs":1586324273000,"mtimeMs":1586324273000,"ctimeMs":1586324273000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:37:53.000Z","mtime":"2020-04-08T05:37:53.000Z","ctime":"2020-04-08T05:37:53.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:40:03,098 ERROR 11771 nodejs.ClusterClientNoResponseError: client no response in 78143ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 11771
+hostname: bogon
+
+2020-04-08 13:45:04,809 INFO 12522 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 13:45:04,836 INFO 12522 [egg:core] dump config after load, 8ms
+2020-04-08 13:45:05,012 INFO 12522 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 13:45:05,013 INFO 12522 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 13:45:05,014 INFO 12522 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 13:45:05,014 INFO 12522 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 13:45:05,015 INFO 12522 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 13:45:05,015 INFO 12522 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 13:45:05,016 INFO 12522 [egg-watcher:agent] watcher start success
+2020-04-08 13:45:05,156 INFO 12522 [egg:core] dump config after ready, 50ms
+2020-04-08 13:46:01,579 WARN 12522 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:46:01,371 INFO 12522 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11857,"blocks":24,"atimeMs":1586324761000,"mtimeMs":1586324761000,"ctimeMs":1586324761000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:46:01.000Z","mtime":"2020-04-08T05:46:01.000Z","ctime":"2020-04-08T05:46:01.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:46:23,003 INFO 12522 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11857,"blocks":24,"atimeMs":1586324782000,"mtimeMs":1586324782000,"ctimeMs":1586324782000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:46:22.000Z","mtime":"2020-04-08T05:46:22.000Z","ctime":"2020-04-08T05:46:22.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:46:23,208 WARN 12522 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:48:05,067 ERROR 12522 nodejs.ClusterClientNoResponseError: client no response in 71016ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 12522
+hostname: bogon
+
+2020-04-08 13:48:38,926 WARN 12522 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 13:48:38,721 INFO 12522 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11871,"blocks":24,"atimeMs":1586324918000,"mtimeMs":1586324918000,"ctimeMs":1586324918000,"birthtimeMs":1584695526000,"atime":"2020-04-08T05:48:38.000Z","mtime":"2020-04-08T05:48:38.000Z","ctime":"2020-04-08T05:48:38.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 13:50:45,084 ERROR 12522 nodejs.ClusterClientNoResponseError: client no response in 76605ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 12522
+hostname: bogon
+
+2020-04-08 14:00:18,876 INFO 13782 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 14:00:18,895 INFO 13782 [egg:core] dump config after load, 7ms
+2020-04-08 14:00:19,069 INFO 13782 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 14:00:19,069 INFO 13782 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 14:00:19,070 INFO 13782 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 14:00:19,070 INFO 13782 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 14:00:19,070 INFO 13782 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 14:00:19,070 INFO 13782 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 14:00:19,072 INFO 13782 [egg-watcher:agent] watcher start success
+2020-04-08 14:00:19,313 INFO 13782 [egg:core] dump config after ready, 155ms
+2020-04-08 14:04:16,032 INFO 14158 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 14:04:16,054 INFO 14158 [egg:core] dump config after load, 7ms
+2020-04-08 14:04:16,204 INFO 14158 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 14:04:16,204 INFO 14158 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 14:04:16,204 INFO 14158 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 14:04:16,204 INFO 14158 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 14:04:16,205 INFO 14158 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 14:04:16,205 INFO 14158 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 14:04:16,205 INFO 14158 [egg-watcher:agent] watcher start success
+2020-04-08 14:04:16,323 INFO 14158 [egg:core] dump config after ready, 83ms
+2020-04-08 14:05:36,243 ERROR 14158 nodejs.ClusterClientNoResponseError: client no response in 70822ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14158
+hostname: bogon
+
+2020-04-08 14:05:38,964 WARN 14158 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 14:05:38,755 INFO 14158 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11886,"blocks":24,"atimeMs":1586325938000,"mtimeMs":1586325938000,"ctimeMs":1586325938000,"birthtimeMs":1584695526000,"atime":"2020-04-08T06:05:38.000Z","mtime":"2020-04-08T06:05:38.000Z","ctime":"2020-04-08T06:05:38.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 14:17:43,041 INFO 14856 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 14:17:43,060 INFO 14856 [egg:core] dump config after load, 7ms
+2020-04-08 14:17:43,207 INFO 14856 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 14:17:43,207 INFO 14856 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 14:17:43,208 INFO 14856 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 14:17:43,209 INFO 14856 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 14:17:43,209 INFO 14856 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 14:17:43,210 INFO 14856 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 14:17:43,211 INFO 14856 [egg-watcher:agent] watcher start success
+2020-04-08 14:17:43,352 INFO 14856 [egg:core] dump config after ready, 76ms
+2020-04-08 14:43:03,483 ERROR 14856 nodejs.ClusterClientNoResponseError: client no response in 70653ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14856
+hostname: bogon
+
+2020-04-08 14:47:23,527 ERROR 14856 nodejs.ClusterClientNoResponseError: client no response in 65194ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14856
+hostname: bogon
+
+2020-04-08 14:55:37,334 WARN 14856 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 14:55:37,070 INFO 14856 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11891,"blocks":24,"atimeMs":1586328936000,"mtimeMs":1586328936000,"ctimeMs":1586328936000,"birthtimeMs":1584695526000,"atime":"2020-04-08T06:55:36.000Z","mtime":"2020-04-08T06:55:36.000Z","ctime":"2020-04-08T06:55:36.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 14:55:54,004 INFO 14856 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11910,"blocks":24,"atimeMs":1586328953000,"mtimeMs":1586328953000,"ctimeMs":1586328953000,"birthtimeMs":1584695526000,"atime":"2020-04-08T06:55:53.000Z","mtime":"2020-04-08T06:55:53.000Z","ctime":"2020-04-08T06:55:53.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 14:55:54,209 WARN 14856 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 14:55:58,660 WARN 14856 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/huawei.js change
+2020-04-08 14:55:58,457 INFO 14856 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/huawei.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252842,"size":11898,"blocks":24,"atimeMs":1586328958000,"mtimeMs":1586328958000,"ctimeMs":1586328958000,"birthtimeMs":1584695526000,"atime":"2020-04-08T06:55:58.000Z","mtime":"2020-04-08T06:55:58.000Z","ctime":"2020-04-08T06:55:58.000Z","birthtime":"2020-03-20T09:12:06.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-08 14:57:04,540 INFO 18140 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 14:57:04,556 INFO 18140 [egg:core] dump config after load, 7ms
+2020-04-08 14:57:04,660 INFO 18140 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 14:57:04,660 INFO 18140 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 14:57:04,660 INFO 18140 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 14:57:04,661 INFO 18140 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 14:57:04,661 INFO 18140 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 14:57:04,661 INFO 18140 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 14:57:04,661 INFO 18140 [egg-watcher:agent] watcher start success
+2020-04-08 14:57:04,690 INFO 18140 [egg:core] dump config after ready, 9ms
+2020-04-08 14:58:08,935 INFO 18228 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-08 14:58:08,951 INFO 18228 [egg:core] dump config after load, 6ms
+2020-04-08 14:58:09,084 INFO 18228 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-08 14:58:09,084 INFO 18228 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-08 14:58:09,085 INFO 18228 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-08 14:58:09,085 INFO 18228 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-08 14:58:09,086 INFO 18228 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-08 14:58:09,086 INFO 18228 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-08 14:58:09,087 INFO 18228 [egg-watcher:agent] watcher start success
+2020-04-08 14:58:09,120 INFO 18228 [egg:core] dump config after ready, 8ms
+2020-04-12 21:13:12,237 INFO 43294 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 21:13:12,297 INFO 43294 [egg:core] dump config after load, 46ms
+2020-04-12 21:13:12,495 INFO 43294 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 21:13:12,495 INFO 43294 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 21:13:12,496 INFO 43294 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 21:13:12,496 INFO 43294 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 21:13:12,496 INFO 43294 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 21:13:12,496 INFO 43294 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 21:13:12,497 INFO 43294 [egg-watcher:agent] watcher start success
+2020-04-12 21:13:12,597 INFO 43294 [egg:core] dump config after ready, 73ms
+2020-04-12 21:16:16,594 INFO 43587 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 21:16:16,637 INFO 43587 [egg:core] dump config after load, 13ms
+2020-04-12 21:16:16,837 INFO 43587 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 21:16:16,837 INFO 43587 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 21:16:16,838 INFO 43587 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 21:16:16,838 INFO 43587 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 21:16:16,838 INFO 43587 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 21:16:16,838 INFO 43587 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 21:16:16,839 INFO 43587 [egg-watcher:agent] watcher start success
+2020-04-12 21:16:17,007 INFO 43587 [egg:core] dump config after ready, 81ms
+2020-04-12 21:17:36,460 INFO 43725 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 21:17:36,472 INFO 43725 [egg:core] dump config after load, 4ms
+2020-04-12 21:17:36,557 INFO 43725 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 21:17:36,557 INFO 43725 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 21:17:36,557 INFO 43725 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 21:17:36,557 INFO 43725 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 21:17:36,558 INFO 43725 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 21:17:36,558 INFO 43725 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 21:17:36,558 INFO 43725 [egg-watcher:agent] watcher start success
+2020-04-12 21:17:36,597 INFO 43725 [egg:core] dump config after ready, 29ms
+2020-04-12 21:21:41,697 INFO 43978 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 21:21:41,714 INFO 43978 [egg:core] dump config after load, 6ms
+2020-04-12 21:21:41,850 INFO 43978 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 21:21:41,850 INFO 43978 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 21:21:41,851 INFO 43978 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 21:21:41,851 INFO 43978 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 21:21:41,851 INFO 43978 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 21:21:41,851 INFO 43978 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 21:21:41,852 INFO 43978 [egg-watcher:agent] watcher start success
+2020-04-12 21:21:41,925 INFO 43978 [egg:core] dump config after ready, 51ms
+2020-04-12 21:24:53,208 INFO 44290 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 21:24:53,239 INFO 44290 [egg:core] dump config after load, 7ms
+2020-04-12 21:24:53,420 INFO 44290 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 21:24:53,420 INFO 44290 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 21:24:53,421 INFO 44290 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 21:24:53,421 INFO 44290 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 21:24:53,421 INFO 44290 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 21:24:53,422 INFO 44290 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 21:24:53,427 INFO 44290 [egg-watcher:agent] watcher start success
+2020-04-12 21:24:53,495 INFO 44290 [egg:core] dump config after ready, 39ms
+2020-04-12 21:43:11,108 INFO 46067 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 21:43:11,149 INFO 46067 [egg:core] dump config after load, 16ms
+2020-04-12 21:43:11,526 INFO 46067 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 21:43:11,527 INFO 46067 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 21:43:11,528 INFO 46067 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 21:43:11,528 INFO 46067 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 21:43:11,528 INFO 46067 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 21:43:11,528 INFO 46067 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 21:43:11,529 INFO 46067 [egg-watcher:agent] watcher start success
+2020-04-12 21:43:11,713 INFO 46067 [egg:core] dump config after ready, 152ms
+2020-04-12 21:54:38,825 INFO 46993 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 21:54:38,853 INFO 46993 [egg:core] dump config after load, 6ms
+2020-04-12 21:54:39,286 INFO 46993 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 21:54:39,286 INFO 46993 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 21:54:39,287 INFO 46993 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 21:54:39,296 INFO 46993 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 21:54:39,297 INFO 46993 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 21:54:39,297 INFO 46993 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 21:54:39,297 INFO 46993 [egg-watcher:agent] watcher start success
+2020-04-12 21:54:39,411 INFO 46993 [egg:core] dump config after ready, 63ms
+2020-04-12 22:00:54,587 INFO 47368 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 22:00:54,625 INFO 47368 [egg:core] dump config after load, 12ms
+2020-04-12 22:00:54,854 INFO 47368 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 22:00:54,854 INFO 47368 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 22:00:54,855 INFO 47368 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 22:00:54,855 INFO 47368 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 22:00:54,855 INFO 47368 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 22:00:54,855 INFO 47368 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 22:00:54,856 INFO 47368 [egg-watcher:agent] watcher start success
+2020-04-12 22:00:54,980 INFO 47368 [egg:core] dump config after ready, 54ms
+2020-04-12 22:02:34,872 ERROR 47368 nodejs.ClusterClientNoResponseError: client no response in 68442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47368
+hostname: MacBook-Pro.local
+
+2020-04-12 22:48:58,032 INFO 51612 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 22:48:58,104 INFO 51612 [egg:core] dump config after load, 31ms
+2020-04-12 22:48:58,432 INFO 51612 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 22:48:58,432 INFO 51612 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 22:48:58,433 INFO 51612 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 22:48:58,433 INFO 51612 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 22:48:58,433 INFO 51612 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 22:48:58,433 INFO 51612 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 22:48:58,436 INFO 51612 [egg-watcher:agent] watcher start success
+2020-04-12 22:48:58,568 INFO 51612 [egg:core] dump config after ready, 71ms
+2020-04-12 22:58:48,718 INFO 52527 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-12 22:58:48,735 INFO 52527 [egg:core] dump config after load, 7ms
+2020-04-12 22:58:48,888 INFO 52527 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-12 22:58:48,889 INFO 52527 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-12 22:58:48,890 INFO 52527 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-12 22:58:48,891 INFO 52527 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-12 22:58:48,891 INFO 52527 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-12 22:58:48,892 INFO 52527 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-12 22:58:48,893 INFO 52527 [egg-watcher:agent] watcher start success
+2020-04-12 22:58:49,015 INFO 52527 [egg:core] dump config after ready, 103ms
+2020-04-13 09:13:06,135 INFO 754 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 09:13:06,150 INFO 754 [egg:core] dump config after load, 4ms
+2020-04-13 09:13:06,232 INFO 754 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 09:13:06,232 INFO 754 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 09:13:06,232 INFO 754 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 09:13:06,232 INFO 754 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 09:13:06,233 INFO 754 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 09:13:06,233 INFO 754 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 09:13:06,233 INFO 754 [egg-watcher:agent] watcher start success
+2020-04-13 09:13:06,299 INFO 754 [egg:core] dump config after ready, 44ms
+2020-04-13 09:16:19,012 INFO 1058 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 09:16:19,057 INFO 1058 [egg:core] dump config after load, 19ms
+2020-04-13 09:16:19,205 INFO 1058 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 09:16:19,205 INFO 1058 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 09:16:19,206 INFO 1058 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 09:16:19,206 INFO 1058 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 09:16:19,206 INFO 1058 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 09:16:19,206 INFO 1058 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 09:16:19,207 INFO 1058 [egg-watcher:agent] watcher start success
+2020-04-13 09:16:19,238 INFO 1058 [egg:core] dump config after ready, 7ms
+2020-04-13 09:36:57,889 INFO 1058 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35457,"blocks":72,"atimeMs":1586741817000,"mtimeMs":1586741817000,"ctimeMs":1586741817000,"birthtimeMs":1586412964000,"atime":"2020-04-13T01:36:57.000Z","mtime":"2020-04-13T01:36:57.000Z","ctime":"2020-04-13T01:36:57.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 09:36:58,100 WARN 1058 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 09:37:27,293 WARN 1058 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 09:38:38,096 WARN 1058 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 09:38:37,895 INFO 1058 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35457,"blocks":72,"atimeMs":1586741917000,"mtimeMs":1586741917000,"ctimeMs":1586741917000,"birthtimeMs":1586412964000,"atime":"2020-04-13T01:38:37.000Z","mtime":"2020-04-13T01:38:37.000Z","ctime":"2020-04-13T01:38:37.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 09:39:59,445 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 73202ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: bogon
+
+2020-04-13 09:41:24,116 WARN 1058 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 09:41:23,913 INFO 1058 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35457,"blocks":72,"atimeMs":1586742083000,"mtimeMs":1586742083000,"ctimeMs":1586742083000,"birthtimeMs":1586412964000,"atime":"2020-04-13T01:41:23.000Z","mtime":"2020-04-13T01:41:23.000Z","ctime":"2020-04-13T01:41:23.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 09:42:39,459 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 65652ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: bogon
+
+2020-04-13 09:44:46,412 WARN 1058 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 09:44:46,208 INFO 1058 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35453,"blocks":72,"atimeMs":1586742286000,"mtimeMs":1586742286000,"ctimeMs":1586742286000,"birthtimeMs":1586412964000,"atime":"2020-04-13T01:44:46.000Z","mtime":"2020-04-13T01:44:46.000Z","ctime":"2020-04-13T01:44:46.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 09:45:30,906 WARN 1058 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 09:46:35,089 INFO 1058 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35457,"blocks":72,"atimeMs":1586742395000,"mtimeMs":1586742395000,"ctimeMs":1586742395000,"birthtimeMs":1586412964000,"atime":"2020-04-13T01:46:35.000Z","mtime":"2020-04-13T01:46:35.000Z","ctime":"2020-04-13T01:46:35.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 09:46:35,291 WARN 1058 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 09:46:35,746 WARN 1058 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 09:46:35,544 INFO 1058 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35457,"blocks":72,"atimeMs":1586742395000,"mtimeMs":1586742395000,"ctimeMs":1586742395000,"birthtimeMs":1586412964000,"atime":"2020-04-13T01:46:35.000Z","mtime":"2020-04-13T01:46:35.000Z","ctime":"2020-04-13T01:46:35.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 09:48:58,830 WARN 1058 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 09:48:58,625 INFO 1058 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35490,"blocks":72,"atimeMs":1586742538000,"mtimeMs":1586742538000,"ctimeMs":1586742538000,"birthtimeMs":1586412964000,"atime":"2020-04-13T01:48:58.000Z","mtime":"2020-04-13T01:48:58.000Z","ctime":"2020-04-13T01:48:58.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 09:51:19,564 ERROR 1058 nodejs.ClusterClientNoResponseError: client no response in 79607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1058
+hostname: bogon
+
+2020-04-13 10:09:18,488 INFO 3564 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 10:09:18,503 INFO 3564 [egg:core] dump config after load, 5ms
+2020-04-13 10:09:18,607 INFO 3564 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 10:09:18,607 INFO 3564 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 10:09:18,607 INFO 3564 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 10:09:18,608 INFO 3564 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 10:09:18,608 INFO 3564 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 10:09:18,608 INFO 3564 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 10:09:18,609 INFO 3564 [egg-watcher:agent] watcher start success
+2020-04-13 10:09:18,681 INFO 3564 [egg:core] dump config after ready, 49ms
+2020-04-13 10:19:38,696 ERROR 3564 nodejs.ClusterClientNoResponseError: client no response in 69892ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3564
+hostname: bogon
+
+2020-04-13 10:50:18,973 ERROR 3564 nodejs.ClusterClientNoResponseError: client no response in 63867ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3564
+hostname: bogon
+
+2020-04-13 11:05:39,982 INFO 6857 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 11:05:39,998 INFO 6857 [egg:core] dump config after load, 5ms
+2020-04-13 11:05:40,091 INFO 6857 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 11:05:40,091 INFO 6857 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 11:05:40,092 INFO 6857 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 11:05:40,092 INFO 6857 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 11:05:40,092 INFO 6857 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 11:05:40,092 INFO 6857 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 11:05:40,092 INFO 6857 [egg-watcher:agent] watcher start success
+2020-04-13 11:05:40,112 INFO 6857 [egg:core] dump config after ready, 8ms
+2020-04-13 11:07:40,169 INFO 6957 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 11:07:40,185 INFO 6957 [egg:core] dump config after load, 5ms
+2020-04-13 11:07:40,289 INFO 6957 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 11:07:40,289 INFO 6957 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 11:07:40,289 INFO 6957 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 11:07:40,289 INFO 6957 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 11:07:40,290 INFO 6957 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 11:07:40,290 INFO 6957 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 11:07:40,290 INFO 6957 [egg-watcher:agent] watcher start success
+2020-04-13 11:07:40,391 INFO 6957 [egg:core] dump config after ready, 69ms
+2020-04-13 11:10:36,412 INFO 7051 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 11:10:36,428 INFO 7051 [egg:core] dump config after load, 6ms
+2020-04-13 11:10:36,522 INFO 7051 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 11:10:36,522 INFO 7051 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 11:10:36,523 INFO 7051 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 11:10:36,523 INFO 7051 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 11:10:36,523 INFO 7051 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 11:10:36,523 INFO 7051 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 11:10:36,523 INFO 7051 [egg-watcher:agent] watcher start success
+2020-04-13 11:10:36,541 INFO 7051 [egg:core] dump config after ready, 7ms
+2020-04-13 11:11:29,654 WARN 7051 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 11:11:29,190 INFO 7051 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35567,"blocks":72,"atimeMs":1586747489000,"mtimeMs":1586747489000,"ctimeMs":1586747489000,"birthtimeMs":1586412964000,"atime":"2020-04-13T03:11:29.000Z","mtime":"2020-04-13T03:11:29.000Z","ctime":"2020-04-13T03:11:29.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 11:11:56,541 ERROR 7051 nodejs.ClusterClientNoResponseError: client no response in 73126ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7051
+hostname: bogon
+
+2020-04-13 11:15:28,709 WARN 7051 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 11:15:28,506 INFO 7051 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35561,"blocks":72,"atimeMs":1586747728000,"mtimeMs":1586747728000,"ctimeMs":1586747728000,"birthtimeMs":1586412964000,"atime":"2020-04-13T03:15:28.000Z","mtime":"2020-04-13T03:15:28.000Z","ctime":"2020-04-13T03:15:28.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 11:16:25,248 INFO 7051 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35561,"blocks":72,"atimeMs":1586747785000,"mtimeMs":1586747785000,"ctimeMs":1586747785000,"birthtimeMs":1586412964000,"atime":"2020-04-13T03:16:25.000Z","mtime":"2020-04-13T03:16:25.000Z","ctime":"2020-04-13T03:16:25.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 11:16:25,452 WARN 7051 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 11:17:00,457 INFO 7051 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35605,"blocks":72,"atimeMs":1586747820000,"mtimeMs":1586747820000,"ctimeMs":1586747820000,"birthtimeMs":1586412964000,"atime":"2020-04-13T03:17:00.000Z","mtime":"2020-04-13T03:17:00.000Z","ctime":"2020-04-13T03:17:00.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 11:17:00,662 WARN 7051 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 11:19:14,570 INFO 7701 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 11:19:14,585 INFO 7701 [egg:core] dump config after load, 5ms
+2020-04-13 11:19:14,670 INFO 7701 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 11:19:14,670 INFO 7701 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 11:19:14,670 INFO 7701 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 11:19:14,670 INFO 7701 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 11:19:14,670 INFO 7701 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 11:19:14,671 INFO 7701 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 11:19:14,671 INFO 7701 [egg-watcher:agent] watcher start success
+2020-04-13 11:19:14,726 INFO 7701 [egg:core] dump config after ready, 14ms
+2020-04-13 11:20:34,684 ERROR 7701 nodejs.ClusterClientNoResponseError: client no response in 69175ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7701
+hostname: bogon
+
+2020-04-13 11:22:37,293 WARN 7701 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 11:22:37,085 INFO 7701 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35605,"blocks":72,"atimeMs":1586748157000,"mtimeMs":1586748157000,"ctimeMs":1586748157000,"birthtimeMs":1586412964000,"atime":"2020-04-13T03:22:37.000Z","mtime":"2020-04-13T03:22:37.000Z","ctime":"2020-04-13T03:22:37.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 11:39:40,647 INFO 8892 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 11:39:40,662 INFO 8892 [egg:core] dump config after load, 5ms
+2020-04-13 11:39:40,747 INFO 8892 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 11:39:40,747 INFO 8892 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 11:39:40,748 INFO 8892 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 11:39:40,748 INFO 8892 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 11:39:40,748 INFO 8892 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 11:39:40,748 INFO 8892 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 11:39:40,748 INFO 8892 [egg-watcher:agent] watcher start success
+2020-04-13 11:39:40,839 INFO 8892 [egg:core] dump config after ready, 53ms
+2020-04-13 12:23:29,032 ERROR 8892 nodejs.ClusterClientNoResponseError: client no response in 311867ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 8892
+hostname: bogon
+
+2020-04-13 12:28:41,885 ERROR 8892 nodejs.ClusterClientNoResponseError: client no response in 272397ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 8892
+hostname: bogon
+
+2020-04-13 13:16:35,793 ERROR 8892 nodejs.ClusterClientNoResponseError: client no response in 2128563ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 8892
+hostname: bogon
+
+2020-04-13 13:50:51,854 INFO 12155 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 13:50:51,868 INFO 12155 [egg:core] dump config after load, 5ms
+2020-04-13 13:50:51,959 INFO 12155 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 13:50:51,960 INFO 12155 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 13:50:51,960 INFO 12155 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 13:50:51,960 INFO 12155 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 13:50:51,960 INFO 12155 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 13:50:51,960 INFO 12155 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 13:50:51,961 INFO 12155 [egg-watcher:agent] watcher start success
+2020-04-13 13:50:52,038 INFO 12155 [egg:core] dump config after ready, 44ms
+2020-04-13 13:54:50,859 INFO 12523 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 13:54:50,893 INFO 12523 [egg:core] dump config after load, 17ms
+2020-04-13 13:54:51,112 INFO 12523 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 13:54:51,112 INFO 12523 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 13:54:51,112 INFO 12523 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 13:54:51,112 INFO 12523 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 13:54:51,112 INFO 12523 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 13:54:51,113 INFO 12523 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 13:54:51,113 INFO 12523 [egg-watcher:agent] watcher start success
+2020-04-13 13:54:51,182 INFO 12523 [egg:core] dump config after ready, 46ms
+2020-04-13 14:03:11,210 ERROR 12523 nodejs.ClusterClientNoResponseError: client no response in 77324ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 12523
+hostname: bogon
+
+2020-04-13 14:04:19,044 INFO 12523 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35708,"blocks":72,"atimeMs":1586757858000,"mtimeMs":1586757858000,"ctimeMs":1586757858000,"birthtimeMs":1586412964000,"atime":"2020-04-13T06:04:18.000Z","mtime":"2020-04-13T06:04:18.000Z","ctime":"2020-04-13T06:04:18.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 14:04:19,252 WARN 12523 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 14:06:21,302 WARN 12523 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 14:06:21,101 INFO 12523 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":36142,"blocks":72,"atimeMs":1586757981000,"mtimeMs":1586757981000,"ctimeMs":1586757981000,"birthtimeMs":1586412964000,"atime":"2020-04-13T06:06:21.000Z","mtime":"2020-04-13T06:06:21.000Z","ctime":"2020-04-13T06:06:21.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 14:06:22,114 WARN 12523 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 14:06:21,909 INFO 12523 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":36142,"blocks":72,"atimeMs":1586757981000,"mtimeMs":1586757981000,"ctimeMs":1586757981000,"birthtimeMs":1586412964000,"atime":"2020-04-13T06:06:21.000Z","mtime":"2020-04-13T06:06:21.000Z","ctime":"2020-04-13T06:06:21.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 14:08:32,636 WARN 12523 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/hms.js change
+2020-04-13 14:08:32,435 INFO 12523 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296111,"size":4411,"blocks":16,"atimeMs":1586758112000,"mtimeMs":1586758112000,"ctimeMs":1586758112000,"birthtimeMs":1586403100000,"atime":"2020-04-13T06:08:32.000Z","mtime":"2020-04-13T06:08:32.000Z","ctime":"2020-04-13T06:08:32.000Z","birthtime":"2020-04-09T03:31:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 14:09:15,772 WARN 12523 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/hms.js change
+2020-04-13 14:09:15,571 INFO 12523 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296111,"size":4667,"blocks":16,"atimeMs":1586758155000,"mtimeMs":1586758155000,"ctimeMs":1586758155000,"birthtimeMs":1586403100000,"atime":"2020-04-13T06:09:15.000Z","mtime":"2020-04-13T06:09:15.000Z","ctime":"2020-04-13T06:09:15.000Z","birthtime":"2020-04-09T03:31:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 14:29:33,522 INFO 15183 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 14:29:33,537 INFO 15183 [egg:core] dump config after load, 5ms
+2020-04-13 14:29:33,629 INFO 15183 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 14:29:33,629 INFO 15183 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 14:29:33,629 INFO 15183 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 14:29:33,630 INFO 15183 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 14:29:33,630 INFO 15183 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 14:29:33,630 INFO 15183 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 14:29:33,630 INFO 15183 [egg-watcher:agent] watcher start success
+2020-04-13 14:29:33,733 INFO 15183 [egg:core] dump config after ready, 64ms
+2020-04-13 14:36:36,171 WARN 15183 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/hms.js change
+2020-04-13 14:36:35,962 INFO 15183 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296111,"size":4707,"blocks":16,"atimeMs":1586759795000,"mtimeMs":1586759795000,"ctimeMs":1586759795000,"birthtimeMs":1586403100000,"atime":"2020-04-13T06:36:35.000Z","mtime":"2020-04-13T06:36:35.000Z","ctime":"2020-04-13T06:36:35.000Z","birthtime":"2020-04-09T03:31:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 14:37:22,791 INFO 15183 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/hms.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296111,"size":4709,"blocks":16,"atimeMs":1586759842000,"mtimeMs":1586759842000,"ctimeMs":1586759842000,"birthtimeMs":1586403100000,"atime":"2020-04-13T06:37:22.000Z","mtime":"2020-04-13T06:37:22.000Z","ctime":"2020-04-13T06:37:22.000Z","birthtime":"2020-04-09T03:31:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 14:37:22,994 WARN 15183 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/hms.js change
+2020-04-13 14:38:33,705 ERROR 15183 nodejs.ClusterClientNoResponseError: client no response in 61427ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 15183
+hostname: bogon
+
+2020-04-13 14:45:44,266 INFO 15966 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 14:45:44,282 INFO 15966 [egg:core] dump config after load, 5ms
+2020-04-13 14:45:44,387 INFO 15966 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 14:45:44,387 INFO 15966 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 14:45:44,388 INFO 15966 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 14:45:44,388 INFO 15966 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 14:45:44,388 INFO 15966 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 14:45:44,388 INFO 15966 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 14:45:44,389 INFO 15966 [egg-watcher:agent] watcher start success
+2020-04-13 14:45:44,494 INFO 15966 [egg:core] dump config after ready, 60ms
+2020-04-13 14:47:31,450 INFO 16132 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 14:47:31,467 INFO 16132 [egg:core] dump config after load, 5ms
+2020-04-13 14:47:31,559 INFO 16132 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 14:47:31,559 INFO 16132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 14:47:31,560 INFO 16132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 14:47:31,560 INFO 16132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 14:47:31,560 INFO 16132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 14:47:31,560 INFO 16132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 14:47:31,561 INFO 16132 [egg-watcher:agent] watcher start success
+2020-04-13 14:47:31,595 INFO 16132 [egg:core] dump config after ready, 8ms
+2020-04-13 14:48:51,574 ERROR 16132 nodejs.ClusterClientNoResponseError: client no response in 70724ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 16132
+hostname: bogon
+
+2020-04-13 14:59:13,715 INFO 16854 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 14:59:13,731 INFO 16854 [egg:core] dump config after load, 6ms
+2020-04-13 14:59:13,832 INFO 16854 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 14:59:13,832 INFO 16854 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 14:59:13,833 INFO 16854 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 14:59:13,833 INFO 16854 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 14:59:13,833 INFO 16854 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 14:59:13,833 INFO 16854 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 14:59:13,834 INFO 16854 [egg-watcher:agent] watcher start success
+2020-04-13 14:59:13,884 INFO 16854 [egg:core] dump config after ready, 27ms
+2020-04-13 15:06:33,907 ERROR 16854 nodejs.ClusterClientNoResponseError: client no response in 66589ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 16854
+hostname: bogon
+
+2020-04-13 15:13:22,801 INFO 16854 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/user.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252861,"size":4806,"blocks":16,"atimeMs":1586762002000,"mtimeMs":1586762002000,"ctimeMs":1586762002000,"birthtimeMs":1584695620000,"atime":"2020-04-13T07:13:22.000Z","mtime":"2020-04-13T07:13:22.000Z","ctime":"2020-04-13T07:13:22.000Z","birthtime":"2020-03-20T09:13:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 15:13:23,014 WARN 16854 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/user.js change
+2020-04-13 15:14:09,845 WARN 16854 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/user.js change
+2020-04-13 15:14:09,637 INFO 16854 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/user.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252861,"size":4806,"blocks":16,"atimeMs":1586762049000,"mtimeMs":1586762049000,"ctimeMs":1586762049000,"birthtimeMs":1584695620000,"atime":"2020-04-13T07:14:09.000Z","mtime":"2020-04-13T07:14:09.000Z","ctime":"2020-04-13T07:14:09.000Z","birthtime":"2020-03-20T09:13:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 15:18:07,574 INFO 16854 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/model/user.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252855,"size":2233,"blocks":8,"atimeMs":1586762287000,"mtimeMs":1586762287000,"ctimeMs":1586762287000,"birthtimeMs":1584579419000,"atime":"2020-04-13T07:18:07.000Z","mtime":"2020-04-13T07:18:07.000Z","ctime":"2020-04-13T07:18:07.000Z","birthtime":"2020-03-19T00:56:59.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 15:18:07,778 WARN 16854 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/model/user.js change
+2020-04-13 15:26:25,859 WARN 16854 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/user.js change
+2020-04-13 15:26:25,654 INFO 16854 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/user.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252861,"size":4836,"blocks":16,"atimeMs":1586762785000,"mtimeMs":1586762785000,"ctimeMs":1586762785000,"birthtimeMs":1584695620000,"atime":"2020-04-13T07:26:25.000Z","mtime":"2020-04-13T07:26:25.000Z","ctime":"2020-04-13T07:26:25.000Z","birthtime":"2020-03-20T09:13:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 15:27:54,100 ERROR 16854 nodejs.ClusterClientNoResponseError: client no response in 78817ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 16854
+hostname: bogon
+
+2020-04-13 15:58:24,527 INFO 1132 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 15:58:24,549 INFO 1132 [egg:core] dump config after load, 10ms
+2020-04-13 15:58:24,704 INFO 1132 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 15:58:24,704 INFO 1132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 15:58:24,705 INFO 1132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 15:58:24,705 INFO 1132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 15:58:24,705 INFO 1132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 15:58:24,705 INFO 1132 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 15:58:24,710 INFO 1132 [egg-watcher:agent] watcher start success
+2020-04-13 15:58:24,826 INFO 1132 [egg:core] dump config after ready, 82ms
+2020-04-13 16:00:18,748 INFO 1132 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/controller/hms.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296111,"size":4705,"blocks":16,"atimeMs":1586764818000,"mtimeMs":1586764818000,"ctimeMs":1586764818000,"birthtimeMs":1586403100000,"atime":"2020-04-13T08:00:18.000Z","mtime":"2020-04-13T08:00:18.000Z","ctime":"2020-04-13T08:00:18.000Z","birthtime":"2020-04-09T03:31:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 16:00:18,956 WARN 1132 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/controller/hms.js change
+2020-04-13 16:01:05,787 INFO 1132 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":36178,"blocks":72,"atimeMs":1586764865000,"mtimeMs":1586764865000,"ctimeMs":1586764865000,"birthtimeMs":1586412964000,"atime":"2020-04-13T08:01:05.000Z","mtime":"2020-04-13T08:01:05.000Z","ctime":"2020-04-13T08:01:05.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 16:01:05,989 WARN 1132 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 16:01:06,625 WARN 1132 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/router.js change
+2020-04-13 16:01:06,424 INFO 1132 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/router.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252858,"size":2077,"blocks":8,"atimeMs":1586764866000,"mtimeMs":1586764866000,"ctimeMs":1586764866000,"birthtimeMs":1584504687000,"atime":"2020-04-13T08:01:06.000Z","mtime":"2020-04-13T08:01:06.000Z","ctime":"2020-04-13T08:01:06.000Z","birthtime":"2020-03-18T04:11:27.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 16:02:33,384 WARN 1132 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/user.js change
+2020-04-13 16:02:33,181 INFO 1132 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/user.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252861,"size":4472,"blocks":16,"atimeMs":1586764953000,"mtimeMs":1586764953000,"ctimeMs":1586764953000,"birthtimeMs":1584695620000,"atime":"2020-04-13T08:02:33.000Z","mtime":"2020-04-13T08:02:33.000Z","ctime":"2020-04-13T08:02:33.000Z","birthtime":"2020-03-20T09:13:40.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 16:40:35,402 INFO 2703 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-13 16:40:35,526 INFO 2703 [egg:core] dump config after load, 21ms
+2020-04-13 16:40:35,719 INFO 2703 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-13 16:40:35,719 INFO 2703 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-13 16:40:35,719 INFO 2703 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-13 16:40:35,720 INFO 2703 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-13 16:40:35,720 INFO 2703 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-13 16:40:35,720 INFO 2703 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-13 16:40:35,721 INFO 2703 [egg-watcher:agent] watcher start success
+2020-04-13 16:40:35,787 INFO 2703 [egg:core] dump config after ready, 37ms
+2020-04-13 16:42:15,731 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 71475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-13 17:03:55,928 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 78404ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-13 17:22:36,339 INFO 2703 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/config/config.default.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2252862,"size":6491,"blocks":16,"atimeMs":1586769756000,"mtimeMs":1586769756000,"ctimeMs":1586769756000,"birthtimeMs":1584504687000,"atime":"2020-04-13T09:22:36.000Z","mtime":"2020-04-13T09:22:36.000Z","ctime":"2020-04-13T09:22:36.000Z","birthtime":"2020-03-18T04:11:27.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 17:22:36,553 WARN 2703 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/config/config.default.js change
+2020-04-13 17:26:41,962 WARN 2703 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 17:26:41,745 INFO 2703 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35262,"blocks":72,"atimeMs":1586770001000,"mtimeMs":1586770001000,"ctimeMs":1586770001000,"birthtimeMs":1586412964000,"atime":"2020-04-13T09:26:41.000Z","mtime":"2020-04-13T09:26:41.000Z","ctime":"2020-04-13T09:26:41.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 17:30:29,499 WARN 2703 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 17:30:28,974 INFO 2703 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35219,"blocks":72,"atimeMs":1586770228000,"mtimeMs":1586770228000,"ctimeMs":1586770228000,"birthtimeMs":1586412964000,"atime":"2020-04-13T09:30:28.000Z","mtime":"2020-04-13T09:30:28.000Z","ctime":"2020-04-13T09:30:28.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 17:31:35,162 INFO 2703 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35231,"blocks":72,"atimeMs":1586770295000,"mtimeMs":1586770295000,"ctimeMs":1586770295000,"birthtimeMs":1586412964000,"atime":"2020-04-13T09:31:35.000Z","mtime":"2020-04-13T09:31:35.000Z","ctime":"2020-04-13T09:31:35.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 17:31:35,364 WARN 2703 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 17:31:56,184 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 75635ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-13 17:33:39,889 WARN 2703 [agent:development] reload worker because /Volumes/Work/ylz/healthCollection/app/service/hms.js change
+2020-04-13 17:33:39,682 INFO 2703 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Volumes/Work/ylz/healthCollection/app/service/hms.js","stat":{"dev":16777228,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2296112,"size":35253,"blocks":72,"atimeMs":1586770419000,"mtimeMs":1586770419000,"ctimeMs":1586770419000,"birthtimeMs":1586412964000,"atime":"2020-04-13T09:33:39.000Z","mtime":"2020-04-13T09:33:39.000Z","ctime":"2020-04-13T09:33:39.000Z","birthtime":"2020-04-09T06:16:04.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-13 17:33:56,209 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 79454ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-13 20:08:50,016 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 367813ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-13 20:57:17,147 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 2886992ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-13 22:45:31,656 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 6473732ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-14 00:33:36,787 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 6485127ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-14 02:21:41,091 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 6484299ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-14 04:09:45,351 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 6484255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-14 05:57:50,460 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 6485104ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-14 07:45:55,547 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 6485082ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-14 08:00:04,792 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 849241ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-14 09:02:48,110 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 3763314ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-14 09:08:29,278 ERROR 2703 nodejs.ClusterClientNoResponseError: client no response in 61038ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2703
+hostname: bogon
+
+2020-04-20 10:51:41,704 INFO 2263 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-20 10:51:41,729 INFO 2263 [egg:core] dump config after load, 9ms
+2020-04-20 10:51:41,879 INFO 2263 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-20 10:51:41,879 INFO 2263 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-20 10:51:41,880 INFO 2263 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-20 10:51:41,880 INFO 2263 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-20 10:51:41,881 INFO 2263 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-20 10:51:41,881 INFO 2263 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-20 10:51:41,883 INFO 2263 [egg-watcher:agent] watcher start success
+2020-04-20 10:51:41,973 INFO 2263 [egg:core] dump config after ready, 20ms
+2020-04-20 10:53:19,935 INFO 2435 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-20 10:53:19,951 INFO 2435 [egg:core] dump config after load, 6ms
+2020-04-20 10:53:20,054 INFO 2435 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-20 10:53:20,054 INFO 2435 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-20 10:53:20,055 INFO 2435 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-20 10:53:20,055 INFO 2435 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-20 10:53:20,055 INFO 2435 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-20 10:53:20,056 INFO 2435 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-20 10:53:20,056 INFO 2435 [egg-watcher:agent] watcher start success
+2020-04-20 10:53:20,136 INFO 2435 [egg:core] dump config after ready, 48ms
+2020-04-20 10:54:44,623 INFO 2548 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-20 10:54:44,659 INFO 2548 [egg:core] dump config after load, 8ms
+2020-04-20 10:54:44,819 INFO 2548 [egg-watcher] Start watching: ["/Volumes/Work/ylz/healthCollection/app","/Volumes/Work/ylz/healthCollection/config","/Volumes/Work/ylz/healthCollection/mocks","/Volumes/Work/ylz/healthCollection/mocks_proxy","/Volumes/Work/ylz/healthCollection/app.js"]
+2020-04-20 10:54:44,819 INFO 2548 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app"
+2020-04-20 10:54:44,819 INFO 2548 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/config"
+2020-04-20 10:54:44,820 INFO 2548 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks"
+2020-04-20 10:54:44,820 INFO 2548 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/mocks_proxy"
+2020-04-20 10:54:44,820 INFO 2548 [egg-watcher] Start watching: "/Volumes/Work/ylz/healthCollection/app.js"
+2020-04-20 10:54:44,821 INFO 2548 [egg-watcher:agent] watcher start success
+2020-04-20 10:54:44,922 INFO 2548 [egg:core] dump config after ready, 14ms
+2020-04-20 11:22:31,875 ERROR 2548 nodejs.ClusterClientNoResponseError: client no response in 282101ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2548
+hostname: bogon
+

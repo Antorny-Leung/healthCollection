@@ -2,7 +2,7 @@
 
 module.exports = app => {
   const mongoose = app.mongoose;
-  const UserSchema = new mongoose.Schema({
+  const SportrecordSchema = new mongoose.Schema({
     sporttype: { type: Number, default: 0 }, // 运动类型 |0室内跑步|1室外跑步|2户外步行|3户外骑行|4泳池游泳|
     duration: { type: Number, default: 0 }, // 时长|单位分钟
     distance: { type: Number, default: 0 }, // 距离|单位公里
@@ -15,7 +15,9 @@ module.exports = app => {
     recordAt: { type: Date, default: Date.now }, // 录入时间
     createdAt: { type: Date, default: Date.now }, // 创建日期
     note: { type: String }, // 保留字段
+    // datacollectorId: { type: String }, // 数据收集器
+    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }, // 对应的用户
     extra: { type: mongoose.Schema.Types.Mixed },
   });
-  return mongoose.model('User', UserSchema);
+  return mongoose.model('Sportrecord', SportrecordSchema);
 };

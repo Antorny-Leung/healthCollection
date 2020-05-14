@@ -5,10 +5,18 @@ const Controller = require('egg').Controller;
 
 class OauthController extends Controller {
   async getAccessToken() {
+    const { ctx } = this;
     const query = this.ctx.query;
-    const acode = query.acode;
-    const config = this.ctx.app.config.hihealth;
-    const pdata = {};
+    const acode = query.authorization_code;
+    const userid = '5e8c3d4fb8655fc470b2d3e7';
+    const config = this.ctx.app.config.hmscore;
+    const pdata = {
+      grant_type: 'authorization_code',
+      code: acode,
+      client_id: config.client_id,
+      client_secret: config.client_secret,
+      redirect_uri: config.redirect_uri,
+    };
     const atUrl = config.getAccessToken;
 
     const AccessToken = await this.ctx.curl(atUrl, {
@@ -16,52 +24,26 @@ class OauthController extends Controller {
       dataType: 'json',
       data: pdata,
       headers: {
-        Host: 'healthopen.hicloud.com',
         'Content-Type': 'application/x-www-form-urlencoded',
-        Authorization: 'Bearer ' + acode,
       },
     });
     console.log(AccessToken);
 
-    // this.ctx.cookies.set('user', JSON.stringify(userInfoRes.data), {
-    //     httpOnly: true, // 默认就是 true
-    //     encrypt: true, // 加密传输
-    //   })
-    // this.ctx.unsafeRedirect(redirectUrl);
-  }
-
-  async getUerInfo() {
-    const { ctx, service } = this;
-    const query = this.ctx.query;
-    const acode = query.acode;
-    const userid = query.userid;
-    const config = this.ctx.app.config.hihealth;
-    const pdata = {};
-    const atUrl = config.getAccessToken;
-
-    const AccessToken = await this.ctx.curl(atUrl, {
-      method: 'POST',
-      dataType: 'json',
-      data: pdata,
-      headers: {
-        Host: 'healthopen.hicloud.com',
-        'Content-Type': 'application/x-www-form-urlencoded',
-        Authorization: 'Bearer ' + acode,
-      },
-    });
-    console.log(AccessToken);
-
-    const payload = AccessToken;
-
-    const res = await service.User.updateAccessToken(userid, payload);
-
+    const res = await this.saveUserAT(userid, AccessToken);
+    ctx.body = '授权成功！！！';
     ctx.helper.success({ ctx, res });
-    // this.ctx.cookies.set('user', JSON.stringify(userInfoRes.data), {
-    //     httpOnly: true, // 默认就是 true
-    //     encrypt: true, // 加密传输
-    //   })
-    // this.ctx.unsafeRedirect(redirectUrl);
   }
+
+  // 更新该用户的华为AT
+  async saveUserAT(userid, AT) {
+
+    const payload = AT;
+
+    const res = await this.service.user.updateAccessToken(userid, payload);
+
+    return res;
+  }
+
 }
 
 module.exports = OauthController;

@@ -10,3 +10,452 @@
 2020-03-18 14:52:10,294 INFO 9130 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49069710ms at 2020-03-19 04:30:00.004
 2020-03-18 14:52:10,295 INFO 9130 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32869705ms at 2020-03-19 00:00:00.000
 2020-03-18 14:52:10,296 INFO 9130 [Timer] /Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32870705ms at 2020-03-19 00:00:01.001
+2020-04-07 15:24:24,044 INFO 3426 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:24:24,044 INFO 3426 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:24:24,044 INFO 3426 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:26:47,421 INFO 3522 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:26:47,421 INFO 3522 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:26:47,421 INFO 3522 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:26:49,356 INFO 3496 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46990651ms at 2020-04-08 04:30:00.007
+2020-04-07 15:26:49,357 INFO 3496 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30790643ms at 2020-04-08 00:00:00.000
+2020-04-07 15:26:49,357 INFO 3496 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30791643ms at 2020-04-08 00:00:01.000
+2020-04-07 15:37:58,585 INFO 4299 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:37:58,585 INFO 4299 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:37:58,585 INFO 4299 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:38:00,590 INFO 4285 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46319415ms at 2020-04-08 04:30:00.005
+2020-04-07 15:38:00,590 INFO 4285 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30119410ms at 2020-04-08 00:00:00.000
+2020-04-07 15:38:00,591 INFO 4285 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30120410ms at 2020-04-08 00:00:01.001
+2020-04-07 15:39:41,834 INFO 4421 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:39:41,834 INFO 4421 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:39:41,834 INFO 4421 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:24:59,613 INFO 7373 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:24:59,613 INFO 7373 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:24:59,613 INFO 7373 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:30:35,652 INFO 7606 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:30:35,652 INFO 7606 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:30:35,652 INFO 7606 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:30:38,262 INFO 7585 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43161744ms at 2020-04-08 04:30:00.006
+2020-04-07 16:30:38,263 INFO 7585 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26961738ms at 2020-04-08 00:00:00.001
+2020-04-07 16:30:38,263 INFO 7585 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26962737ms at 2020-04-08 00:00:01.000
+2020-04-07 16:32:10,006 INFO 7724 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:32:10,006 INFO 7724 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:32:10,006 INFO 7724 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:33:29,383 INFO 7823 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:33:29,383 INFO 7823 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:33:29,383 INFO 7823 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:36:10,470 INFO 8180 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:36:10,470 INFO 8180 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:36:10,470 INFO 8180 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:36:12,351 INFO 8159 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42827653ms at 2020-04-08 04:30:00.004
+2020-04-07 16:36:12,351 INFO 8159 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26627649ms at 2020-04-08 00:00:00.000
+2020-04-07 16:36:12,352 INFO 8159 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26628649ms at 2020-04-08 00:00:01.001
+2020-04-07 16:47:20,882 INFO 8999 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:47:20,882 INFO 8999 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:47:20,882 INFO 8999 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:47:22,972 INFO 8980 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42157037ms at 2020-04-08 04:30:00.008
+2020-04-07 16:47:22,972 INFO 8980 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25957028ms at 2020-04-08 00:00:00.000
+2020-04-07 16:47:22,972 INFO 8980 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25958028ms at 2020-04-08 00:00:01.000
+2020-04-07 16:55:57,652 INFO 9986 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:55:57,652 INFO 9986 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:55:57,652 INFO 9986 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:55:59,528 INFO 9965 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41640477ms at 2020-04-08 04:30:00.005
+2020-04-07 16:55:59,529 INFO 9965 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25440471ms at 2020-04-08 00:00:00.000
+2020-04-07 16:55:59,530 INFO 9965 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25441471ms at 2020-04-08 00:00:01.001
+2020-04-08 11:49:52,688 INFO 2188 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 11:49:52,688 INFO 2188 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 11:49:52,688 INFO 2188 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 11:49:55,415 INFO 2120 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60004591ms at 2020-04-09 04:30:00.006
+2020-04-08 11:49:55,416 INFO 2120 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43804584ms at 2020-04-09 00:00:00.000
+2020-04-08 11:49:55,416 INFO 2120 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43805584ms at 2020-04-09 00:00:01.000
+2020-04-08 11:58:18,750 INFO 3070 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 11:58:18,750 INFO 3070 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 11:58:18,750 INFO 3070 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 11:58:20,799 INFO 3038 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59499206ms at 2020-04-09 04:30:00.005
+2020-04-08 11:58:20,800 INFO 3038 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43299201ms at 2020-04-09 00:00:00.001
+2020-04-08 11:58:20,801 INFO 3038 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43300200ms at 2020-04-09 00:00:01.001
+2020-04-08 12:02:15,913 INFO 3418 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 12:02:15,913 INFO 3418 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 12:02:15,913 INFO 3418 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 12:02:41,850 INFO 3487 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 12:02:41,850 INFO 3487 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 12:02:41,850 INFO 3487 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 12:07:15,178 INFO 3893 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 12:07:15,178 INFO 3893 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 12:07:15,178 INFO 3893 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 12:09:02,399 INFO 4056 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 12:09:02,399 INFO 4056 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 12:09:02,399 INFO 4056 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 12:49:48,263 INFO 7850 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 12:49:48,263 INFO 7850 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 12:49:48,263 INFO 7850 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 12:49:51,511 INFO 7826 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56408495ms at 2020-04-09 04:30:00.006
+2020-04-08 12:49:51,512 INFO 7826 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 40208489ms at 2020-04-09 00:00:00.001
+2020-04-08 12:49:51,512 INFO 7826 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 40209488ms at 2020-04-09 00:00:01.000
+2020-04-08 13:02:42,433 INFO 8674 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:02:42,433 INFO 8674 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:02:42,433 INFO 8674 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:02:44,276 INFO 8655 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 55635733ms at 2020-04-09 04:30:00.009
+2020-04-08 13:02:44,277 INFO 8655 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 39435723ms at 2020-04-09 00:00:00.000
+2020-04-08 13:02:44,278 INFO 8655 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39436723ms at 2020-04-09 00:00:01.001
+2020-04-08 13:05:17,085 INFO 8914 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:05:17,085 INFO 8914 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:05:17,085 INFO 8914 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:08:48,397 INFO 9199 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:08:48,397 INFO 9199 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:08:48,397 INFO 9199 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:08:50,773 INFO 9184 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 55269235ms at 2020-04-09 04:30:00.008
+2020-04-08 13:08:50,774 INFO 9184 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 39069227ms at 2020-04-09 00:00:00.001
+2020-04-08 13:08:50,775 INFO 9184 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39070225ms at 2020-04-09 00:00:01.000
+2020-04-08 13:13:28,936 INFO 9616 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:13:28,936 INFO 9616 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:13:28,936 INFO 9616 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:14:26,160 INFO 9758 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:14:26,160 INFO 9758 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:14:26,160 INFO 9758 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:14:28,060 INFO 9722 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 54931949ms at 2020-04-09 04:30:00.009
+2020-04-08 13:14:28,060 INFO 9722 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 38731940ms at 2020-04-09 00:00:00.000
+2020-04-08 13:14:28,061 INFO 9722 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 38732940ms at 2020-04-09 00:00:01.001
+2020-04-08 13:17:13,785 INFO 9986 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:17:13,785 INFO 9986 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:17:13,785 INFO 9986 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:24:09,322 INFO 10608 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:24:09,322 INFO 10608 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:24:09,322 INFO 10608 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:25:04,850 INFO 10708 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:25:04,851 INFO 10708 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:25:04,851 INFO 10708 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:26:06,325 INFO 10821 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:26:06,325 INFO 10821 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:26:06,325 INFO 10821 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:26:53,111 INFO 10936 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:26:53,111 INFO 10936 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:26:53,111 INFO 10936 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:26:55,664 INFO 10922 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 54184342ms at 2020-04-09 04:30:00.006
+2020-04-08 13:26:55,665 INFO 10922 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 37984335ms at 2020-04-09 00:00:00.000
+2020-04-08 13:26:55,666 INFO 10922 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 37985335ms at 2020-04-09 00:00:01.001
+2020-04-08 13:27:01,070 INFO 10988 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:27:01,070 INFO 10988 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:27:01,070 INFO 10988 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:36:12,460 INFO 11785 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:36:12,460 INFO 11785 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:36:12,460 INFO 11785 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:36:14,270 INFO 11771 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 53625741ms at 2020-04-09 04:30:00.011
+2020-04-08 13:36:14,271 INFO 11771 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 37425730ms at 2020-04-09 00:00:00.001
+2020-04-08 13:36:14,272 INFO 11771 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 37426729ms at 2020-04-09 00:00:01.001
+2020-04-08 13:38:01,958 INFO 11964 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:38:01,958 INFO 11964 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:38:01,958 INFO 11964 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:45:18,057 INFO 12538 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:45:18,057 INFO 12538 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:45:18,057 INFO 12538 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:45:21,465 INFO 12522 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 53078541ms at 2020-04-09 04:30:00.006
+2020-04-08 13:45:21,467 INFO 12522 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36878533ms at 2020-04-09 00:00:00.000
+2020-04-08 13:45:21,468 INFO 12522 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36879533ms at 2020-04-09 00:00:01.001
+2020-04-08 13:46:08,347 INFO 12662 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:46:08,347 INFO 12662 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:46:08,347 INFO 12662 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:46:30,758 INFO 12714 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:46:30,758 INFO 12714 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:46:30,758 INFO 12714 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 13:48:46,579 INFO 12912 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 13:48:46,579 INFO 12912 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 13:48:46,579 INFO 12912 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 14:04:23,227 INFO 14174 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 14:04:23,227 INFO 14174 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 14:04:23,227 INFO 14174 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 14:04:25,479 INFO 14158 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51934529ms at 2020-04-09 04:30:00.008
+2020-04-08 14:04:25,480 INFO 14158 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35734520ms at 2020-04-09 00:00:00.000
+2020-04-08 14:04:25,481 INFO 14158 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35735520ms at 2020-04-09 00:00:01.001
+2020-04-08 14:05:53,782 INFO 14324 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 14:05:53,783 INFO 14324 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 14:05:53,783 INFO 14324 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 14:17:48,989 INFO 14871 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 14:17:48,989 INFO 14871 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 14:17:48,989 INFO 14871 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 14:17:51,142 INFO 14856 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51128862ms at 2020-04-09 04:30:00.004
+2020-04-08 14:17:51,143 INFO 14856 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34928857ms at 2020-04-09 00:00:00.000
+2020-04-08 14:17:51,144 INFO 14856 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34929856ms at 2020-04-09 00:00:01.000
+2020-04-08 14:56:03,446 INFO 17959 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 14:56:03,446 INFO 17959 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 14:56:03,446 INFO 17959 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 14:58:14,062 INFO 18261 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 14:58:14,062 INFO 18261 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 14:58:14,062 INFO 18261 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 14:58:16,115 INFO 18228 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48703895ms at 2020-04-09 04:30:00.010
+2020-04-08 14:58:16,116 INFO 18228 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32503885ms at 2020-04-09 00:00:00.001
+2020-04-08 14:58:16,121 INFO 18228 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32504884ms at 2020-04-09 00:00:01.005
+2020-04-12 21:25:02,910 INFO 44320 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-12 21:25:02,910 INFO 44320 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-12 21:25:02,910 INFO 44320 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-12 21:25:05,764 INFO 44290 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 25494241ms at 2020-04-13 04:30:00.005
+2020-04-12 21:25:05,765 INFO 44290 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 9294235ms at 2020-04-13 00:00:00.000
+2020-04-12 21:25:05,765 INFO 44290 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 9295235ms at 2020-04-13 00:00:01.000
+2020-04-12 21:43:20,284 INFO 46105 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-12 21:43:20,284 INFO 46105 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-12 21:43:20,284 INFO 46105 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-12 21:43:22,281 INFO 46067 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 24397728ms at 2020-04-13 04:30:00.008
+2020-04-12 21:43:22,281 INFO 46067 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 8197719ms at 2020-04-13 00:00:00.000
+2020-04-12 21:43:22,282 INFO 46067 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8198718ms at 2020-04-13 00:00:01.000
+2020-04-12 21:54:46,848 INFO 47023 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-12 21:54:46,848 INFO 47023 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-12 21:54:46,848 INFO 47023 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-12 21:54:48,945 INFO 46993 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23711059ms at 2020-04-13 04:30:00.004
+2020-04-12 21:54:48,945 INFO 46993 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7511055ms at 2020-04-13 00:00:00.000
+2020-04-12 21:54:48,946 INFO 46993 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7512055ms at 2020-04-13 00:00:01.001
+2020-04-12 22:01:03,637 INFO 47394 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-12 22:01:03,637 INFO 47394 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-12 22:01:03,637 INFO 47394 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-12 22:01:06,014 INFO 47368 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23334000ms at 2020-04-13 04:30:00.013
+2020-04-12 22:01:06,016 INFO 47368 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7133985ms at 2020-04-13 00:00:00.001
+2020-04-12 22:01:06,016 INFO 47368 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7134984ms at 2020-04-13 00:00:01.000
+2020-04-12 22:49:06,184 INFO 51638 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-12 22:49:06,184 INFO 51638 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-12 22:49:06,184 INFO 51638 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-12 22:49:08,254 INFO 51612 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20451750ms at 2020-04-13 04:30:00.004
+2020-04-12 22:49:08,255 INFO 51612 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4251745ms at 2020-04-13 00:00:00.000
+2020-04-12 22:49:08,256 INFO 51612 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4252745ms at 2020-04-13 00:00:01.001
+2020-04-12 22:58:57,621 INFO 52540 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-12 22:58:57,621 INFO 52540 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-12 22:58:57,621 INFO 52540 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-12 22:58:59,268 INFO 52527 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 19860741ms at 2020-04-13 04:30:00.009
+2020-04-12 22:58:59,268 INFO 52527 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 3660732ms at 2020-04-13 00:00:00.000
+2020-04-12 22:58:59,269 INFO 52527 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3661731ms at 2020-04-13 00:00:01.000
+2020-04-13 09:13:11,442 INFO 774 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:13:11,442 INFO 774 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:13:11,442 INFO 774 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 09:13:13,141 INFO 754 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 69406873ms at 2020-04-14 04:30:00.014
+2020-04-13 09:13:13,143 INFO 754 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 53206858ms at 2020-04-14 00:00:00.001
+2020-04-13 09:13:13,145 INFO 754 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 53207857ms at 2020-04-14 00:00:01.002
+2020-04-13 09:16:25,352 INFO 1084 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:16:25,352 INFO 1084 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:16:25,352 INFO 1084 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 09:16:26,850 INFO 1058 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 69213155ms at 2020-04-14 04:30:00.005
+2020-04-13 09:16:26,851 INFO 1058 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 53013150ms at 2020-04-14 00:00:00.001
+2020-04-13 09:16:26,853 INFO 1058 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 53014149ms at 2020-04-14 00:00:01.001
+2020-04-13 09:37:07,568 INFO 2342 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:37:07,568 INFO 2342 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:37:07,568 INFO 2342 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 09:38:44,235 INFO 2485 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:38:44,235 INFO 2485 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:38:44,235 INFO 2485 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 09:41:31,849 INFO 2666 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:41:31,849 INFO 2666 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:41:31,849 INFO 2666 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 09:44:53,652 INFO 2895 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:44:53,652 INFO 2895 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:44:53,652 INFO 2895 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 09:46:41,624 INFO 3027 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:46:41,624 INFO 3027 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:46:41,624 INFO 3027 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 09:46:50,277 INFO 3047 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:46:50,277 INFO 3047 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:46:50,277 INFO 3047 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 09:49:06,086 INFO 3203 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 09:49:06,086 INFO 3203 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 09:49:06,086 INFO 3203 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 10:09:26,726 INFO 3576 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 10:09:26,726 INFO 3576 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 10:09:26,726 INFO 3576 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 10:09:28,750 INFO 3564 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 66031258ms at 2020-04-14 04:30:00.008
+2020-04-13 10:09:28,751 INFO 3564 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49831250ms at 2020-04-14 00:00:00.001
+2020-04-13 10:09:28,751 INFO 3564 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49832249ms at 2020-04-14 00:00:01.000
+2020-04-13 11:10:41,528 INFO 7096 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 11:10:41,528 INFO 7096 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 11:10:41,528 INFO 7096 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 11:10:43,486 INFO 7051 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62356519ms at 2020-04-14 04:30:00.005
+2020-04-13 11:10:43,486 INFO 7051 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46156514ms at 2020-04-14 00:00:00.000
+2020-04-13 11:10:43,487 INFO 7051 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46157514ms at 2020-04-14 00:00:01.001
+2020-04-13 11:11:39,616 INFO 7171 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 11:11:39,616 INFO 7171 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 11:11:39,616 INFO 7171 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 11:15:37,338 INFO 7434 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 11:15:37,338 INFO 7434 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 11:15:37,338 INFO 7434 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 11:16:34,829 INFO 7508 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 11:16:34,829 INFO 7508 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 11:16:34,829 INFO 7508 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 11:17:07,647 INFO 7563 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 11:17:07,647 INFO 7563 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 11:17:07,647 INFO 7563 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 11:19:21,919 INFO 7711 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 11:19:21,919 INFO 7711 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 11:19:21,919 INFO 7711 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 11:19:25,615 INFO 7701 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61834396ms at 2020-04-14 04:30:00.011
+2020-04-13 11:19:25,616 INFO 7701 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45634385ms at 2020-04-14 00:00:00.001
+2020-04-13 11:19:25,617 INFO 7701 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45635384ms at 2020-04-14 00:00:01.001
+2020-04-13 11:22:46,168 INFO 7939 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 11:22:46,168 INFO 7939 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 11:22:46,168 INFO 7939 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 11:39:45,079 INFO 8910 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 11:39:45,079 INFO 8910 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 11:39:45,079 INFO 8910 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 11:39:47,169 INFO 8892 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60612837ms at 2020-04-14 04:30:00.006
+2020-04-13 11:39:47,169 INFO 8892 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 44412831ms at 2020-04-14 00:00:00.000
+2020-04-13 11:39:47,170 INFO 8892 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44413830ms at 2020-04-14 00:00:01.000
+2020-04-13 13:50:56,065 INFO 12165 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 13:50:56,065 INFO 12165 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 13:50:56,065 INFO 12165 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 13:50:56,065 INFO 12165 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 13:50:58,032 INFO 12155 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52741973ms at 2020-04-14 04:30:00.005
+2020-04-13 13:50:58,033 INFO 12155 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36541968ms at 2020-04-14 00:00:00.001
+2020-04-13 13:50:58,033 INFO 12155 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36542967ms at 2020-04-14 00:00:01.000
+2020-04-13 13:50:58,033 INFO 12155 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 14:50:58.033
+2020-04-13 13:55:00,550 INFO 12557 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 13:55:00,551 INFO 12557 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 13:55:00,551 INFO 12557 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 13:55:00,551 INFO 12557 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 13:55:05,003 INFO 12523 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52495002ms at 2020-04-14 04:30:00.005
+2020-04-13 13:55:05,003 INFO 12523 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36294997ms at 2020-04-14 00:00:00.000
+2020-04-13 13:55:05,004 INFO 12523 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36295996ms at 2020-04-14 00:00:01.000
+2020-04-13 13:55:05,004 INFO 12523 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 14:55:05.004
+2020-04-13 14:04:26,033 INFO 13953 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:04:26,033 INFO 13953 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:04:26,033 INFO 13953 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:04:26,033 INFO 13953 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:07:39,698 INFO 14095 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:07:39,698 INFO 14095 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:07:39,698 INFO 14095 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:07:39,698 INFO 14095 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:07:49,111 INFO 14186 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:07:49,111 INFO 14186 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:07:49,111 INFO 14186 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:07:49,111 INFO 14186 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:08:40,881 INFO 14254 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:08:40,881 INFO 14254 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:08:40,881 INFO 14254 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:08:40,881 INFO 14254 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:09:21,761 INFO 14323 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:09:21,761 INFO 14323 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:09:21,761 INFO 14323 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:09:21,761 INFO 14323 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:29:41,283 INFO 15197 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:29:41,283 INFO 15197 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:29:41,283 INFO 15197 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:29:41,283 INFO 15197 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:29:44,455 INFO 15183 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50415557ms at 2020-04-14 04:30:00.011
+2020-04-13 14:29:44,456 INFO 15183 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34215545ms at 2020-04-14 00:00:00.001
+2020-04-13 14:29:44,456 INFO 15183 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34216544ms at 2020-04-14 00:00:01.000
+2020-04-13 14:29:44,457 INFO 15183 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 15:29:44.457
+2020-04-13 14:36:42,907 INFO 15643 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:36:42,907 INFO 15643 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:36:42,907 INFO 15643 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:36:42,907 INFO 15643 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:37:29,906 INFO 15710 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:37:29,906 INFO 15710 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:37:29,906 INFO 15710 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:37:29,906 INFO 15710 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:45:50,812 INFO 15987 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:45:50,812 INFO 15987 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:45:50,812 INFO 15987 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:45:50,812 INFO 15987 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:45:54,547 INFO 15966 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49445465ms at 2020-04-14 04:30:00.011
+2020-04-13 14:45:54,551 INFO 15966 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33245450ms at 2020-04-14 00:00:00.000
+2020-04-13 14:45:54,551 INFO 15966 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33246449ms at 2020-04-14 00:00:01.000
+2020-04-13 14:45:54,552 INFO 15966 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 15:45:54.552
+2020-04-13 14:47:38,520 INFO 16146 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:47:38,520 INFO 16146 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:47:38,520 INFO 16146 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:47:38,520 INFO 16146 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:47:40,916 INFO 16132 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49339092ms at 2020-04-14 04:30:00.008
+2020-04-13 14:47:40,916 INFO 16132 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33139084ms at 2020-04-14 00:00:00.000
+2020-04-13 14:47:40,917 INFO 16132 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33140084ms at 2020-04-14 00:00:01.001
+2020-04-13 14:47:40,917 INFO 16132 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 15:47:40.917
+2020-04-13 14:59:20,089 INFO 16895 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 14:59:20,089 INFO 16895 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 14:59:20,089 INFO 16895 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 14:59:20,089 INFO 16895 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 14:59:22,329 INFO 16854 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48637678ms at 2020-04-14 04:30:00.007
+2020-04-13 14:59:22,330 INFO 16854 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32437670ms at 2020-04-14 00:00:00.000
+2020-04-13 14:59:22,331 INFO 16854 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32438669ms at 2020-04-14 00:00:01.000
+2020-04-13 14:59:22,331 INFO 16854 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 15:59:22.331
+2020-04-13 15:13:40,545 INFO 18549 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 15:13:40,545 INFO 18549 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 15:13:40,545 INFO 18549 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 15:13:40,545 INFO 18549 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 15:14:26,493 INFO 18626 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 15:14:26,493 INFO 18626 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 15:14:26,493 INFO 18626 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 15:14:26,493 INFO 18626 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 15:18:30,615 INFO 18965 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 15:18:30,615 INFO 18965 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 15:18:30,615 INFO 18965 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 15:18:30,615 INFO 18965 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 15:26:32,566 INFO 19477 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 15:26:32,566 INFO 19477 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 15:26:32,566 INFO 19477 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 15:26:32,566 INFO 19477 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 15:58:30,324 INFO 1146 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 15:58:30,324 INFO 1146 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 15:58:30,324 INFO 1146 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 15:58:30,325 INFO 1146 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 15:58:32,814 INFO 1132 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45087196ms at 2020-04-14 04:30:00.010
+2020-04-13 15:58:32,815 INFO 1132 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28887185ms at 2020-04-14 00:00:00.000
+2020-04-13 15:58:32,816 INFO 1132 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28888185ms at 2020-04-14 00:00:01.001
+2020-04-13 15:58:32,816 INFO 1132 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 16:58:32.816
+2020-04-13 16:01:19,859 INFO 1392 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 16:01:19,859 INFO 1392 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 16:01:19,859 INFO 1392 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 16:01:19,859 INFO 1392 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 16:01:30,671 INFO 1426 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 16:01:30,681 INFO 1426 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 16:01:30,681 INFO 1426 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 16:01:30,681 INFO 1426 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 16:02:52,210 INFO 1531 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 16:02:52,210 INFO 1531 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 16:02:52,210 INFO 1531 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 16:02:52,210 INFO 1531 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 16:40:41,844 INFO 2716 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 16:40:41,844 INFO 2716 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 16:40:41,844 INFO 2716 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 16:40:41,844 INFO 2716 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 16:40:44,275 INFO 2703 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42555734ms at 2020-04-14 04:30:00.009
+2020-04-13 16:40:44,275 INFO 2703 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26355725ms at 2020-04-14 00:00:00.000
+2020-04-13 16:40:44,276 INFO 2703 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26356725ms at 2020-04-14 00:00:01.001
+2020-04-13 16:40:44,276 INFO 2703 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 17:40:44.276
+2020-04-13 17:22:45,148 INFO 6913 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 17:22:45,148 INFO 6913 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 17:22:45,148 INFO 6913 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 17:22:45,148 INFO 6913 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 17:26:50,654 INFO 7296 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 17:26:50,654 INFO 7296 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 17:26:50,654 INFO 7296 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 17:26:50,654 INFO 7296 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 17:30:37,396 INFO 7637 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 17:30:37,396 INFO 7637 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 17:30:37,396 INFO 7637 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 17:30:37,396 INFO 7637 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 17:31:45,122 INFO 7745 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 17:31:45,122 INFO 7745 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 17:31:45,122 INFO 7745 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 17:31:45,122 INFO 7745 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 17:33:50,632 INFO 7936 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-13 17:33:50,632 INFO 7936 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-13 17:33:50,632 INFO 7936 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-13 17:33:50,632 INFO 7936 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-13 17:40:44,433 INFO 7936 [Job#158677084442867301383891971] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js executing by app
+2020-04-13 17:40:44,445 ERROR 7936 [Job#158677084442867301383891971] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js execute error. TypeError: users.map is not a function
+    at UpdateCache.subscribe (/Volumes/Work/ylz/healthCollection/app/schedule/access_token.js:17:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-04-13 17:40:44,446 ERROR 7936 [Job#158677084442867301383891971] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js execute failed, used 12ms
+2020-04-13 17:40:44,432 INFO 2703 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 18:40:44.432
+2020-04-13 19:41:48,244 INFO 2703 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-13 20:41:48.243
+2020-04-20 10:51:48,350 INFO 2281 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-20 10:51:48,350 INFO 2281 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-20 10:51:48,350 INFO 2281 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-20 10:51:48,350 INFO 2281 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-20 10:53:26,639 INFO 2446 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-20 10:53:26,639 INFO 2446 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-20 10:53:26,639 INFO 2446 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-20 10:53:26,639 INFO 2446 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-20 10:53:29,521 INFO 2435 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63390486ms at 2020-04-21 04:30:00.007
+2020-04-20 10:53:29,523 INFO 2435 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 47190478ms at 2020-04-21 00:00:00.001
+2020-04-20 10:53:29,524 INFO 2435 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47191477ms at 2020-04-21 00:00:01.001
+2020-04-20 10:53:29,525 INFO 2435 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-20 11:53:29.525
+2020-04-20 10:54:51,526 INFO 2569 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-20 10:54:51,526 INFO 2569 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-20 10:54:51,526 INFO 2569 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-20 10:54:51,526 INFO 2569 [egg-schedule]: register schedule /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js
+2020-04-20 10:54:53,801 INFO 2548 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63306205ms at 2020-04-21 04:30:00.006
+2020-04-20 10:54:53,802 INFO 2548 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 47106198ms at 2020-04-21 00:00:00.000
+2020-04-20 10:54:53,802 INFO 2548 [Timer] /Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47107198ms at 2020-04-21 00:00:01.000
+2020-04-20 10:54:53,802 INFO 2548 [Timer] /Volumes/Work/ylz/healthCollection/app/schedule/access_token.js next time will execute after 3600000ms at 2020-04-20 11:54:53.802

@@ -26,3 +26,1871 @@
 2020-03-18 14:52:10,227 INFO 9142 [egg:core] dump config after load, 7ms
 2020-03-18 14:52:10,256 INFO 9142 [egg-watcher:application] watcher start success
 2020-03-18 14:52:10,285 INFO 9142 [egg:core] dump config after ready, 27ms
+2020-04-07 15:24:23,984 INFO 3426 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 15:24:24,045 INFO 3426 [egg-multipart] stream mode enable
+2020-04-07 15:24:25,540 INFO 3426 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 15:24:25,882 INFO 3426 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 15:24:25,893 INFO 3426 [egg-security] use csrf middleware
+2020-04-07 15:24:25,896 INFO 3426 [egg-security] use methodnoallow middleware
+2020-04-07 15:24:25,898 INFO 3426 [egg-security] use noopen middleware
+2020-04-07 15:24:25,902 INFO 3426 [egg-security] use nosniff middleware
+2020-04-07 15:24:25,907 INFO 3426 [egg-security] use xssProtection middleware
+2020-04-07 15:24:25,909 INFO 3426 [egg-security] use xframe middleware
+2020-04-07 15:24:25,913 INFO 3426 [egg-security] use dta middleware
+2020-04-07 15:24:25,913 INFO 3426 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 15:24:25,962 INFO 3426 [egg:core] dump config after load, 17ms
+2020-04-07 15:24:25,978 INFO 3426 [egg-mongoose] starting...
+2020-04-07 15:24:26,129 INFO 3426 [egg:core] dump config after ready, 7ms
+2020-04-07 15:24:26,148 INFO 3426 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 15:24:26,153 INFO 3426 [egg-mongoose] instance[0] start successfully
+2020-04-07 15:24:26,158 INFO 3426 [egg-watcher:application] watcher start success
+2020-04-07 15:26:47,372 INFO 3522 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 15:26:47,422 INFO 3522 [egg-multipart] stream mode enable
+2020-04-07 15:26:48,775 INFO 3522 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 15:26:49,027 INFO 3522 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 15:26:49,033 INFO 3522 [egg-security] use csrf middleware
+2020-04-07 15:26:49,037 INFO 3522 [egg-security] use methodnoallow middleware
+2020-04-07 15:26:49,045 INFO 3522 [egg-security] use noopen middleware
+2020-04-07 15:26:49,046 INFO 3522 [egg-security] use nosniff middleware
+2020-04-07 15:26:49,050 INFO 3522 [egg-security] use xssProtection middleware
+2020-04-07 15:26:49,052 INFO 3522 [egg-security] use xframe middleware
+2020-04-07 15:26:49,054 INFO 3522 [egg-security] use dta middleware
+2020-04-07 15:26:49,054 INFO 3522 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 15:26:49,092 INFO 3522 [egg:core] dump config after load, 10ms
+2020-04-07 15:26:49,129 INFO 3522 [egg-mongoose] starting...
+2020-04-07 15:26:49,268 INFO 3522 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 15:26:49,285 INFO 3522 [egg-mongoose] instance[0] start successfully
+2020-04-07 15:26:49,299 INFO 3522 [egg-watcher:application] watcher start success
+2020-04-07 15:26:49,340 INFO 3522 [egg:core] dump config after ready, 11ms
+2020-04-07 15:37:58,527 INFO 4299 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 15:37:58,586 INFO 4299 [egg-multipart] stream mode enable
+2020-04-07 15:38:00,068 INFO 4299 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 15:38:00,332 INFO 4299 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 15:38:00,337 INFO 4299 [egg-security] use csrf middleware
+2020-04-07 15:38:00,339 INFO 4299 [egg-security] use methodnoallow middleware
+2020-04-07 15:38:00,342 INFO 4299 [egg-security] use noopen middleware
+2020-04-07 15:38:00,344 INFO 4299 [egg-security] use nosniff middleware
+2020-04-07 15:38:00,346 INFO 4299 [egg-security] use xssProtection middleware
+2020-04-07 15:38:00,347 INFO 4299 [egg-security] use xframe middleware
+2020-04-07 15:38:00,350 INFO 4299 [egg-security] use dta middleware
+2020-04-07 15:38:00,350 INFO 4299 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 15:38:00,416 INFO 4299 [egg:core] dump config after load, 15ms
+2020-04-07 15:38:00,426 INFO 4299 [egg-mongoose] starting...
+2020-04-07 15:38:00,540 INFO 4299 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 15:38:00,555 INFO 4299 [egg-mongoose] instance[0] start successfully
+2020-04-07 15:38:00,569 INFO 4299 [egg-watcher:application] watcher start success
+2020-04-07 15:38:00,578 INFO 4299 [egg:core] dump config after ready, 7ms
+2020-04-07 15:39:41,742 INFO 4421 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 15:39:41,835 INFO 4421 [egg-multipart] stream mode enable
+2020-04-07 15:39:43,941 INFO 4421 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 15:39:44,633 INFO 4421 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 15:39:44,647 INFO 4421 [egg-security] use csrf middleware
+2020-04-07 15:39:44,659 INFO 4421 [egg-security] use methodnoallow middleware
+2020-04-07 15:39:44,662 INFO 4421 [egg-security] use noopen middleware
+2020-04-07 15:39:44,677 INFO 4421 [egg-security] use nosniff middleware
+2020-04-07 15:39:44,678 INFO 4421 [egg-security] use xssProtection middleware
+2020-04-07 15:39:44,682 INFO 4421 [egg-security] use xframe middleware
+2020-04-07 15:39:44,684 INFO 4421 [egg-security] use dta middleware
+2020-04-07 15:39:44,684 INFO 4421 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 15:39:44,830 INFO 4421 [egg:core] dump config after load, 21ms
+2020-04-07 15:39:44,862 INFO 4421 [egg-mongoose] starting...
+2020-04-07 15:39:45,105 INFO 4421 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 15:39:45,128 INFO 4421 [egg-mongoose] instance[0] start successfully
+2020-04-07 15:39:45,139 INFO 4421 [egg-watcher:application] watcher start success
+2020-04-07 15:39:45,180 INFO 4421 [egg:core] dump config after ready, 33ms
+2020-04-07 16:17:55,377 WARN 4421 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-07 16:17:55,414 WARN 4421 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-07 16:23:47,702 WARN 4421 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-07 16:23:47,703 WARN 4421 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-07 16:24:59,554 INFO 7373 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 16:24:59,613 INFO 7373 [egg-multipart] stream mode enable
+2020-04-07 16:25:00,974 INFO 7373 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 16:25:01,263 INFO 7373 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 16:25:01,267 INFO 7373 [egg-security] use csrf middleware
+2020-04-07 16:25:01,269 INFO 7373 [egg-security] use methodnoallow middleware
+2020-04-07 16:25:01,271 INFO 7373 [egg-security] use noopen middleware
+2020-04-07 16:25:01,273 INFO 7373 [egg-security] use nosniff middleware
+2020-04-07 16:25:01,274 INFO 7373 [egg-security] use xssProtection middleware
+2020-04-07 16:25:01,275 INFO 7373 [egg-security] use xframe middleware
+2020-04-07 16:25:01,277 INFO 7373 [egg-security] use dta middleware
+2020-04-07 16:25:01,277 INFO 7373 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 16:25:01,370 INFO 7373 [egg:core] dump config after load, 17ms
+2020-04-07 16:25:01,381 INFO 7373 [egg-mongoose] starting...
+2020-04-07 16:25:01,508 INFO 7373 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 16:25:01,522 INFO 7373 [egg-mongoose] instance[0] start successfully
+2020-04-07 16:25:01,532 INFO 7373 [egg-watcher:application] watcher start success
+2020-04-07 16:25:01,561 INFO 7373 [egg:core] dump config after ready, 26ms
+2020-04-07 16:30:35,565 INFO 7606 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 16:30:35,653 INFO 7606 [egg-multipart] stream mode enable
+2020-04-07 16:30:37,244 INFO 7606 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 16:30:37,880 INFO 7606 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 16:30:37,885 INFO 7606 [egg-security] use csrf middleware
+2020-04-07 16:30:37,888 INFO 7606 [egg-security] use methodnoallow middleware
+2020-04-07 16:30:37,892 INFO 7606 [egg-security] use noopen middleware
+2020-04-07 16:30:37,895 INFO 7606 [egg-security] use nosniff middleware
+2020-04-07 16:30:37,898 INFO 7606 [egg-security] use xssProtection middleware
+2020-04-07 16:30:37,902 INFO 7606 [egg-security] use xframe middleware
+2020-04-07 16:30:37,906 INFO 7606 [egg-security] use dta middleware
+2020-04-07 16:30:37,906 INFO 7606 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 16:30:38,003 INFO 7606 [egg:core] dump config after load, 15ms
+2020-04-07 16:30:38,018 INFO 7606 [egg-mongoose] starting...
+2020-04-07 16:30:38,169 INFO 7606 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 16:30:38,188 INFO 7606 [egg-mongoose] instance[0] start successfully
+2020-04-07 16:30:38,221 INFO 7606 [egg-watcher:application] watcher start success
+2020-04-07 16:30:38,245 INFO 7606 [egg:core] dump config after ready, 17ms
+2020-04-07 16:32:09,949 INFO 7724 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 16:32:10,007 INFO 7724 [egg-multipart] stream mode enable
+2020-04-07 16:32:11,463 INFO 7724 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 16:32:11,745 INFO 7724 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 16:32:11,749 INFO 7724 [egg-security] use csrf middleware
+2020-04-07 16:32:11,752 INFO 7724 [egg-security] use methodnoallow middleware
+2020-04-07 16:32:11,754 INFO 7724 [egg-security] use noopen middleware
+2020-04-07 16:32:11,756 INFO 7724 [egg-security] use nosniff middleware
+2020-04-07 16:32:11,758 INFO 7724 [egg-security] use xssProtection middleware
+2020-04-07 16:32:11,760 INFO 7724 [egg-security] use xframe middleware
+2020-04-07 16:32:11,762 INFO 7724 [egg-security] use dta middleware
+2020-04-07 16:32:11,762 INFO 7724 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 16:32:11,837 INFO 7724 [egg:core] dump config after load, 11ms
+2020-04-07 16:32:11,851 INFO 7724 [egg-mongoose] starting...
+2020-04-07 16:32:11,952 INFO 7724 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 16:32:11,966 INFO 7724 [egg-mongoose] instance[0] start successfully
+2020-04-07 16:32:11,973 INFO 7724 [egg-watcher:application] watcher start success
+2020-04-07 16:32:11,995 INFO 7724 [egg:core] dump config after ready, 14ms
+2020-04-07 16:32:30,700 ERROR 7724 nodejs.TypeError: Cannot read property 'updateAccessToken' of undefined
+    at OauthController.getUerInfo (/Volumes/Work/ylz/healthCollection/app/controller/oauth.js:42:41)
+    at OauthController.getAccessToken (/Volumes/Work/ylz/healthCollection/app/controller/oauth.js:32:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7724
+hostname: bogon
+
+2020-04-07 16:33:21,573 ERROR 7724 nodejs.TypeError: Cannot read property 'updateAccessToken' of undefined
+    at OauthController.getUerInfo (/Volumes/Work/ylz/healthCollection/app/controller/oauth.js:42:41)
+    at OauthController.getAccessToken (/Volumes/Work/ylz/healthCollection/app/controller/oauth.js:32:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7724
+hostname: bogon
+
+2020-04-07 16:33:29,340 INFO 7823 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 16:33:29,384 INFO 7823 [egg-multipart] stream mode enable
+2020-04-07 16:33:31,016 INFO 7823 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 16:33:31,826 INFO 7823 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 16:33:31,833 INFO 7823 [egg-security] use csrf middleware
+2020-04-07 16:33:31,836 INFO 7823 [egg-security] use methodnoallow middleware
+2020-04-07 16:33:31,838 INFO 7823 [egg-security] use noopen middleware
+2020-04-07 16:33:31,839 INFO 7823 [egg-security] use nosniff middleware
+2020-04-07 16:33:31,842 INFO 7823 [egg-security] use xssProtection middleware
+2020-04-07 16:33:31,843 INFO 7823 [egg-security] use xframe middleware
+2020-04-07 16:33:31,848 INFO 7823 [egg-security] use dta middleware
+2020-04-07 16:33:31,848 INFO 7823 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 16:33:31,950 INFO 7823 [egg:core] dump config after load, 22ms
+2020-04-07 16:33:31,958 INFO 7823 [egg-mongoose] starting...
+2020-04-07 16:33:32,126 INFO 7823 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 16:33:32,142 INFO 7823 [egg-mongoose] instance[0] start successfully
+2020-04-07 16:33:32,152 INFO 7823 [egg-watcher:application] watcher start success
+2020-04-07 16:33:32,173 INFO 7823 [egg:core] dump config after ready, 18ms
+2020-04-07 16:36:10,414 INFO 8180 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 16:36:10,471 INFO 8180 [egg-multipart] stream mode enable
+2020-04-07 16:36:11,774 INFO 8180 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 16:36:12,026 INFO 8180 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 16:36:12,030 INFO 8180 [egg-security] use csrf middleware
+2020-04-07 16:36:12,032 INFO 8180 [egg-security] use methodnoallow middleware
+2020-04-07 16:36:12,036 INFO 8180 [egg-security] use noopen middleware
+2020-04-07 16:36:12,038 INFO 8180 [egg-security] use nosniff middleware
+2020-04-07 16:36:12,041 INFO 8180 [egg-security] use xssProtection middleware
+2020-04-07 16:36:12,042 INFO 8180 [egg-security] use xframe middleware
+2020-04-07 16:36:12,044 INFO 8180 [egg-security] use dta middleware
+2020-04-07 16:36:12,044 INFO 8180 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 16:36:12,108 INFO 8180 [egg:core] dump config after load, 13ms
+2020-04-07 16:36:12,118 INFO 8180 [egg-mongoose] starting...
+2020-04-07 16:36:12,283 INFO 8180 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 16:36:12,298 INFO 8180 [egg-mongoose] instance[0] start successfully
+2020-04-07 16:36:12,308 INFO 8180 [egg-watcher:application] watcher start success
+2020-04-07 16:36:12,338 INFO 8180 [egg:core] dump config after ready, 21ms
+2020-04-07 16:47:20,818 INFO 8999 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 16:47:20,882 INFO 8999 [egg-multipart] stream mode enable
+2020-04-07 16:47:22,298 INFO 8999 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 16:47:22,615 INFO 8999 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 16:47:22,620 INFO 8999 [egg-security] use csrf middleware
+2020-04-07 16:47:22,623 INFO 8999 [egg-security] use methodnoallow middleware
+2020-04-07 16:47:22,624 INFO 8999 [egg-security] use noopen middleware
+2020-04-07 16:47:22,629 INFO 8999 [egg-security] use nosniff middleware
+2020-04-07 16:47:22,630 INFO 8999 [egg-security] use xssProtection middleware
+2020-04-07 16:47:22,632 INFO 8999 [egg-security] use xframe middleware
+2020-04-07 16:47:22,635 INFO 8999 [egg-security] use dta middleware
+2020-04-07 16:47:22,635 INFO 8999 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 16:47:22,707 INFO 8999 [egg:core] dump config after load, 13ms
+2020-04-07 16:47:22,730 INFO 8999 [egg-mongoose] starting...
+2020-04-07 16:47:22,903 INFO 8999 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 16:47:22,917 INFO 8999 [egg-mongoose] instance[0] start successfully
+2020-04-07 16:47:22,929 INFO 8999 [egg-watcher:application] watcher start success
+2020-04-07 16:47:22,955 INFO 8999 [egg:core] dump config after ready, 17ms
+2020-04-07 16:55:57,601 INFO 9986 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 16:55:57,653 INFO 9986 [egg-multipart] stream mode enable
+2020-04-07 16:55:58,908 INFO 9986 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-07 16:55:59,205 INFO 9986 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-07 16:55:59,209 INFO 9986 [egg-security] use csrf middleware
+2020-04-07 16:55:59,212 INFO 9986 [egg-security] use methodnoallow middleware
+2020-04-07 16:55:59,213 INFO 9986 [egg-security] use noopen middleware
+2020-04-07 16:55:59,216 INFO 9986 [egg-security] use nosniff middleware
+2020-04-07 16:55:59,217 INFO 9986 [egg-security] use xssProtection middleware
+2020-04-07 16:55:59,219 INFO 9986 [egg-security] use xframe middleware
+2020-04-07 16:55:59,221 INFO 9986 [egg-security] use dta middleware
+2020-04-07 16:55:59,222 INFO 9986 [egg-security] compose 7 middlewares into one security middleware
+2020-04-07 16:55:59,316 INFO 9986 [egg:core] dump config after load, 9ms
+2020-04-07 16:55:59,325 INFO 9986 [egg-mongoose] starting...
+2020-04-07 16:55:59,459 INFO 9986 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-07 16:55:59,473 INFO 9986 [egg-mongoose] instance[0] start successfully
+2020-04-07 16:55:59,485 INFO 9986 [egg-watcher:application] watcher start success
+2020-04-07 16:55:59,515 INFO 9986 [egg:core] dump config after ready, 16ms
+2020-04-08 11:49:52,612 INFO 2188 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 11:49:52,689 INFO 2188 [egg-multipart] stream mode enable
+2020-04-08 11:49:54,706 INFO 2188 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 11:49:55,065 INFO 2188 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 11:49:55,069 INFO 2188 [egg-security] use csrf middleware
+2020-04-08 11:49:55,074 INFO 2188 [egg-security] use methodnoallow middleware
+2020-04-08 11:49:55,075 INFO 2188 [egg-security] use noopen middleware
+2020-04-08 11:49:55,078 INFO 2188 [egg-security] use nosniff middleware
+2020-04-08 11:49:55,081 INFO 2188 [egg-security] use xssProtection middleware
+2020-04-08 11:49:55,084 INFO 2188 [egg-security] use xframe middleware
+2020-04-08 11:49:55,087 INFO 2188 [egg-security] use dta middleware
+2020-04-08 11:49:55,087 INFO 2188 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 11:49:55,191 INFO 2188 [egg:core] dump config after load, 10ms
+2020-04-08 11:49:55,230 INFO 2188 [egg-mongoose] starting...
+2020-04-08 11:49:55,340 INFO 2188 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 11:49:55,355 INFO 2188 [egg-mongoose] instance[0] start successfully
+2020-04-08 11:49:55,365 INFO 2188 [egg-watcher:application] watcher start success
+2020-04-08 11:49:55,398 INFO 2188 [egg:core] dump config after ready, 7ms
+2020-04-08 11:53:26,184 ERROR 2188 nodejs.TypeError: Cannot read property 'updateAccessToken' of undefined
+    at OauthController.getUerInfo (/Volumes/Work/ylz/healthCollection/app/controller/oauth.js:42:41)
+    at OauthController.getAccessToken (/Volumes/Work/ylz/healthCollection/app/controller/oauth.js:32:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2188
+hostname: bogon
+
+2020-04-08 11:58:18,685 INFO 3070 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 11:58:18,751 INFO 3070 [egg-multipart] stream mode enable
+2020-04-08 11:58:20,085 INFO 3070 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 11:58:20,461 INFO 3070 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 11:58:20,465 INFO 3070 [egg-security] use csrf middleware
+2020-04-08 11:58:20,473 INFO 3070 [egg-security] use methodnoallow middleware
+2020-04-08 11:58:20,475 INFO 3070 [egg-security] use noopen middleware
+2020-04-08 11:58:20,479 INFO 3070 [egg-security] use nosniff middleware
+2020-04-08 11:58:20,482 INFO 3070 [egg-security] use xssProtection middleware
+2020-04-08 11:58:20,483 INFO 3070 [egg-security] use xframe middleware
+2020-04-08 11:58:20,488 INFO 3070 [egg-security] use dta middleware
+2020-04-08 11:58:20,488 INFO 3070 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 11:58:20,579 INFO 3070 [egg:core] dump config after load, 14ms
+2020-04-08 11:58:20,595 INFO 3070 [egg-mongoose] starting...
+2020-04-08 11:58:20,749 INFO 3070 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 11:58:20,762 INFO 3070 [egg-mongoose] instance[0] start successfully
+2020-04-08 11:58:20,771 INFO 3070 [egg-watcher:application] watcher start success
+2020-04-08 11:58:20,782 INFO 3070 [egg:core] dump config after ready, 9ms
+2020-04-08 12:02:05,116 ERROR 3070 nodejs.ServerNoResponseError: server 127.0.0.1:52704 no response in 22426ms, maybe the socket is end on the other side. (address: 127.0.0.1:52704)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (/Volumes/Work/ylz/healthCollection/node_modules/tcp-base/lib/base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 3070
+hostname: bogon
+
+2020-04-08 12:02:05,119 WARN 3070 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-08 12:02:15,838 INFO 3418 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 12:02:15,914 INFO 3418 [egg-multipart] stream mode enable
+2020-04-08 12:02:17,512 INFO 3418 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 12:02:17,906 INFO 3418 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 12:02:17,914 INFO 3418 [egg-security] use csrf middleware
+2020-04-08 12:02:17,920 INFO 3418 [egg-security] use methodnoallow middleware
+2020-04-08 12:02:17,924 INFO 3418 [egg-security] use noopen middleware
+2020-04-08 12:02:17,926 INFO 3418 [egg-security] use nosniff middleware
+2020-04-08 12:02:17,931 INFO 3418 [egg-security] use xssProtection middleware
+2020-04-08 12:02:17,936 INFO 3418 [egg-security] use xframe middleware
+2020-04-08 12:02:17,938 INFO 3418 [egg-security] use dta middleware
+2020-04-08 12:02:17,938 INFO 3418 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 12:02:18,126 INFO 3418 [egg:core] dump config after load, 7ms
+2020-04-08 12:02:18,148 INFO 3418 [egg-mongoose] starting...
+2020-04-08 12:02:18,241 INFO 3418 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 12:02:18,254 INFO 3418 [egg-mongoose] instance[0] start successfully
+2020-04-08 12:02:18,263 INFO 3418 [egg-watcher:application] watcher start success
+2020-04-08 12:02:18,285 INFO 3418 [egg:core] dump config after ready, 13ms
+2020-04-08 12:02:41,793 INFO 3487 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 12:02:41,851 INFO 3487 [egg-multipart] stream mode enable
+2020-04-08 12:02:43,055 INFO 3487 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 12:02:43,324 INFO 3487 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 12:02:43,327 INFO 3487 [egg-security] use csrf middleware
+2020-04-08 12:02:43,330 INFO 3487 [egg-security] use methodnoallow middleware
+2020-04-08 12:02:43,331 INFO 3487 [egg-security] use noopen middleware
+2020-04-08 12:02:43,340 INFO 3487 [egg-security] use nosniff middleware
+2020-04-08 12:02:43,342 INFO 3487 [egg-security] use xssProtection middleware
+2020-04-08 12:02:43,344 INFO 3487 [egg-security] use xframe middleware
+2020-04-08 12:02:43,348 INFO 3487 [egg-security] use dta middleware
+2020-04-08 12:02:43,348 INFO 3487 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 12:02:43,379 INFO 3487 [egg:core] dump config after load, 7ms
+2020-04-08 12:02:43,387 INFO 3487 [egg-mongoose] starting...
+2020-04-08 12:02:43,497 INFO 3487 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 12:02:43,510 INFO 3487 [egg-mongoose] instance[0] start successfully
+2020-04-08 12:02:43,523 INFO 3487 [egg-watcher:application] watcher start success
+2020-04-08 12:02:43,537 INFO 3487 [egg:core] dump config after ready, 12ms
+2020-04-08 12:07:15,075 INFO 3893 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 12:07:15,179 INFO 3893 [egg-multipart] stream mode enable
+2020-04-08 12:07:16,508 INFO 3893 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 12:07:16,773 INFO 3893 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 12:07:16,776 INFO 3893 [egg-security] use csrf middleware
+2020-04-08 12:07:16,784 INFO 3893 [egg-security] use methodnoallow middleware
+2020-04-08 12:07:16,785 INFO 3893 [egg-security] use noopen middleware
+2020-04-08 12:07:16,788 INFO 3893 [egg-security] use nosniff middleware
+2020-04-08 12:07:16,789 INFO 3893 [egg-security] use xssProtection middleware
+2020-04-08 12:07:16,791 INFO 3893 [egg-security] use xframe middleware
+2020-04-08 12:07:16,793 INFO 3893 [egg-security] use dta middleware
+2020-04-08 12:07:16,793 INFO 3893 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 12:07:16,820 INFO 3893 [egg:core] dump config after load, 6ms
+2020-04-08 12:07:16,828 INFO 3893 [egg-mongoose] starting...
+2020-04-08 12:07:16,927 INFO 3893 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 12:07:16,943 INFO 3893 [egg-mongoose] instance[0] start successfully
+2020-04-08 12:07:16,951 INFO 3893 [egg-watcher:application] watcher start success
+2020-04-08 12:07:16,977 INFO 3893 [egg:core] dump config after ready, 21ms
+2020-04-08 12:09:02,340 INFO 4056 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 12:09:02,400 INFO 4056 [egg-multipart] stream mode enable
+2020-04-08 12:09:03,573 INFO 4056 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 12:09:03,795 INFO 4056 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 12:09:03,799 INFO 4056 [egg-security] use csrf middleware
+2020-04-08 12:09:03,800 INFO 4056 [egg-security] use methodnoallow middleware
+2020-04-08 12:09:03,802 INFO 4056 [egg-security] use noopen middleware
+2020-04-08 12:09:03,804 INFO 4056 [egg-security] use nosniff middleware
+2020-04-08 12:09:03,806 INFO 4056 [egg-security] use xssProtection middleware
+2020-04-08 12:09:03,808 INFO 4056 [egg-security] use xframe middleware
+2020-04-08 12:09:03,810 INFO 4056 [egg-security] use dta middleware
+2020-04-08 12:09:03,810 INFO 4056 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 12:09:03,870 INFO 4056 [egg:core] dump config after load, 5ms
+2020-04-08 12:09:03,884 INFO 4056 [egg-mongoose] starting...
+2020-04-08 12:09:03,997 INFO 4056 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 12:09:04,010 INFO 4056 [egg-mongoose] instance[0] start successfully
+2020-04-08 12:09:04,020 INFO 4056 [egg-watcher:application] watcher start success
+2020-04-08 12:09:04,047 INFO 4056 [egg:core] dump config after ready, 24ms
+2020-04-08 12:42:38,468 WARN 4056 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-08 12:42:38,485 WARN 4056 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-08 12:49:47,995 INFO 7850 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 12:49:48,264 INFO 7850 [egg-multipart] stream mode enable
+2020-04-08 12:49:50,563 INFO 7850 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 12:49:51,059 INFO 7850 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 12:49:51,067 INFO 7850 [egg-security] use csrf middleware
+2020-04-08 12:49:51,070 INFO 7850 [egg-security] use methodnoallow middleware
+2020-04-08 12:49:51,074 INFO 7850 [egg-security] use noopen middleware
+2020-04-08 12:49:51,078 INFO 7850 [egg-security] use nosniff middleware
+2020-04-08 12:49:51,082 INFO 7850 [egg-security] use xssProtection middleware
+2020-04-08 12:49:51,086 INFO 7850 [egg-security] use xframe middleware
+2020-04-08 12:49:51,089 INFO 7850 [egg-security] use dta middleware
+2020-04-08 12:49:51,089 INFO 7850 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 12:49:51,264 INFO 7850 [egg:core] dump config after load, 11ms
+2020-04-08 12:49:51,279 INFO 7850 [egg-mongoose] starting...
+2020-04-08 12:49:51,440 INFO 7850 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 12:49:51,473 INFO 7850 [egg-mongoose] instance[0] start successfully
+2020-04-08 12:49:51,486 INFO 7850 [egg-watcher:application] watcher start success
+2020-04-08 12:49:51,500 INFO 7850 [egg:core] dump config after ready, 10ms
+2020-04-08 13:02:42,378 INFO 8674 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:02:42,434 INFO 8674 [egg-multipart] stream mode enable
+2020-04-08 13:02:43,737 INFO 8674 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:02:43,963 INFO 8674 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:02:43,967 INFO 8674 [egg-security] use csrf middleware
+2020-04-08 13:02:43,970 INFO 8674 [egg-security] use methodnoallow middleware
+2020-04-08 13:02:43,973 INFO 8674 [egg-security] use noopen middleware
+2020-04-08 13:02:43,976 INFO 8674 [egg-security] use nosniff middleware
+2020-04-08 13:02:43,979 INFO 8674 [egg-security] use xssProtection middleware
+2020-04-08 13:02:43,981 INFO 8674 [egg-security] use xframe middleware
+2020-04-08 13:02:43,984 INFO 8674 [egg-security] use dta middleware
+2020-04-08 13:02:43,984 INFO 8674 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:02:44,090 INFO 8674 [egg:core] dump config after load, 11ms
+2020-04-08 13:02:44,102 INFO 8674 [egg-mongoose] starting...
+2020-04-08 13:02:44,217 INFO 8674 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:02:44,232 INFO 8674 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:02:44,247 INFO 8674 [egg-watcher:application] watcher start success
+2020-04-08 13:02:44,263 INFO 8674 [egg:core] dump config after ready, 12ms
+2020-04-08 13:05:16,828 INFO 8914 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:05:17,087 INFO 8914 [egg-multipart] stream mode enable
+2020-04-08 13:05:18,686 INFO 8914 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:05:18,946 INFO 8914 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:05:18,949 INFO 8914 [egg-security] use csrf middleware
+2020-04-08 13:05:18,952 INFO 8914 [egg-security] use methodnoallow middleware
+2020-04-08 13:05:18,954 INFO 8914 [egg-security] use noopen middleware
+2020-04-08 13:05:18,956 INFO 8914 [egg-security] use nosniff middleware
+2020-04-08 13:05:18,958 INFO 8914 [egg-security] use xssProtection middleware
+2020-04-08 13:05:18,961 INFO 8914 [egg-security] use xframe middleware
+2020-04-08 13:05:18,963 INFO 8914 [egg-security] use dta middleware
+2020-04-08 13:05:18,963 INFO 8914 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:05:19,085 INFO 8914 [egg:core] dump config after load, 11ms
+2020-04-08 13:05:19,094 INFO 8914 [egg-mongoose] starting...
+2020-04-08 13:05:19,203 INFO 8914 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:05:19,215 INFO 8914 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:05:19,305 INFO 8914 [egg-watcher:application] watcher start success
+2020-04-08 13:05:19,329 INFO 8914 [egg:core] dump config after ready, 17ms
+2020-04-08 13:08:48,224 INFO 9199 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:08:48,398 INFO 9199 [egg-multipart] stream mode enable
+2020-04-08 13:08:50,149 INFO 9199 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:08:50,469 INFO 9199 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:08:50,473 INFO 9199 [egg-security] use csrf middleware
+2020-04-08 13:08:50,475 INFO 9199 [egg-security] use methodnoallow middleware
+2020-04-08 13:08:50,477 INFO 9199 [egg-security] use noopen middleware
+2020-04-08 13:08:50,479 INFO 9199 [egg-security] use nosniff middleware
+2020-04-08 13:08:50,480 INFO 9199 [egg-security] use xssProtection middleware
+2020-04-08 13:08:50,482 INFO 9199 [egg-security] use xframe middleware
+2020-04-08 13:08:50,484 INFO 9199 [egg-security] use dta middleware
+2020-04-08 13:08:50,484 INFO 9199 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:08:50,581 INFO 9199 [egg:core] dump config after load, 16ms
+2020-04-08 13:08:50,591 INFO 9199 [egg-mongoose] starting...
+2020-04-08 13:08:50,714 INFO 9199 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:08:50,726 INFO 9199 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:08:50,737 INFO 9199 [egg-watcher:application] watcher start success
+2020-04-08 13:08:50,759 INFO 9199 [egg:core] dump config after ready, 17ms
+2020-04-08 13:13:28,878 INFO 9616 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:13:28,937 INFO 9616 [egg-multipart] stream mode enable
+2020-04-08 13:13:30,605 INFO 9616 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:13:30,857 INFO 9616 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:13:30,860 INFO 9616 [egg-security] use csrf middleware
+2020-04-08 13:13:30,862 INFO 9616 [egg-security] use methodnoallow middleware
+2020-04-08 13:13:30,864 INFO 9616 [egg-security] use noopen middleware
+2020-04-08 13:13:30,866 INFO 9616 [egg-security] use nosniff middleware
+2020-04-08 13:13:30,869 INFO 9616 [egg-security] use xssProtection middleware
+2020-04-08 13:13:30,871 INFO 9616 [egg-security] use xframe middleware
+2020-04-08 13:13:30,873 INFO 9616 [egg-security] use dta middleware
+2020-04-08 13:13:30,873 INFO 9616 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:13:30,954 INFO 9616 [egg:core] dump config after load, 21ms
+2020-04-08 13:13:30,961 INFO 9616 [egg-mongoose] starting...
+2020-04-08 13:13:31,078 INFO 9616 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:13:31,090 INFO 9616 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:13:31,098 INFO 9616 [egg-watcher:application] watcher start success
+2020-04-08 13:13:31,137 INFO 9616 [egg:core] dump config after ready, 33ms
+2020-04-08 13:14:26,107 INFO 9758 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:14:26,161 INFO 9758 [egg-multipart] stream mode enable
+2020-04-08 13:14:27,453 INFO 9758 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:14:27,737 INFO 9758 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:14:27,741 INFO 9758 [egg-security] use csrf middleware
+2020-04-08 13:14:27,743 INFO 9758 [egg-security] use methodnoallow middleware
+2020-04-08 13:14:27,746 INFO 9758 [egg-security] use noopen middleware
+2020-04-08 13:14:27,748 INFO 9758 [egg-security] use nosniff middleware
+2020-04-08 13:14:27,751 INFO 9758 [egg-security] use xssProtection middleware
+2020-04-08 13:14:27,753 INFO 9758 [egg-security] use xframe middleware
+2020-04-08 13:14:27,755 INFO 9758 [egg-security] use dta middleware
+2020-04-08 13:14:27,755 INFO 9758 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:14:27,828 INFO 9758 [egg:core] dump config after load, 13ms
+2020-04-08 13:14:27,842 INFO 9758 [egg-mongoose] starting...
+2020-04-08 13:14:27,990 INFO 9758 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:14:28,004 INFO 9758 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:14:28,012 INFO 9758 [egg-watcher:application] watcher start success
+2020-04-08 13:14:28,033 INFO 9758 [egg:core] dump config after ready, 18ms
+2020-04-08 13:17:13,621 INFO 9986 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:17:13,787 INFO 9986 [egg-multipart] stream mode enable
+2020-04-08 13:17:18,813 INFO 9986 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:17:19,779 INFO 9986 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:17:19,785 INFO 9986 [egg-security] use csrf middleware
+2020-04-08 13:17:19,791 INFO 9986 [egg-security] use methodnoallow middleware
+2020-04-08 13:17:19,794 INFO 9986 [egg-security] use noopen middleware
+2020-04-08 13:17:19,800 INFO 9986 [egg-security] use nosniff middleware
+2020-04-08 13:17:19,806 INFO 9986 [egg-security] use xssProtection middleware
+2020-04-08 13:17:19,810 INFO 9986 [egg-security] use xframe middleware
+2020-04-08 13:17:19,812 INFO 9986 [egg-security] use dta middleware
+2020-04-08 13:17:19,812 INFO 9986 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:17:20,059 INFO 9986 [egg:core] dump config after load, 17ms
+2020-04-08 13:17:20,147 INFO 9986 [egg-mongoose] starting...
+2020-04-08 13:17:20,408 INFO 9986 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:17:20,438 INFO 9986 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:17:20,475 INFO 9986 [egg-watcher:application] watcher start success
+2020-04-08 13:17:20,509 INFO 9986 [egg:core] dump config after ready, 17ms
+2020-04-08 13:24:09,263 INFO 10608 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:24:09,322 INFO 10608 [egg-multipart] stream mode enable
+2020-04-08 13:24:11,887 INFO 10608 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:24:12,410 INFO 10608 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:24:12,415 INFO 10608 [egg-security] use csrf middleware
+2020-04-08 13:24:12,417 INFO 10608 [egg-security] use methodnoallow middleware
+2020-04-08 13:24:12,421 INFO 10608 [egg-security] use noopen middleware
+2020-04-08 13:24:12,426 INFO 10608 [egg-security] use nosniff middleware
+2020-04-08 13:24:12,435 INFO 10608 [egg-security] use xssProtection middleware
+2020-04-08 13:24:12,438 INFO 10608 [egg-security] use xframe middleware
+2020-04-08 13:24:12,447 INFO 10608 [egg-security] use dta middleware
+2020-04-08 13:24:12,447 INFO 10608 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:24:12,577 INFO 10608 [egg:core] dump config after load, 15ms
+2020-04-08 13:24:12,716 INFO 10608 [egg-mongoose] starting...
+2020-04-08 13:24:12,881 INFO 10608 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:24:12,928 INFO 10608 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:24:12,952 INFO 10608 [egg-watcher:application] watcher start success
+2020-04-08 13:24:12,977 INFO 10608 [egg:core] dump config after ready, 14ms
+2020-04-08 13:25:04,789 INFO 10708 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:25:04,852 INFO 10708 [egg-multipart] stream mode enable
+2020-04-08 13:25:06,268 INFO 10708 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:25:06,561 INFO 10708 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:25:06,564 INFO 10708 [egg-security] use csrf middleware
+2020-04-08 13:25:06,566 INFO 10708 [egg-security] use methodnoallow middleware
+2020-04-08 13:25:06,568 INFO 10708 [egg-security] use noopen middleware
+2020-04-08 13:25:06,570 INFO 10708 [egg-security] use nosniff middleware
+2020-04-08 13:25:06,573 INFO 10708 [egg-security] use xssProtection middleware
+2020-04-08 13:25:06,575 INFO 10708 [egg-security] use xframe middleware
+2020-04-08 13:25:06,577 INFO 10708 [egg-security] use dta middleware
+2020-04-08 13:25:06,577 INFO 10708 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:25:06,643 INFO 10708 [egg:core] dump config after load, 8ms
+2020-04-08 13:25:06,658 INFO 10708 [egg-mongoose] starting...
+2020-04-08 13:25:06,763 INFO 10708 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:25:06,776 INFO 10708 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:25:06,786 INFO 10708 [egg-watcher:application] watcher start success
+2020-04-08 13:25:06,811 INFO 10708 [egg:core] dump config after ready, 22ms
+2020-04-08 13:26:06,194 INFO 10821 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:26:06,326 INFO 10821 [egg-multipart] stream mode enable
+2020-04-08 13:26:08,785 INFO 10821 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:26:09,143 INFO 10821 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:26:09,147 INFO 10821 [egg-security] use csrf middleware
+2020-04-08 13:26:09,151 INFO 10821 [egg-security] use methodnoallow middleware
+2020-04-08 13:26:09,154 INFO 10821 [egg-security] use noopen middleware
+2020-04-08 13:26:09,159 INFO 10821 [egg-security] use nosniff middleware
+2020-04-08 13:26:09,160 INFO 10821 [egg-security] use xssProtection middleware
+2020-04-08 13:26:09,163 INFO 10821 [egg-security] use xframe middleware
+2020-04-08 13:26:09,167 INFO 10821 [egg-security] use dta middleware
+2020-04-08 13:26:09,167 INFO 10821 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:26:09,295 INFO 10821 [egg:core] dump config after load, 50ms
+2020-04-08 13:26:09,352 INFO 10821 [egg-mongoose] starting...
+2020-04-08 13:26:09,579 INFO 10821 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:26:09,631 INFO 10821 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:26:09,681 INFO 10821 [egg-watcher:application] watcher start success
+2020-04-08 13:26:09,697 INFO 10821 [egg:core] dump config after ready, 11ms
+2020-04-08 13:26:53,059 INFO 10936 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:26:53,112 INFO 10936 [egg-multipart] stream mode enable
+2020-04-08 13:26:54,519 INFO 10936 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:26:55,170 INFO 10936 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:26:55,179 INFO 10936 [egg-security] use csrf middleware
+2020-04-08 13:26:55,181 INFO 10936 [egg-security] use methodnoallow middleware
+2020-04-08 13:26:55,183 INFO 10936 [egg-security] use noopen middleware
+2020-04-08 13:26:55,186 INFO 10936 [egg-security] use nosniff middleware
+2020-04-08 13:26:55,188 INFO 10936 [egg-security] use xssProtection middleware
+2020-04-08 13:26:55,190 INFO 10936 [egg-security] use xframe middleware
+2020-04-08 13:26:55,193 INFO 10936 [egg-security] use dta middleware
+2020-04-08 13:26:55,194 INFO 10936 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:26:55,293 INFO 10936 [egg:core] dump config after load, 12ms
+2020-04-08 13:26:55,328 INFO 10936 [egg-mongoose] starting...
+2020-04-08 13:26:55,567 INFO 10936 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:26:55,602 INFO 10936 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:26:55,621 INFO 10936 [egg-watcher:application] watcher start success
+2020-04-08 13:26:55,650 INFO 10936 [egg:core] dump config after ready, 27ms
+2020-04-08 13:27:00,987 INFO 10988 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:27:01,071 INFO 10988 [egg-multipart] stream mode enable
+2020-04-08 13:27:02,236 INFO 10988 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:27:02,503 INFO 10988 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:27:02,506 INFO 10988 [egg-security] use csrf middleware
+2020-04-08 13:27:02,509 INFO 10988 [egg-security] use methodnoallow middleware
+2020-04-08 13:27:02,510 INFO 10988 [egg-security] use noopen middleware
+2020-04-08 13:27:02,512 INFO 10988 [egg-security] use nosniff middleware
+2020-04-08 13:27:02,513 INFO 10988 [egg-security] use xssProtection middleware
+2020-04-08 13:27:02,515 INFO 10988 [egg-security] use xframe middleware
+2020-04-08 13:27:02,516 INFO 10988 [egg-security] use dta middleware
+2020-04-08 13:27:02,516 INFO 10988 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:27:02,599 INFO 10988 [egg:core] dump config after load, 13ms
+2020-04-08 13:27:02,616 INFO 10988 [egg-mongoose] starting...
+2020-04-08 13:27:02,732 INFO 10988 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:27:02,749 INFO 10988 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:27:02,756 INFO 10988 [egg-watcher:application] watcher start success
+2020-04-08 13:27:02,789 INFO 10988 [egg:core] dump config after ready, 22ms
+2020-04-08 13:36:12,409 INFO 11785 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:36:12,462 INFO 11785 [egg-multipart] stream mode enable
+2020-04-08 13:36:13,725 INFO 11785 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:36:13,973 INFO 11785 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:36:13,976 INFO 11785 [egg-security] use csrf middleware
+2020-04-08 13:36:13,979 INFO 11785 [egg-security] use methodnoallow middleware
+2020-04-08 13:36:13,983 INFO 11785 [egg-security] use noopen middleware
+2020-04-08 13:36:13,985 INFO 11785 [egg-security] use nosniff middleware
+2020-04-08 13:36:13,987 INFO 11785 [egg-security] use xssProtection middleware
+2020-04-08 13:36:13,989 INFO 11785 [egg-security] use xframe middleware
+2020-04-08 13:36:13,991 INFO 11785 [egg-security] use dta middleware
+2020-04-08 13:36:13,991 INFO 11785 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:36:14,071 INFO 11785 [egg:core] dump config after load, 11ms
+2020-04-08 13:36:14,090 INFO 11785 [egg-mongoose] starting...
+2020-04-08 13:36:14,205 INFO 11785 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:36:14,218 INFO 11785 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:36:14,228 INFO 11785 [egg-watcher:application] watcher start success
+2020-04-08 13:36:14,251 INFO 11785 [egg:core] dump config after ready, 16ms
+2020-04-08 13:38:01,902 INFO 11964 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:38:01,959 INFO 11964 [egg-multipart] stream mode enable
+2020-04-08 13:38:03,629 INFO 11964 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:38:04,189 INFO 11964 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:38:04,192 INFO 11964 [egg-security] use csrf middleware
+2020-04-08 13:38:04,197 INFO 11964 [egg-security] use methodnoallow middleware
+2020-04-08 13:38:04,199 INFO 11964 [egg-security] use noopen middleware
+2020-04-08 13:38:04,203 INFO 11964 [egg-security] use nosniff middleware
+2020-04-08 13:38:04,207 INFO 11964 [egg-security] use xssProtection middleware
+2020-04-08 13:38:04,208 INFO 11964 [egg-security] use xframe middleware
+2020-04-08 13:38:04,210 INFO 11964 [egg-security] use dta middleware
+2020-04-08 13:38:04,211 INFO 11964 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:38:04,473 INFO 11964 [egg:core] dump config after load, 12ms
+2020-04-08 13:38:04,577 INFO 11964 [egg-mongoose] starting...
+2020-04-08 13:38:04,877 INFO 11964 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:38:04,910 INFO 11964 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:38:04,946 INFO 11964 [egg-watcher:application] watcher start success
+2020-04-08 13:38:04,990 INFO 11964 [egg:core] dump config after ready, 34ms
+2020-04-08 13:45:17,839 INFO 12538 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:45:18,060 INFO 12538 [egg-multipart] stream mode enable
+2020-04-08 13:45:20,177 INFO 12538 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:45:20,784 INFO 12538 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:45:20,795 INFO 12538 [egg-security] use csrf middleware
+2020-04-08 13:45:20,800 INFO 12538 [egg-security] use methodnoallow middleware
+2020-04-08 13:45:20,803 INFO 12538 [egg-security] use noopen middleware
+2020-04-08 13:45:20,807 INFO 12538 [egg-security] use nosniff middleware
+2020-04-08 13:45:20,810 INFO 12538 [egg-security] use xssProtection middleware
+2020-04-08 13:45:20,813 INFO 12538 [egg-security] use xframe middleware
+2020-04-08 13:45:20,817 INFO 12538 [egg-security] use dta middleware
+2020-04-08 13:45:20,817 INFO 12538 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:45:21,000 INFO 12538 [egg:core] dump config after load, 14ms
+2020-04-08 13:45:21,012 INFO 12538 [egg-mongoose] starting...
+2020-04-08 13:45:21,375 INFO 12538 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:45:21,411 INFO 12538 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:45:21,429 INFO 12538 [egg-watcher:application] watcher start success
+2020-04-08 13:45:21,451 INFO 12538 [egg:core] dump config after ready, 17ms
+2020-04-08 13:46:08,287 INFO 12662 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:46:08,348 INFO 12662 [egg-multipart] stream mode enable
+2020-04-08 13:46:09,819 INFO 12662 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:46:10,086 INFO 12662 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:46:10,090 INFO 12662 [egg-security] use csrf middleware
+2020-04-08 13:46:10,092 INFO 12662 [egg-security] use methodnoallow middleware
+2020-04-08 13:46:10,094 INFO 12662 [egg-security] use noopen middleware
+2020-04-08 13:46:10,098 INFO 12662 [egg-security] use nosniff middleware
+2020-04-08 13:46:10,100 INFO 12662 [egg-security] use xssProtection middleware
+2020-04-08 13:46:10,101 INFO 12662 [egg-security] use xframe middleware
+2020-04-08 13:46:10,103 INFO 12662 [egg-security] use dta middleware
+2020-04-08 13:46:10,103 INFO 12662 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:46:10,208 INFO 12662 [egg:core] dump config after load, 11ms
+2020-04-08 13:46:10,220 INFO 12662 [egg-mongoose] starting...
+2020-04-08 13:46:10,335 INFO 12662 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:46:10,352 INFO 12662 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:46:10,367 INFO 12662 [egg-watcher:application] watcher start success
+2020-04-08 13:46:10,386 INFO 12662 [egg:core] dump config after ready, 16ms
+2020-04-08 13:46:30,695 INFO 12714 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:46:30,759 INFO 12714 [egg-multipart] stream mode enable
+2020-04-08 13:46:33,100 INFO 12714 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:46:33,666 INFO 12714 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:46:33,670 INFO 12714 [egg-security] use csrf middleware
+2020-04-08 13:46:33,673 INFO 12714 [egg-security] use methodnoallow middleware
+2020-04-08 13:46:33,680 INFO 12714 [egg-security] use noopen middleware
+2020-04-08 13:46:33,684 INFO 12714 [egg-security] use nosniff middleware
+2020-04-08 13:46:33,687 INFO 12714 [egg-security] use xssProtection middleware
+2020-04-08 13:46:33,693 INFO 12714 [egg-security] use xframe middleware
+2020-04-08 13:46:33,698 INFO 12714 [egg-security] use dta middleware
+2020-04-08 13:46:33,698 INFO 12714 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:46:33,785 INFO 12714 [egg:core] dump config after load, 16ms
+2020-04-08 13:46:33,815 INFO 12714 [egg-mongoose] starting...
+2020-04-08 13:46:33,998 INFO 12714 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:46:34,027 INFO 12714 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:46:34,032 INFO 12714 [egg-watcher:application] watcher start success
+2020-04-08 13:46:34,056 INFO 12714 [egg:core] dump config after ready, 13ms
+2020-04-08 13:48:46,522 INFO 12912 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 13:48:46,579 INFO 12912 [egg-multipart] stream mode enable
+2020-04-08 13:48:47,890 INFO 12912 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 13:48:48,172 INFO 12912 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 13:48:48,175 INFO 12912 [egg-security] use csrf middleware
+2020-04-08 13:48:48,178 INFO 12912 [egg-security] use methodnoallow middleware
+2020-04-08 13:48:48,180 INFO 12912 [egg-security] use noopen middleware
+2020-04-08 13:48:48,182 INFO 12912 [egg-security] use nosniff middleware
+2020-04-08 13:48:48,184 INFO 12912 [egg-security] use xssProtection middleware
+2020-04-08 13:48:48,187 INFO 12912 [egg-security] use xframe middleware
+2020-04-08 13:48:48,188 INFO 12912 [egg-security] use dta middleware
+2020-04-08 13:48:48,189 INFO 12912 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 13:48:48,300 INFO 12912 [egg:core] dump config after load, 9ms
+2020-04-08 13:48:48,315 INFO 12912 [egg-mongoose] starting...
+2020-04-08 13:48:48,432 INFO 12912 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 13:48:48,449 INFO 12912 [egg-mongoose] instance[0] start successfully
+2020-04-08 13:48:48,469 INFO 12912 [egg-watcher:application] watcher start success
+2020-04-08 13:48:48,485 INFO 12912 [egg:core] dump config after ready, 11ms
+2020-04-08 14:04:23,144 INFO 14174 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 14:04:23,228 INFO 14174 [egg-multipart] stream mode enable
+2020-04-08 14:04:24,736 INFO 14174 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 14:04:25,072 INFO 14174 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 14:04:25,076 INFO 14174 [egg-security] use csrf middleware
+2020-04-08 14:04:25,080 INFO 14174 [egg-security] use methodnoallow middleware
+2020-04-08 14:04:25,082 INFO 14174 [egg-security] use noopen middleware
+2020-04-08 14:04:25,084 INFO 14174 [egg-security] use nosniff middleware
+2020-04-08 14:04:25,087 INFO 14174 [egg-security] use xssProtection middleware
+2020-04-08 14:04:25,089 INFO 14174 [egg-security] use xframe middleware
+2020-04-08 14:04:25,091 INFO 14174 [egg-security] use dta middleware
+2020-04-08 14:04:25,091 INFO 14174 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 14:04:25,220 INFO 14174 [egg:core] dump config after load, 12ms
+2020-04-08 14:04:25,228 INFO 14174 [egg-mongoose] starting...
+2020-04-08 14:04:25,414 INFO 14174 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 14:04:25,427 INFO 14174 [egg-mongoose] instance[0] start successfully
+2020-04-08 14:04:25,441 INFO 14174 [egg-watcher:application] watcher start success
+2020-04-08 14:04:25,460 INFO 14174 [egg:core] dump config after ready, 10ms
+2020-04-08 14:05:53,640 INFO 14324 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 14:05:53,790 INFO 14324 [egg-multipart] stream mode enable
+2020-04-08 14:05:56,301 INFO 14324 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 14:05:56,770 INFO 14324 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 14:05:56,774 INFO 14324 [egg-security] use csrf middleware
+2020-04-08 14:05:56,777 INFO 14324 [egg-security] use methodnoallow middleware
+2020-04-08 14:05:56,779 INFO 14324 [egg-security] use noopen middleware
+2020-04-08 14:05:56,784 INFO 14324 [egg-security] use nosniff middleware
+2020-04-08 14:05:56,786 INFO 14324 [egg-security] use xssProtection middleware
+2020-04-08 14:05:56,790 INFO 14324 [egg-security] use xframe middleware
+2020-04-08 14:05:56,792 INFO 14324 [egg-security] use dta middleware
+2020-04-08 14:05:56,792 INFO 14324 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 14:05:56,913 INFO 14324 [egg:core] dump config after load, 11ms
+2020-04-08 14:05:56,926 INFO 14324 [egg-mongoose] starting...
+2020-04-08 14:05:57,091 INFO 14324 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 14:05:57,177 INFO 14324 [egg-mongoose] instance[0] start successfully
+2020-04-08 14:05:57,247 INFO 14324 [egg-watcher:application] watcher start success
+2020-04-08 14:05:57,267 INFO 14324 [egg:core] dump config after ready, 15ms
+2020-04-08 14:17:25,168 WARN 14174 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-08 14:17:25,177 ERROR 14174 nodejs.Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected (uncaughtException throw 1 times on pid:14174)
+    at process.target.disconnect (internal/child_process.js:788:26)
+    at Server.checkWaitingCount (internal/cluster/child.js:203:17)
+    at Object.onceWrapper (events.js:286:20)
+    at Server.emit (events.js:198:13)
+    at emitCloseNT (net.js:1618:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+pid: 14174
+hostname: bogon
+
+2020-04-08 14:17:25,234 ERROR 14174 nodejs.Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed (uncaughtException throw 2 times on pid:14174)
+    at process.target.send (internal/child_process.js:636:16)
+    at Worker.send (internal/cluster/worker.js:40:28)
+    at process.<anonymous> (/Volumes/Work/ylz/healthCollection/node_modules/graceful/index.js:100:16)
+    at process.emit (events.js:198:13)
+    at process._fatalException (internal/bootstrap/node.js:496:27)
+
+pid: 14174
+hostname: bogon
+
+2020-04-08 14:17:48,926 INFO 14871 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 14:17:48,990 INFO 14871 [egg-multipart] stream mode enable
+2020-04-08 14:17:50,537 INFO 14871 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 14:17:50,816 INFO 14871 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 14:17:50,819 INFO 14871 [egg-security] use csrf middleware
+2020-04-08 14:17:50,822 INFO 14871 [egg-security] use methodnoallow middleware
+2020-04-08 14:17:50,824 INFO 14871 [egg-security] use noopen middleware
+2020-04-08 14:17:50,826 INFO 14871 [egg-security] use nosniff middleware
+2020-04-08 14:17:50,829 INFO 14871 [egg-security] use xssProtection middleware
+2020-04-08 14:17:50,831 INFO 14871 [egg-security] use xframe middleware
+2020-04-08 14:17:50,833 INFO 14871 [egg-security] use dta middleware
+2020-04-08 14:17:50,833 INFO 14871 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 14:17:50,933 INFO 14871 [egg:core] dump config after load, 10ms
+2020-04-08 14:17:50,944 INFO 14871 [egg-mongoose] starting...
+2020-04-08 14:17:51,066 INFO 14871 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 14:17:51,080 INFO 14871 [egg-mongoose] instance[0] start successfully
+2020-04-08 14:17:51,087 INFO 14871 [egg-watcher:application] watcher start success
+2020-04-08 14:17:51,130 INFO 14871 [egg:core] dump config after ready, 40ms
+2020-04-08 14:43:38,278 WARN 14871 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-08 14:43:38,284 WARN 14871 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-08 14:56:02,952 INFO 17959 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 14:56:03,447 INFO 17959 [egg-multipart] stream mode enable
+2020-04-08 14:56:05,124 INFO 17959 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 14:56:05,436 INFO 17959 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 14:56:05,441 INFO 17959 [egg-security] use csrf middleware
+2020-04-08 14:56:05,446 INFO 17959 [egg-security] use methodnoallow middleware
+2020-04-08 14:56:05,449 INFO 17959 [egg-security] use noopen middleware
+2020-04-08 14:56:05,452 INFO 17959 [egg-security] use nosniff middleware
+2020-04-08 14:56:05,454 INFO 17959 [egg-security] use xssProtection middleware
+2020-04-08 14:56:05,457 INFO 17959 [egg-security] use xframe middleware
+2020-04-08 14:56:05,463 INFO 17959 [egg-security] use dta middleware
+2020-04-08 14:56:05,463 INFO 17959 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 14:56:05,606 INFO 17959 [egg:core] dump config after load, 8ms
+2020-04-08 14:56:05,624 INFO 17959 [egg-mongoose] starting...
+2020-04-08 14:56:05,747 INFO 17959 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 14:56:05,764 INFO 17959 [egg-mongoose] instance[0] start successfully
+2020-04-08 14:56:05,782 INFO 17959 [egg-watcher:application] watcher start success
+2020-04-08 14:56:05,799 INFO 17959 [egg:core] dump config after ready, 12ms
+2020-04-08 14:56:16,038 WARN 14871 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-08 14:56:16,048 ERROR 14871 nodejs.Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected (uncaughtException throw 1 times on pid:14871)
+    at process.target.disconnect (internal/child_process.js:788:26)
+    at Server.checkWaitingCount (internal/cluster/child.js:203:17)
+    at Object.onceWrapper (events.js:286:20)
+    at Server.emit (events.js:198:13)
+    at emitCloseNT (net.js:1618:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+pid: 14871
+hostname: bogon
+
+2020-04-08 14:56:16,108 ERROR 14871 nodejs.Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed (uncaughtException throw 2 times on pid:14871)
+    at process.target.send (internal/child_process.js:636:16)
+    at Worker.send (internal/cluster/worker.js:40:28)
+    at process.<anonymous> (/Volumes/Work/ylz/healthCollection/node_modules/graceful/index.js:100:16)
+    at process.emit (events.js:198:13)
+    at process._fatalException (internal/bootstrap/node.js:496:27)
+
+pid: 14871
+hostname: bogon
+
+2020-04-08 14:58:14,008 INFO 18261 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 14:58:14,063 INFO 18261 [egg-multipart] stream mode enable
+2020-04-08 14:58:15,470 INFO 18261 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-08 14:58:15,779 INFO 18261 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-08 14:58:15,783 INFO 18261 [egg-security] use csrf middleware
+2020-04-08 14:58:15,786 INFO 18261 [egg-security] use methodnoallow middleware
+2020-04-08 14:58:15,788 INFO 18261 [egg-security] use noopen middleware
+2020-04-08 14:58:15,796 INFO 18261 [egg-security] use nosniff middleware
+2020-04-08 14:58:15,797 INFO 18261 [egg-security] use xssProtection middleware
+2020-04-08 14:58:15,799 INFO 18261 [egg-security] use xframe middleware
+2020-04-08 14:58:15,802 INFO 18261 [egg-security] use dta middleware
+2020-04-08 14:58:15,802 INFO 18261 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 14:58:15,867 INFO 18261 [egg:core] dump config after load, 24ms
+2020-04-08 14:58:15,876 INFO 18261 [egg-mongoose] starting...
+2020-04-08 14:58:16,011 INFO 18261 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-08 14:58:16,027 INFO 18261 [egg-mongoose] instance[0] start successfully
+2020-04-08 14:58:16,039 INFO 18261 [egg-watcher:application] watcher start success
+2020-04-08 14:58:16,071 INFO 18261 [egg:core] dump config after ready, 25ms
+2020-04-12 21:25:02,801 INFO 44320 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 21:25:02,911 INFO 44320 [egg-multipart] stream mode enable
+2020-04-12 21:25:04,714 INFO 44320 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-12 21:25:05,260 INFO 44320 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-12 21:25:05,277 INFO 44320 [egg-security] use csrf middleware
+2020-04-12 21:25:05,288 INFO 44320 [egg-security] use methodnoallow middleware
+2020-04-12 21:25:05,292 INFO 44320 [egg-security] use noopen middleware
+2020-04-12 21:25:05,298 INFO 44320 [egg-security] use nosniff middleware
+2020-04-12 21:25:05,300 INFO 44320 [egg-security] use xssProtection middleware
+2020-04-12 21:25:05,303 INFO 44320 [egg-security] use xframe middleware
+2020-04-12 21:25:05,316 INFO 44320 [egg-security] use dta middleware
+2020-04-12 21:25:05,316 INFO 44320 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 21:25:05,423 INFO 44320 [egg:core] dump config after load, 26ms
+2020-04-12 21:25:05,512 INFO 44320 [egg-mongoose] starting...
+2020-04-12 21:25:05,685 INFO 44320 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-12 21:25:05,714 INFO 44320 [egg-mongoose] instance[0] start successfully
+2020-04-12 21:25:05,726 INFO 44320 [egg-watcher:application] watcher start success
+2020-04-12 21:25:05,750 INFO 44320 [egg:core] dump config after ready, 18ms
+2020-04-12 21:43:20,234 INFO 46105 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 21:43:20,285 INFO 46105 [egg-multipart] stream mode enable
+2020-04-12 21:43:21,765 INFO 46105 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-12 21:43:22,041 INFO 46105 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-12 21:43:22,045 INFO 46105 [egg-security] use csrf middleware
+2020-04-12 21:43:22,047 INFO 46105 [egg-security] use methodnoallow middleware
+2020-04-12 21:43:22,049 INFO 46105 [egg-security] use noopen middleware
+2020-04-12 21:43:22,051 INFO 46105 [egg-security] use nosniff middleware
+2020-04-12 21:43:22,053 INFO 46105 [egg-security] use xssProtection middleware
+2020-04-12 21:43:22,055 INFO 46105 [egg-security] use xframe middleware
+2020-04-12 21:43:22,057 INFO 46105 [egg-security] use dta middleware
+2020-04-12 21:43:22,057 INFO 46105 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 21:43:22,093 INFO 46105 [egg:core] dump config after load, 6ms
+2020-04-12 21:43:22,122 INFO 46105 [egg-mongoose] starting...
+2020-04-12 21:43:22,232 INFO 46105 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-12 21:43:22,247 INFO 46105 [egg-mongoose] instance[0] start successfully
+2020-04-12 21:43:22,257 INFO 46105 [egg-watcher:application] watcher start success
+2020-04-12 21:43:22,268 INFO 46105 [egg:core] dump config after ready, 7ms
+2020-04-12 21:54:46,696 INFO 47023 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 21:54:46,849 INFO 47023 [egg-multipart] stream mode enable
+2020-04-12 21:54:48,320 INFO 47023 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-12 21:54:48,681 INFO 47023 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-12 21:54:48,684 INFO 47023 [egg-security] use csrf middleware
+2020-04-12 21:54:48,687 INFO 47023 [egg-security] use methodnoallow middleware
+2020-04-12 21:54:48,688 INFO 47023 [egg-security] use noopen middleware
+2020-04-12 21:54:48,690 INFO 47023 [egg-security] use nosniff middleware
+2020-04-12 21:54:48,692 INFO 47023 [egg-security] use xssProtection middleware
+2020-04-12 21:54:48,694 INFO 47023 [egg-security] use xframe middleware
+2020-04-12 21:54:48,696 INFO 47023 [egg-security] use dta middleware
+2020-04-12 21:54:48,696 INFO 47023 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 21:54:48,728 INFO 47023 [egg:core] dump config after load, 7ms
+2020-04-12 21:54:48,735 INFO 47023 [egg-mongoose] starting...
+2020-04-12 21:54:48,887 INFO 47023 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-12 21:54:48,901 INFO 47023 [egg-mongoose] instance[0] start successfully
+2020-04-12 21:54:48,909 INFO 47023 [egg-watcher:application] watcher start success
+2020-04-12 21:54:48,931 INFO 47023 [egg:core] dump config after ready, 13ms
+2020-04-12 22:01:03,563 INFO 47394 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:01:03,638 INFO 47394 [egg-multipart] stream mode enable
+2020-04-12 22:01:05,223 INFO 47394 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-12 22:01:05,599 INFO 47394 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-12 22:01:05,604 INFO 47394 [egg-security] use csrf middleware
+2020-04-12 22:01:05,610 INFO 47394 [egg-security] use methodnoallow middleware
+2020-04-12 22:01:05,624 INFO 47394 [egg-security] use noopen middleware
+2020-04-12 22:01:05,629 INFO 47394 [egg-security] use nosniff middleware
+2020-04-12 22:01:05,633 INFO 47394 [egg-security] use xssProtection middleware
+2020-04-12 22:01:05,635 INFO 47394 [egg-security] use xframe middleware
+2020-04-12 22:01:05,639 INFO 47394 [egg-security] use dta middleware
+2020-04-12 22:01:05,639 INFO 47394 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:01:05,688 INFO 47394 [egg:core] dump config after load, 6ms
+2020-04-12 22:01:05,695 INFO 47394 [egg-mongoose] starting...
+2020-04-12 22:01:05,880 INFO 47394 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-12 22:01:05,907 INFO 47394 [egg-mongoose] instance[0] start successfully
+2020-04-12 22:01:05,977 INFO 47394 [egg-watcher:application] watcher start success
+2020-04-12 22:01:05,994 INFO 47394 [egg:core] dump config after ready, 13ms
+2020-04-12 22:49:06,133 INFO 51638 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:49:06,185 INFO 51638 [egg-multipart] stream mode enable
+2020-04-12 22:49:07,749 INFO 51638 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-12 22:49:08,034 INFO 51638 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-12 22:49:08,037 INFO 51638 [egg-security] use csrf middleware
+2020-04-12 22:49:08,039 INFO 51638 [egg-security] use methodnoallow middleware
+2020-04-12 22:49:08,041 INFO 51638 [egg-security] use noopen middleware
+2020-04-12 22:49:08,042 INFO 51638 [egg-security] use nosniff middleware
+2020-04-12 22:49:08,044 INFO 51638 [egg-security] use xssProtection middleware
+2020-04-12 22:49:08,046 INFO 51638 [egg-security] use xframe middleware
+2020-04-12 22:49:08,047 INFO 51638 [egg-security] use dta middleware
+2020-04-12 22:49:08,047 INFO 51638 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:49:08,075 INFO 51638 [egg:core] dump config after load, 6ms
+2020-04-12 22:49:08,090 INFO 51638 [egg-mongoose] starting...
+2020-04-12 22:49:08,209 INFO 51638 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-12 22:49:08,220 INFO 51638 [egg-mongoose] instance[0] start successfully
+2020-04-12 22:49:08,232 INFO 51638 [egg-watcher:application] watcher start success
+2020-04-12 22:49:08,246 INFO 51638 [egg:core] dump config after ready, 10ms
+2020-04-12 22:58:57,563 INFO 52540 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-12 22:58:57,622 INFO 52540 [egg-multipart] stream mode enable
+2020-04-12 22:58:58,767 INFO 52540 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-12 22:58:59,065 INFO 52540 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-12 22:58:59,069 INFO 52540 [egg-security] use csrf middleware
+2020-04-12 22:58:59,071 INFO 52540 [egg-security] use methodnoallow middleware
+2020-04-12 22:58:59,072 INFO 52540 [egg-security] use noopen middleware
+2020-04-12 22:58:59,074 INFO 52540 [egg-security] use nosniff middleware
+2020-04-12 22:58:59,076 INFO 52540 [egg-security] use xssProtection middleware
+2020-04-12 22:58:59,077 INFO 52540 [egg-security] use xframe middleware
+2020-04-12 22:58:59,079 INFO 52540 [egg-security] use dta middleware
+2020-04-12 22:58:59,079 INFO 52540 [egg-security] compose 7 middlewares into one security middleware
+2020-04-12 22:58:59,114 INFO 52540 [egg:core] dump config after load, 5ms
+2020-04-12 22:58:59,122 INFO 52540 [egg-mongoose] starting...
+2020-04-12 22:58:59,222 INFO 52540 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-12 22:58:59,234 INFO 52540 [egg-mongoose] instance[0] start successfully
+2020-04-12 22:58:59,244 INFO 52540 [egg-watcher:application] watcher start success
+2020-04-12 22:58:59,255 INFO 52540 [egg:core] dump config after ready, 6ms
+2020-04-13 09:13:11,395 INFO 774 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:13:11,443 INFO 774 [egg-multipart] stream mode enable
+2020-04-13 09:13:12,595 INFO 774 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:13:12,873 INFO 774 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:13:12,878 INFO 774 [egg-security] use csrf middleware
+2020-04-13 09:13:12,880 INFO 774 [egg-security] use methodnoallow middleware
+2020-04-13 09:13:12,881 INFO 774 [egg-security] use noopen middleware
+2020-04-13 09:13:12,883 INFO 774 [egg-security] use nosniff middleware
+2020-04-13 09:13:12,885 INFO 774 [egg-security] use xssProtection middleware
+2020-04-13 09:13:12,887 INFO 774 [egg-security] use xframe middleware
+2020-04-13 09:13:12,889 INFO 774 [egg-security] use dta middleware
+2020-04-13 09:13:12,889 INFO 774 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:13:12,945 INFO 774 [egg:core] dump config after load, 7ms
+2020-04-13 09:13:12,954 INFO 774 [egg-mongoose] starting...
+2020-04-13 09:13:13,079 INFO 774 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:13:13,091 INFO 774 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:13:13,104 INFO 774 [egg-watcher:application] watcher start success
+2020-04-13 09:13:13,120 INFO 774 [egg:core] dump config after ready, 11ms
+2020-04-13 09:16:25,312 INFO 1084 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:16:25,353 INFO 1084 [egg-multipart] stream mode enable
+2020-04-13 09:16:26,379 INFO 1084 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:16:26,619 INFO 1084 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:16:26,624 INFO 1084 [egg-security] use csrf middleware
+2020-04-13 09:16:26,626 INFO 1084 [egg-security] use methodnoallow middleware
+2020-04-13 09:16:26,628 INFO 1084 [egg-security] use noopen middleware
+2020-04-13 09:16:26,630 INFO 1084 [egg-security] use nosniff middleware
+2020-04-13 09:16:26,632 INFO 1084 [egg-security] use xssProtection middleware
+2020-04-13 09:16:26,634 INFO 1084 [egg-security] use xframe middleware
+2020-04-13 09:16:26,636 INFO 1084 [egg-security] use dta middleware
+2020-04-13 09:16:26,636 INFO 1084 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:16:26,691 INFO 1084 [egg:core] dump config after load, 8ms
+2020-04-13 09:16:26,698 INFO 1084 [egg-mongoose] starting...
+2020-04-13 09:16:26,798 INFO 1084 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:16:26,809 INFO 1084 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:16:26,821 INFO 1084 [egg-watcher:application] watcher start success
+2020-04-13 09:16:26,834 INFO 1084 [egg:core] dump config after ready, 8ms
+2020-04-13 09:37:07,355 INFO 2342 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:37:07,570 INFO 2342 [egg-multipart] stream mode enable
+2020-04-13 09:37:10,794 INFO 2342 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:37:12,119 INFO 2342 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:37:12,132 INFO 2342 [egg-security] use csrf middleware
+2020-04-13 09:37:12,137 INFO 2342 [egg-security] use methodnoallow middleware
+2020-04-13 09:37:12,149 INFO 2342 [egg-security] use noopen middleware
+2020-04-13 09:37:12,152 INFO 2342 [egg-security] use nosniff middleware
+2020-04-13 09:37:12,165 INFO 2342 [egg-security] use xssProtection middleware
+2020-04-13 09:37:12,181 INFO 2342 [egg-security] use xframe middleware
+2020-04-13 09:37:12,189 INFO 2342 [egg-security] use dta middleware
+2020-04-13 09:37:12,189 INFO 2342 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:37:12,593 INFO 2342 [egg:core] dump config after load, 160ms
+2020-04-13 09:37:12,624 INFO 2342 [egg-mongoose] starting...
+2020-04-13 09:37:13,281 INFO 2342 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:37:13,317 INFO 2342 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:37:13,348 INFO 2342 [egg-watcher:application] watcher start success
+2020-04-13 09:37:13,403 INFO 2342 [egg:core] dump config after ready, 47ms
+2020-04-13 09:38:44,173 INFO 2485 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:38:44,236 INFO 2485 [egg-multipart] stream mode enable
+2020-04-13 09:38:45,790 INFO 2485 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:38:46,061 INFO 2485 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:38:46,066 INFO 2485 [egg-security] use csrf middleware
+2020-04-13 09:38:46,068 INFO 2485 [egg-security] use methodnoallow middleware
+2020-04-13 09:38:46,070 INFO 2485 [egg-security] use noopen middleware
+2020-04-13 09:38:46,072 INFO 2485 [egg-security] use nosniff middleware
+2020-04-13 09:38:46,074 INFO 2485 [egg-security] use xssProtection middleware
+2020-04-13 09:38:46,076 INFO 2485 [egg-security] use xframe middleware
+2020-04-13 09:38:46,079 INFO 2485 [egg-security] use dta middleware
+2020-04-13 09:38:46,079 INFO 2485 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:38:46,141 INFO 2485 [egg:core] dump config after load, 7ms
+2020-04-13 09:38:46,150 INFO 2485 [egg-mongoose] starting...
+2020-04-13 09:38:46,245 INFO 2485 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:38:46,258 INFO 2485 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:38:46,267 INFO 2485 [egg-watcher:application] watcher start success
+2020-04-13 09:38:46,296 INFO 2485 [egg:core] dump config after ready, 21ms
+2020-04-13 09:41:31,779 INFO 2666 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:41:31,850 INFO 2666 [egg-multipart] stream mode enable
+2020-04-13 09:41:33,217 INFO 2666 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:41:33,554 INFO 2666 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:41:33,560 INFO 2666 [egg-security] use csrf middleware
+2020-04-13 09:41:33,563 INFO 2666 [egg-security] use methodnoallow middleware
+2020-04-13 09:41:33,565 INFO 2666 [egg-security] use noopen middleware
+2020-04-13 09:41:33,567 INFO 2666 [egg-security] use nosniff middleware
+2020-04-13 09:41:33,569 INFO 2666 [egg-security] use xssProtection middleware
+2020-04-13 09:41:33,570 INFO 2666 [egg-security] use xframe middleware
+2020-04-13 09:41:33,572 INFO 2666 [egg-security] use dta middleware
+2020-04-13 09:41:33,572 INFO 2666 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:41:33,667 INFO 2666 [egg:core] dump config after load, 16ms
+2020-04-13 09:41:33,680 INFO 2666 [egg-mongoose] starting...
+2020-04-13 09:41:33,810 INFO 2666 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:41:33,832 INFO 2666 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:41:33,840 INFO 2666 [egg-watcher:application] watcher start success
+2020-04-13 09:41:33,891 INFO 2666 [egg:core] dump config after ready, 35ms
+2020-04-13 09:42:49,138 WARN 2666 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 09:42:49,158 WARN 2666 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 09:44:53,594 INFO 2895 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:44:53,653 INFO 2895 [egg-multipart] stream mode enable
+2020-04-13 09:44:55,218 INFO 2895 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:44:55,835 INFO 2895 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:44:55,840 INFO 2895 [egg-security] use csrf middleware
+2020-04-13 09:44:55,844 INFO 2895 [egg-security] use methodnoallow middleware
+2020-04-13 09:44:55,848 INFO 2895 [egg-security] use noopen middleware
+2020-04-13 09:44:55,851 INFO 2895 [egg-security] use nosniff middleware
+2020-04-13 09:44:55,863 INFO 2895 [egg-security] use xssProtection middleware
+2020-04-13 09:44:55,865 INFO 2895 [egg-security] use xframe middleware
+2020-04-13 09:44:55,868 INFO 2895 [egg-security] use dta middleware
+2020-04-13 09:44:55,868 INFO 2895 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:44:55,936 INFO 2895 [egg:core] dump config after load, 15ms
+2020-04-13 09:44:55,955 INFO 2895 [egg-mongoose] starting...
+2020-04-13 09:44:56,199 INFO 2895 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:44:56,218 INFO 2895 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:44:56,316 INFO 2895 [egg-watcher:application] watcher start success
+2020-04-13 09:44:56,362 INFO 2895 [egg:core] dump config after ready, 31ms
+2020-04-13 09:45:32,184 WARN 2485 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 09:45:32,191 ERROR 2485 nodejs.Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected (uncaughtException throw 1 times on pid:2485)
+    at process.target.disconnect (internal/child_process.js:788:26)
+    at Server.checkWaitingCount (internal/cluster/child.js:203:17)
+    at Object.onceWrapper (events.js:286:20)
+    at Server.emit (events.js:198:13)
+    at emitCloseNT (net.js:1618:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+pid: 2485
+hostname: bogon
+
+2020-04-13 09:45:32,239 ERROR 2485 nodejs.Error [ERR_IPC_CHANNEL_CLOSED]: Channel closed (uncaughtException throw 2 times on pid:2485)
+    at process.target.send (internal/child_process.js:636:16)
+    at Worker.send (internal/cluster/worker.js:40:28)
+    at process.<anonymous> (/Volumes/Work/ylz/healthCollection/node_modules/graceful/index.js:100:16)
+    at process.emit (events.js:198:13)
+    at process._fatalException (internal/bootstrap/node.js:496:27)
+
+pid: 2485
+hostname: bogon
+
+2020-04-13 09:46:41,574 INFO 3027 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:46:41,624 INFO 3027 [egg-multipart] stream mode enable
+2020-04-13 09:46:42,894 INFO 3027 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:46:43,258 INFO 3027 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:46:43,262 INFO 3027 [egg-security] use csrf middleware
+2020-04-13 09:46:43,264 INFO 3027 [egg-security] use methodnoallow middleware
+2020-04-13 09:46:43,266 INFO 3027 [egg-security] use noopen middleware
+2020-04-13 09:46:43,269 INFO 3027 [egg-security] use nosniff middleware
+2020-04-13 09:46:43,271 INFO 3027 [egg-security] use xssProtection middleware
+2020-04-13 09:46:43,274 INFO 3027 [egg-security] use xframe middleware
+2020-04-13 09:46:43,278 INFO 3027 [egg-security] use dta middleware
+2020-04-13 09:46:43,278 INFO 3027 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:46:43,323 INFO 3027 [egg:core] dump config after load, 10ms
+2020-04-13 09:46:43,334 INFO 3027 [egg-mongoose] starting...
+2020-04-13 09:46:43,486 INFO 3027 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:46:43,501 INFO 3027 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:46:43,513 INFO 3027 [egg-watcher:application] watcher start success
+2020-04-13 09:46:43,527 INFO 3027 [egg:core] dump config after ready, 8ms
+2020-04-13 09:46:50,227 INFO 3047 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:46:50,278 INFO 3047 [egg-multipart] stream mode enable
+2020-04-13 09:46:51,946 INFO 3047 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:46:52,613 INFO 3047 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:46:52,622 INFO 3047 [egg-security] use csrf middleware
+2020-04-13 09:46:52,627 INFO 3047 [egg-security] use methodnoallow middleware
+2020-04-13 09:46:52,629 INFO 3047 [egg-security] use noopen middleware
+2020-04-13 09:46:52,633 INFO 3047 [egg-security] use nosniff middleware
+2020-04-13 09:46:52,637 INFO 3047 [egg-security] use xssProtection middleware
+2020-04-13 09:46:52,642 INFO 3047 [egg-security] use xframe middleware
+2020-04-13 09:46:52,647 INFO 3047 [egg-security] use dta middleware
+2020-04-13 09:46:52,647 INFO 3047 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:46:52,703 INFO 3047 [egg:core] dump config after load, 7ms
+2020-04-13 09:46:52,717 INFO 3047 [egg-mongoose] starting...
+2020-04-13 09:46:52,831 INFO 3047 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:46:52,845 INFO 3047 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:46:52,898 INFO 3047 [egg-watcher:application] watcher start success
+2020-04-13 09:46:52,921 INFO 3047 [egg:core] dump config after ready, 17ms
+2020-04-13 09:49:06,042 INFO 3203 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 09:49:06,087 INFO 3203 [egg-multipart] stream mode enable
+2020-04-13 09:49:07,230 INFO 3203 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 09:49:07,609 INFO 3203 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 09:49:07,616 INFO 3203 [egg-security] use csrf middleware
+2020-04-13 09:49:07,618 INFO 3203 [egg-security] use methodnoallow middleware
+2020-04-13 09:49:07,619 INFO 3203 [egg-security] use noopen middleware
+2020-04-13 09:49:07,621 INFO 3203 [egg-security] use nosniff middleware
+2020-04-13 09:49:07,623 INFO 3203 [egg-security] use xssProtection middleware
+2020-04-13 09:49:07,625 INFO 3203 [egg-security] use xframe middleware
+2020-04-13 09:49:07,630 INFO 3203 [egg-security] use dta middleware
+2020-04-13 09:49:07,630 INFO 3203 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 09:49:07,667 INFO 3203 [egg:core] dump config after load, 8ms
+2020-04-13 09:49:07,680 INFO 3203 [egg-mongoose] starting...
+2020-04-13 09:49:08,204 INFO 3203 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 09:49:08,258 INFO 3203 [egg-mongoose] instance[0] start successfully
+2020-04-13 09:49:08,290 INFO 3203 [egg-watcher:application] watcher start success
+2020-04-13 09:49:08,343 INFO 3203 [egg:core] dump config after ready, 34ms
+2020-04-13 10:09:26,662 INFO 3576 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 10:09:26,728 INFO 3576 [egg-multipart] stream mode enable
+2020-04-13 10:09:28,270 INFO 3576 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 10:09:28,526 INFO 3576 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 10:09:28,529 INFO 3576 [egg-security] use csrf middleware
+2020-04-13 10:09:28,531 INFO 3576 [egg-security] use methodnoallow middleware
+2020-04-13 10:09:28,533 INFO 3576 [egg-security] use noopen middleware
+2020-04-13 10:09:28,535 INFO 3576 [egg-security] use nosniff middleware
+2020-04-13 10:09:28,538 INFO 3576 [egg-security] use xssProtection middleware
+2020-04-13 10:09:28,543 INFO 3576 [egg-security] use xframe middleware
+2020-04-13 10:09:28,545 INFO 3576 [egg-security] use dta middleware
+2020-04-13 10:09:28,546 INFO 3576 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 10:09:28,578 INFO 3576 [egg:core] dump config after load, 6ms
+2020-04-13 10:09:28,583 INFO 3576 [egg-mongoose] starting...
+2020-04-13 10:09:28,697 INFO 3576 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 10:09:28,710 INFO 3576 [egg-mongoose] instance[0] start successfully
+2020-04-13 10:09:28,718 INFO 3576 [egg-watcher:application] watcher start success
+2020-04-13 10:09:28,735 INFO 3576 [egg:core] dump config after ready, 8ms
+2020-04-13 10:19:51,998 WARN 3576 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 10:19:52,025 WARN 3576 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 10:50:53,970 WARN 3576 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 10:50:53,971 WARN 3576 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 11:10:41,487 INFO 7096 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 11:10:41,529 INFO 7096 [egg-multipart] stream mode enable
+2020-04-13 11:10:42,485 INFO 7096 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 11:10:43,249 INFO 7096 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 11:10:43,252 INFO 7096 [egg-security] use csrf middleware
+2020-04-13 11:10:43,254 INFO 7096 [egg-security] use methodnoallow middleware
+2020-04-13 11:10:43,256 INFO 7096 [egg-security] use noopen middleware
+2020-04-13 11:10:43,257 INFO 7096 [egg-security] use nosniff middleware
+2020-04-13 11:10:43,259 INFO 7096 [egg-security] use xssProtection middleware
+2020-04-13 11:10:43,260 INFO 7096 [egg-security] use xframe middleware
+2020-04-13 11:10:43,262 INFO 7096 [egg-security] use dta middleware
+2020-04-13 11:10:43,262 INFO 7096 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 11:10:43,290 INFO 7096 [egg:core] dump config after load, 6ms
+2020-04-13 11:10:43,299 INFO 7096 [egg-mongoose] starting...
+2020-04-13 11:10:43,413 INFO 7096 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 11:10:43,427 INFO 7096 [egg-mongoose] instance[0] start successfully
+2020-04-13 11:10:43,437 INFO 7096 [egg-watcher:application] watcher start success
+2020-04-13 11:10:43,474 INFO 7096 [egg:core] dump config after ready, 6ms
+2020-04-13 11:11:39,560 INFO 7171 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 11:11:39,617 INFO 7171 [egg-multipart] stream mode enable
+2020-04-13 11:11:40,707 INFO 7171 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 11:11:42,214 INFO 7171 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 11:11:42,226 INFO 7171 [egg-security] use csrf middleware
+2020-04-13 11:11:42,230 INFO 7171 [egg-security] use methodnoallow middleware
+2020-04-13 11:11:42,232 INFO 7171 [egg-security] use noopen middleware
+2020-04-13 11:11:42,241 INFO 7171 [egg-security] use nosniff middleware
+2020-04-13 11:11:42,243 INFO 7171 [egg-security] use xssProtection middleware
+2020-04-13 11:11:42,245 INFO 7171 [egg-security] use xframe middleware
+2020-04-13 11:11:42,257 INFO 7171 [egg-security] use dta middleware
+2020-04-13 11:11:42,257 INFO 7171 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 11:11:42,311 INFO 7171 [egg:core] dump config after load, 15ms
+2020-04-13 11:11:42,328 INFO 7171 [egg-mongoose] starting...
+2020-04-13 11:11:42,565 INFO 7171 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 11:11:42,587 INFO 7171 [egg-mongoose] instance[0] start successfully
+2020-04-13 11:11:42,595 INFO 7171 [egg-watcher:application] watcher start success
+2020-04-13 11:11:42,663 INFO 7171 [egg:core] dump config after ready, 24ms
+2020-04-13 11:15:37,278 INFO 7434 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 11:15:37,339 INFO 7434 [egg-multipart] stream mode enable
+2020-04-13 11:15:38,816 INFO 7434 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 11:15:40,040 INFO 7434 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 11:15:40,044 INFO 7434 [egg-security] use csrf middleware
+2020-04-13 11:15:40,047 INFO 7434 [egg-security] use methodnoallow middleware
+2020-04-13 11:15:40,050 INFO 7434 [egg-security] use noopen middleware
+2020-04-13 11:15:40,053 INFO 7434 [egg-security] use nosniff middleware
+2020-04-13 11:15:40,054 INFO 7434 [egg-security] use xssProtection middleware
+2020-04-13 11:15:40,056 INFO 7434 [egg-security] use xframe middleware
+2020-04-13 11:15:40,060 INFO 7434 [egg-security] use dta middleware
+2020-04-13 11:15:40,060 INFO 7434 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 11:15:40,117 INFO 7434 [egg:core] dump config after load, 9ms
+2020-04-13 11:15:40,129 INFO 7434 [egg-mongoose] starting...
+2020-04-13 11:15:40,256 INFO 7434 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 11:15:40,271 INFO 7434 [egg-mongoose] instance[0] start successfully
+2020-04-13 11:15:40,296 INFO 7434 [egg-watcher:application] watcher start success
+2020-04-13 11:15:40,322 INFO 7434 [egg:core] dump config after ready, 14ms
+2020-04-13 11:16:34,772 INFO 7508 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 11:16:34,830 INFO 7508 [egg-multipart] stream mode enable
+2020-04-13 11:16:35,958 INFO 7508 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 11:16:36,747 INFO 7508 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 11:16:36,751 INFO 7508 [egg-security] use csrf middleware
+2020-04-13 11:16:36,754 INFO 7508 [egg-security] use methodnoallow middleware
+2020-04-13 11:16:36,758 INFO 7508 [egg-security] use noopen middleware
+2020-04-13 11:16:36,760 INFO 7508 [egg-security] use nosniff middleware
+2020-04-13 11:16:36,761 INFO 7508 [egg-security] use xssProtection middleware
+2020-04-13 11:16:36,763 INFO 7508 [egg-security] use xframe middleware
+2020-04-13 11:16:36,766 INFO 7508 [egg-security] use dta middleware
+2020-04-13 11:16:36,766 INFO 7508 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 11:16:36,799 INFO 7508 [egg:core] dump config after load, 8ms
+2020-04-13 11:16:36,808 INFO 7508 [egg-mongoose] starting...
+2020-04-13 11:16:36,912 INFO 7508 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 11:16:36,928 INFO 7508 [egg-mongoose] instance[0] start successfully
+2020-04-13 11:16:36,935 INFO 7508 [egg-watcher:application] watcher start success
+2020-04-13 11:16:36,979 INFO 7508 [egg:core] dump config after ready, 18ms
+2020-04-13 11:17:07,576 INFO 7563 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 11:17:07,648 INFO 7563 [egg-multipart] stream mode enable
+2020-04-13 11:17:09,180 INFO 7563 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 11:17:10,011 INFO 7563 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 11:17:10,014 INFO 7563 [egg-security] use csrf middleware
+2020-04-13 11:17:10,016 INFO 7563 [egg-security] use methodnoallow middleware
+2020-04-13 11:17:10,018 INFO 7563 [egg-security] use noopen middleware
+2020-04-13 11:17:10,020 INFO 7563 [egg-security] use nosniff middleware
+2020-04-13 11:17:10,021 INFO 7563 [egg-security] use xssProtection middleware
+2020-04-13 11:17:10,023 INFO 7563 [egg-security] use xframe middleware
+2020-04-13 11:17:10,025 INFO 7563 [egg-security] use dta middleware
+2020-04-13 11:17:10,025 INFO 7563 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 11:17:10,058 INFO 7563 [egg:core] dump config after load, 6ms
+2020-04-13 11:17:10,066 INFO 7563 [egg-mongoose] starting...
+2020-04-13 11:17:10,169 INFO 7563 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 11:17:10,196 INFO 7563 [egg-mongoose] instance[0] start successfully
+2020-04-13 11:17:10,214 INFO 7563 [egg-watcher:application] watcher start success
+2020-04-13 11:17:10,244 INFO 7563 [egg:core] dump config after ready, 24ms
+2020-04-13 11:17:16,196 WARN 7096 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 11:19:21,861 INFO 7711 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 11:19:21,919 INFO 7711 [egg-multipart] stream mode enable
+2020-04-13 11:19:23,889 INFO 7711 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 11:19:24,925 INFO 7711 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 11:19:24,947 INFO 7711 [egg-security] use csrf middleware
+2020-04-13 11:19:24,964 INFO 7711 [egg-security] use methodnoallow middleware
+2020-04-13 11:19:24,966 INFO 7711 [egg-security] use noopen middleware
+2020-04-13 11:19:24,978 INFO 7711 [egg-security] use nosniff middleware
+2020-04-13 11:19:24,980 INFO 7711 [egg-security] use xssProtection middleware
+2020-04-13 11:19:24,983 INFO 7711 [egg-security] use xframe middleware
+2020-04-13 11:19:24,987 INFO 7711 [egg-security] use dta middleware
+2020-04-13 11:19:24,987 INFO 7711 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 11:19:25,063 INFO 7711 [egg:core] dump config after load, 21ms
+2020-04-13 11:19:25,118 INFO 7711 [egg-mongoose] starting...
+2020-04-13 11:19:25,525 INFO 7711 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 11:19:25,550 INFO 7711 [egg-mongoose] instance[0] start successfully
+2020-04-13 11:19:25,575 INFO 7711 [egg-watcher:application] watcher start success
+2020-04-13 11:19:25,596 INFO 7711 [egg:core] dump config after ready, 16ms
+2020-04-13 11:20:40,112 WARN 7711 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 11:20:40,157 WARN 7711 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 11:22:46,099 INFO 7939 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 11:22:46,170 INFO 7939 [egg-multipart] stream mode enable
+2020-04-13 11:22:47,810 INFO 7939 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 11:22:48,794 INFO 7939 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 11:22:48,797 INFO 7939 [egg-security] use csrf middleware
+2020-04-13 11:22:48,800 INFO 7939 [egg-security] use methodnoallow middleware
+2020-04-13 11:22:48,802 INFO 7939 [egg-security] use noopen middleware
+2020-04-13 11:22:48,805 INFO 7939 [egg-security] use nosniff middleware
+2020-04-13 11:22:48,808 INFO 7939 [egg-security] use xssProtection middleware
+2020-04-13 11:22:48,809 INFO 7939 [egg-security] use xframe middleware
+2020-04-13 11:22:48,810 INFO 7939 [egg-security] use dta middleware
+2020-04-13 11:22:48,810 INFO 7939 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 11:22:48,846 INFO 7939 [egg:core] dump config after load, 9ms
+2020-04-13 11:22:48,860 INFO 7939 [egg-mongoose] starting...
+2020-04-13 11:22:49,017 INFO 7939 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 11:22:49,033 INFO 7939 [egg-mongoose] instance[0] start successfully
+2020-04-13 11:22:49,060 INFO 7939 [egg-watcher:application] watcher start success
+2020-04-13 11:22:49,100 INFO 7939 [egg:core] dump config after ready, 15ms
+2020-04-13 11:39:45,035 INFO 8910 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 11:39:45,080 INFO 8910 [egg-multipart] stream mode enable
+2020-04-13 11:39:46,076 INFO 8910 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 11:39:46,949 INFO 8910 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 11:39:46,952 INFO 8910 [egg-security] use csrf middleware
+2020-04-13 11:39:46,954 INFO 8910 [egg-security] use methodnoallow middleware
+2020-04-13 11:39:46,956 INFO 8910 [egg-security] use noopen middleware
+2020-04-13 11:39:46,957 INFO 8910 [egg-security] use nosniff middleware
+2020-04-13 11:39:46,959 INFO 8910 [egg-security] use xssProtection middleware
+2020-04-13 11:39:46,961 INFO 8910 [egg-security] use xframe middleware
+2020-04-13 11:39:46,962 INFO 8910 [egg-security] use dta middleware
+2020-04-13 11:39:46,962 INFO 8910 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 11:39:46,992 INFO 8910 [egg:core] dump config after load, 6ms
+2020-04-13 11:39:47,000 INFO 8910 [egg-mongoose] starting...
+2020-04-13 11:39:47,103 INFO 8910 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 11:39:47,117 INFO 8910 [egg-mongoose] instance[0] start successfully
+2020-04-13 11:39:47,125 INFO 8910 [egg-watcher:application] watcher start success
+2020-04-13 11:39:47,157 INFO 8910 [egg:core] dump config after ready, 17ms
+2020-04-13 12:23:29,024 WARN 8910 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 12:28:41,881 WARN 8910 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 13:16:35,798 WARN 8910 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 13:16:35,801 WARN 8910 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 13:50:56,022 INFO 12165 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 13:50:56,066 INFO 12165 [egg-multipart] stream mode enable
+2020-04-13 13:50:57,036 INFO 12165 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 13:50:57,809 INFO 12165 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 13:50:57,812 INFO 12165 [egg-security] use csrf middleware
+2020-04-13 13:50:57,815 INFO 12165 [egg-security] use methodnoallow middleware
+2020-04-13 13:50:57,817 INFO 12165 [egg-security] use noopen middleware
+2020-04-13 13:50:57,820 INFO 12165 [egg-security] use nosniff middleware
+2020-04-13 13:50:57,822 INFO 12165 [egg-security] use xssProtection middleware
+2020-04-13 13:50:57,824 INFO 12165 [egg-security] use xframe middleware
+2020-04-13 13:50:57,826 INFO 12165 [egg-security] use dta middleware
+2020-04-13 13:50:57,826 INFO 12165 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 13:50:57,855 INFO 12165 [egg:core] dump config after load, 7ms
+2020-04-13 13:50:57,862 INFO 12165 [egg-mongoose] starting...
+2020-04-13 13:50:57,967 INFO 12165 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 13:50:57,979 INFO 12165 [egg-mongoose] instance[0] start successfully
+2020-04-13 13:50:57,987 INFO 12165 [egg-watcher:application] watcher start success
+2020-04-13 13:50:58,020 INFO 12165 [egg:core] dump config after ready, 28ms
+2020-04-13 13:55:00,377 INFO 12557 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 13:55:00,552 INFO 12557 [egg-multipart] stream mode enable
+2020-04-13 13:55:02,833 INFO 12557 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 13:55:04,435 INFO 12557 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 13:55:04,443 INFO 12557 [egg-security] use csrf middleware
+2020-04-13 13:55:04,447 INFO 12557 [egg-security] use methodnoallow middleware
+2020-04-13 13:55:04,449 INFO 12557 [egg-security] use noopen middleware
+2020-04-13 13:55:04,453 INFO 12557 [egg-security] use nosniff middleware
+2020-04-13 13:55:04,455 INFO 12557 [egg-security] use xssProtection middleware
+2020-04-13 13:55:04,457 INFO 12557 [egg-security] use xframe middleware
+2020-04-13 13:55:04,460 INFO 12557 [egg-security] use dta middleware
+2020-04-13 13:55:04,460 INFO 12557 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 13:55:04,517 INFO 12557 [egg:core] dump config after load, 12ms
+2020-04-13 13:55:04,527 INFO 12557 [egg-mongoose] starting...
+2020-04-13 13:55:04,906 INFO 12557 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 13:55:04,937 INFO 12557 [egg-mongoose] instance[0] start successfully
+2020-04-13 13:55:04,960 INFO 12557 [egg-watcher:application] watcher start success
+2020-04-13 13:55:04,989 INFO 12557 [egg:core] dump config after ready, 12ms
+2020-04-13 14:03:14,026 WARN 12557 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 14:03:14,078 WARN 12557 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 14:04:25,961 INFO 13953 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:04:26,034 INFO 13953 [egg-multipart] stream mode enable
+2020-04-13 14:04:27,176 INFO 13953 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:04:28,054 INFO 13953 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:04:28,058 INFO 13953 [egg-security] use csrf middleware
+2020-04-13 14:04:28,062 INFO 13953 [egg-security] use methodnoallow middleware
+2020-04-13 14:04:28,063 INFO 13953 [egg-security] use noopen middleware
+2020-04-13 14:04:28,065 INFO 13953 [egg-security] use nosniff middleware
+2020-04-13 14:04:28,067 INFO 13953 [egg-security] use xssProtection middleware
+2020-04-13 14:04:28,069 INFO 13953 [egg-security] use xframe middleware
+2020-04-13 14:04:28,070 INFO 13953 [egg-security] use dta middleware
+2020-04-13 14:04:28,070 INFO 13953 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:04:28,102 INFO 13953 [egg:core] dump config after load, 7ms
+2020-04-13 14:04:28,110 INFO 13953 [egg-mongoose] starting...
+2020-04-13 14:04:28,214 INFO 13953 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:04:28,232 INFO 13953 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:04:28,248 INFO 13953 [egg-watcher:application] watcher start success
+2020-04-13 14:04:28,278 INFO 13953 [egg:core] dump config after ready, 26ms
+2020-04-13 14:07:39,636 INFO 14095 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:07:39,699 INFO 14095 [egg-multipart] stream mode enable
+2020-04-13 14:07:40,821 INFO 14095 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:07:41,706 INFO 14095 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:07:41,709 INFO 14095 [egg-security] use csrf middleware
+2020-04-13 14:07:41,711 INFO 14095 [egg-security] use methodnoallow middleware
+2020-04-13 14:07:41,714 INFO 14095 [egg-security] use noopen middleware
+2020-04-13 14:07:41,717 INFO 14095 [egg-security] use nosniff middleware
+2020-04-13 14:07:41,721 INFO 14095 [egg-security] use xssProtection middleware
+2020-04-13 14:07:41,722 INFO 14095 [egg-security] use xframe middleware
+2020-04-13 14:07:41,724 INFO 14095 [egg-security] use dta middleware
+2020-04-13 14:07:41,724 INFO 14095 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:07:41,756 INFO 14095 [egg:core] dump config after load, 8ms
+2020-04-13 14:07:41,762 INFO 14095 [egg-mongoose] starting...
+2020-04-13 14:07:41,876 INFO 14095 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:07:41,891 INFO 14095 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:07:41,904 INFO 14095 [egg-watcher:application] watcher start success
+2020-04-13 14:07:41,926 INFO 14095 [egg:core] dump config after ready, 15ms
+2020-04-13 14:07:49,054 INFO 14186 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:07:49,112 INFO 14186 [egg-multipart] stream mode enable
+2020-04-13 14:07:50,448 INFO 14186 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:07:51,535 INFO 14186 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:07:51,538 INFO 14186 [egg-security] use csrf middleware
+2020-04-13 14:07:51,541 INFO 14186 [egg-security] use methodnoallow middleware
+2020-04-13 14:07:51,542 INFO 14186 [egg-security] use noopen middleware
+2020-04-13 14:07:51,544 INFO 14186 [egg-security] use nosniff middleware
+2020-04-13 14:07:51,546 INFO 14186 [egg-security] use xssProtection middleware
+2020-04-13 14:07:51,547 INFO 14186 [egg-security] use xframe middleware
+2020-04-13 14:07:51,548 INFO 14186 [egg-security] use dta middleware
+2020-04-13 14:07:51,548 INFO 14186 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:07:51,588 INFO 14186 [egg:core] dump config after load, 8ms
+2020-04-13 14:07:51,595 INFO 14186 [egg-mongoose] starting...
+2020-04-13 14:07:51,700 INFO 14186 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:07:51,724 INFO 14186 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:07:51,735 INFO 14186 [egg-watcher:application] watcher start success
+2020-04-13 14:07:51,748 INFO 14186 [egg:core] dump config after ready, 10ms
+2020-04-13 14:08:40,825 INFO 14254 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:08:40,882 INFO 14254 [egg-multipart] stream mode enable
+2020-04-13 14:08:42,321 INFO 14254 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:08:43,279 INFO 14254 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:08:43,283 INFO 14254 [egg-security] use csrf middleware
+2020-04-13 14:08:43,285 INFO 14254 [egg-security] use methodnoallow middleware
+2020-04-13 14:08:43,287 INFO 14254 [egg-security] use noopen middleware
+2020-04-13 14:08:43,289 INFO 14254 [egg-security] use nosniff middleware
+2020-04-13 14:08:43,291 INFO 14254 [egg-security] use xssProtection middleware
+2020-04-13 14:08:43,292 INFO 14254 [egg-security] use xframe middleware
+2020-04-13 14:08:43,294 INFO 14254 [egg-security] use dta middleware
+2020-04-13 14:08:43,294 INFO 14254 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:08:43,327 INFO 14254 [egg:core] dump config after load, 6ms
+2020-04-13 14:08:43,336 INFO 14254 [egg-mongoose] starting...
+2020-04-13 14:08:43,448 INFO 14254 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:08:43,467 INFO 14254 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:08:43,471 INFO 14254 [egg-watcher:application] watcher start success
+2020-04-13 14:08:43,494 INFO 14254 [egg:core] dump config after ready, 16ms
+2020-04-13 14:09:21,715 INFO 14323 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:09:21,762 INFO 14323 [egg-multipart] stream mode enable
+2020-04-13 14:09:22,593 INFO 14323 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:09:23,309 INFO 14323 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:09:23,312 INFO 14323 [egg-security] use csrf middleware
+2020-04-13 14:09:23,314 INFO 14323 [egg-security] use methodnoallow middleware
+2020-04-13 14:09:23,316 INFO 14323 [egg-security] use noopen middleware
+2020-04-13 14:09:23,317 INFO 14323 [egg-security] use nosniff middleware
+2020-04-13 14:09:23,319 INFO 14323 [egg-security] use xssProtection middleware
+2020-04-13 14:09:23,320 INFO 14323 [egg-security] use xframe middleware
+2020-04-13 14:09:23,322 INFO 14323 [egg-security] use dta middleware
+2020-04-13 14:09:23,323 INFO 14323 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:09:23,354 INFO 14323 [egg:core] dump config after load, 6ms
+2020-04-13 14:09:23,360 INFO 14323 [egg-mongoose] starting...
+2020-04-13 14:09:23,452 INFO 14323 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:09:23,468 INFO 14323 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:09:23,481 INFO 14323 [egg-watcher:application] watcher start success
+2020-04-13 14:09:23,510 INFO 14323 [egg:core] dump config after ready, 26ms
+2020-04-13 14:29:41,153 INFO 15197 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:29:41,284 INFO 15197 [egg-multipart] stream mode enable
+2020-04-13 14:29:43,159 INFO 15197 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:29:44,201 INFO 15197 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:29:44,205 INFO 15197 [egg-security] use csrf middleware
+2020-04-13 14:29:44,207 INFO 15197 [egg-security] use methodnoallow middleware
+2020-04-13 14:29:44,211 INFO 15197 [egg-security] use noopen middleware
+2020-04-13 14:29:44,212 INFO 15197 [egg-security] use nosniff middleware
+2020-04-13 14:29:44,215 INFO 15197 [egg-security] use xssProtection middleware
+2020-04-13 14:29:44,217 INFO 15197 [egg-security] use xframe middleware
+2020-04-13 14:29:44,222 INFO 15197 [egg-security] use dta middleware
+2020-04-13 14:29:44,222 INFO 15197 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:29:44,252 INFO 15197 [egg:core] dump config after load, 6ms
+2020-04-13 14:29:44,259 INFO 15197 [egg-mongoose] starting...
+2020-04-13 14:29:44,381 INFO 15197 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:29:44,397 INFO 15197 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:29:44,416 INFO 15197 [egg-watcher:application] watcher start success
+2020-04-13 14:29:44,434 INFO 15197 [egg:core] dump config after ready, 14ms
+2020-04-13 14:36:42,853 INFO 15643 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:36:42,908 INFO 15643 [egg-multipart] stream mode enable
+2020-04-13 14:36:43,945 INFO 15643 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:36:44,828 INFO 15643 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:36:44,833 INFO 15643 [egg-security] use csrf middleware
+2020-04-13 14:36:44,837 INFO 15643 [egg-security] use methodnoallow middleware
+2020-04-13 14:36:44,840 INFO 15643 [egg-security] use noopen middleware
+2020-04-13 14:36:44,843 INFO 15643 [egg-security] use nosniff middleware
+2020-04-13 14:36:44,844 INFO 15643 [egg-security] use xssProtection middleware
+2020-04-13 14:36:44,846 INFO 15643 [egg-security] use xframe middleware
+2020-04-13 14:36:44,849 INFO 15643 [egg-security] use dta middleware
+2020-04-13 14:36:44,849 INFO 15643 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:36:44,903 INFO 15643 [egg:core] dump config after load, 9ms
+2020-04-13 14:36:44,922 INFO 15643 [egg-mongoose] starting...
+2020-04-13 14:36:45,042 INFO 15643 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:36:45,054 INFO 15643 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:36:45,063 INFO 15643 [egg-watcher:application] watcher start success
+2020-04-13 14:36:45,098 INFO 15643 [egg:core] dump config after ready, 26ms
+2020-04-13 14:37:29,844 INFO 15710 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:37:29,907 INFO 15710 [egg-multipart] stream mode enable
+2020-04-13 14:37:30,979 INFO 15710 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:37:32,064 INFO 15710 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:37:32,067 INFO 15710 [egg-security] use csrf middleware
+2020-04-13 14:37:32,069 INFO 15710 [egg-security] use methodnoallow middleware
+2020-04-13 14:37:32,071 INFO 15710 [egg-security] use noopen middleware
+2020-04-13 14:37:32,073 INFO 15710 [egg-security] use nosniff middleware
+2020-04-13 14:37:32,075 INFO 15710 [egg-security] use xssProtection middleware
+2020-04-13 14:37:32,077 INFO 15710 [egg-security] use xframe middleware
+2020-04-13 14:37:32,080 INFO 15710 [egg-security] use dta middleware
+2020-04-13 14:37:32,080 INFO 15710 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:37:32,116 INFO 15710 [egg:core] dump config after load, 6ms
+2020-04-13 14:37:32,124 INFO 15710 [egg-mongoose] starting...
+2020-04-13 14:45:50,706 INFO 15987 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:45:50,813 INFO 15987 [egg-multipart] stream mode enable
+2020-04-13 14:45:52,686 INFO 15987 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:45:53,676 INFO 15987 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:45:53,681 INFO 15987 [egg-security] use csrf middleware
+2020-04-13 14:45:53,688 INFO 15987 [egg-security] use methodnoallow middleware
+2020-04-13 14:45:53,691 INFO 15987 [egg-security] use noopen middleware
+2020-04-13 14:45:53,695 INFO 15987 [egg-security] use nosniff middleware
+2020-04-13 14:45:53,697 INFO 15987 [egg-security] use xssProtection middleware
+2020-04-13 14:45:53,700 INFO 15987 [egg-security] use xframe middleware
+2020-04-13 14:45:53,704 INFO 15987 [egg-security] use dta middleware
+2020-04-13 14:45:53,704 INFO 15987 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:45:53,769 INFO 15987 [egg:core] dump config after load, 24ms
+2020-04-13 14:45:53,807 INFO 15987 [egg-mongoose] starting...
+2020-04-13 14:45:54,393 INFO 15987 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:45:54,438 INFO 15987 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:45:54,486 INFO 15987 [egg-watcher:application] watcher start success
+2020-04-13 14:45:54,525 INFO 15987 [egg:core] dump config after ready, 29ms
+2020-04-13 14:47:38,429 INFO 16146 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:47:38,521 INFO 16146 [egg-multipart] stream mode enable
+2020-04-13 14:47:39,730 INFO 16146 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:47:40,672 INFO 16146 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:47:40,677 INFO 16146 [egg-security] use csrf middleware
+2020-04-13 14:47:40,679 INFO 16146 [egg-security] use methodnoallow middleware
+2020-04-13 14:47:40,681 INFO 16146 [egg-security] use noopen middleware
+2020-04-13 14:47:40,683 INFO 16146 [egg-security] use nosniff middleware
+2020-04-13 14:47:40,686 INFO 16146 [egg-security] use xssProtection middleware
+2020-04-13 14:47:40,688 INFO 16146 [egg-security] use xframe middleware
+2020-04-13 14:47:40,690 INFO 16146 [egg-security] use dta middleware
+2020-04-13 14:47:40,690 INFO 16146 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:47:40,723 INFO 16146 [egg:core] dump config after load, 6ms
+2020-04-13 14:47:40,732 INFO 16146 [egg-mongoose] starting...
+2020-04-13 14:47:40,851 INFO 16146 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:47:40,868 INFO 16146 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:47:40,878 INFO 16146 [egg-watcher:application] watcher start success
+2020-04-13 14:47:40,904 INFO 16146 [egg:core] dump config after ready, 20ms
+2020-04-13 14:49:17,011 WARN 16146 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 14:49:17,040 WARN 16146 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 14:59:20,023 INFO 16895 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 14:59:20,090 INFO 16895 [egg-multipart] stream mode enable
+2020-04-13 14:59:21,207 INFO 16895 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 14:59:22,071 INFO 16895 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 14:59:22,076 INFO 16895 [egg-security] use csrf middleware
+2020-04-13 14:59:22,078 INFO 16895 [egg-security] use methodnoallow middleware
+2020-04-13 14:59:22,080 INFO 16895 [egg-security] use noopen middleware
+2020-04-13 14:59:22,084 INFO 16895 [egg-security] use nosniff middleware
+2020-04-13 14:59:22,087 INFO 16895 [egg-security] use xssProtection middleware
+2020-04-13 14:59:22,089 INFO 16895 [egg-security] use xframe middleware
+2020-04-13 14:59:22,092 INFO 16895 [egg-security] use dta middleware
+2020-04-13 14:59:22,092 INFO 16895 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 14:59:22,146 INFO 16895 [egg:core] dump config after load, 8ms
+2020-04-13 14:59:22,155 INFO 16895 [egg-mongoose] starting...
+2020-04-13 14:59:22,271 INFO 16895 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 14:59:22,283 INFO 16895 [egg-mongoose] instance[0] start successfully
+2020-04-13 14:59:22,300 INFO 16895 [egg-watcher:application] watcher start success
+2020-04-13 14:59:22,316 INFO 16895 [egg:core] dump config after ready, 11ms
+2020-04-13 15:13:40,468 INFO 18549 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 15:13:40,546 INFO 18549 [egg-multipart] stream mode enable
+2020-04-13 15:13:42,002 INFO 18549 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 15:13:43,204 INFO 18549 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 15:13:43,211 INFO 18549 [egg-security] use csrf middleware
+2020-04-13 15:13:43,214 INFO 18549 [egg-security] use methodnoallow middleware
+2020-04-13 15:13:43,215 INFO 18549 [egg-security] use noopen middleware
+2020-04-13 15:13:43,217 INFO 18549 [egg-security] use nosniff middleware
+2020-04-13 15:13:43,219 INFO 18549 [egg-security] use xssProtection middleware
+2020-04-13 15:13:43,222 INFO 18549 [egg-security] use xframe middleware
+2020-04-13 15:13:43,226 INFO 18549 [egg-security] use dta middleware
+2020-04-13 15:13:43,226 INFO 18549 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 15:13:43,292 INFO 18549 [egg:core] dump config after load, 12ms
+2020-04-13 15:13:43,305 INFO 18549 [egg-mongoose] starting...
+2020-04-13 15:13:43,842 INFO 18549 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 15:13:43,864 INFO 18549 [egg-mongoose] instance[0] start successfully
+2020-04-13 15:13:43,874 INFO 18549 [egg-watcher:application] watcher start success
+2020-04-13 15:13:43,908 INFO 18549 [egg:core] dump config after ready, 28ms
+2020-04-13 15:14:26,385 INFO 18626 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 15:14:26,494 INFO 18626 [egg-multipart] stream mode enable
+2020-04-13 15:14:28,098 INFO 18626 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 15:14:29,041 INFO 18626 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 15:14:29,044 INFO 18626 [egg-security] use csrf middleware
+2020-04-13 15:14:29,047 INFO 18626 [egg-security] use methodnoallow middleware
+2020-04-13 15:14:29,049 INFO 18626 [egg-security] use noopen middleware
+2020-04-13 15:14:29,051 INFO 18626 [egg-security] use nosniff middleware
+2020-04-13 15:14:29,053 INFO 18626 [egg-security] use xssProtection middleware
+2020-04-13 15:14:29,056 INFO 18626 [egg-security] use xframe middleware
+2020-04-13 15:14:29,060 INFO 18626 [egg-security] use dta middleware
+2020-04-13 15:14:29,060 INFO 18626 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 15:14:29,117 INFO 18626 [egg:core] dump config after load, 7ms
+2020-04-13 15:14:29,125 INFO 18626 [egg-mongoose] starting...
+2020-04-13 15:14:29,309 INFO 18626 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 15:14:29,329 INFO 18626 [egg-mongoose] instance[0] start successfully
+2020-04-13 15:14:29,358 INFO 18626 [egg-watcher:application] watcher start success
+2020-04-13 15:14:29,395 INFO 18626 [egg:core] dump config after ready, 20ms
+2020-04-13 15:18:30,556 INFO 18965 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 15:18:30,616 INFO 18965 [egg-multipart] stream mode enable
+2020-04-13 15:18:31,642 INFO 18965 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 15:18:32,427 INFO 18965 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 15:18:32,431 INFO 18965 [egg-security] use csrf middleware
+2020-04-13 15:18:32,433 INFO 18965 [egg-security] use methodnoallow middleware
+2020-04-13 15:18:32,435 INFO 18965 [egg-security] use noopen middleware
+2020-04-13 15:18:32,439 INFO 18965 [egg-security] use nosniff middleware
+2020-04-13 15:18:32,441 INFO 18965 [egg-security] use xssProtection middleware
+2020-04-13 15:18:32,443 INFO 18965 [egg-security] use xframe middleware
+2020-04-13 15:18:32,445 INFO 18965 [egg-security] use dta middleware
+2020-04-13 15:18:32,445 INFO 18965 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 15:18:32,480 INFO 18965 [egg:core] dump config after load, 7ms
+2020-04-13 15:18:32,488 INFO 18965 [egg-mongoose] starting...
+2020-04-13 15:18:32,588 INFO 18965 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 15:18:32,600 INFO 18965 [egg-mongoose] instance[0] start successfully
+2020-04-13 15:18:32,607 INFO 18965 [egg-watcher:application] watcher start success
+2020-04-13 15:18:32,632 INFO 18965 [egg:core] dump config after ready, 21ms
+2020-04-13 15:26:32,506 INFO 19477 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 15:26:32,567 INFO 19477 [egg-multipart] stream mode enable
+2020-04-13 15:26:34,216 INFO 19477 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 15:26:35,106 INFO 19477 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 15:26:35,110 INFO 19477 [egg-security] use csrf middleware
+2020-04-13 15:26:35,112 INFO 19477 [egg-security] use methodnoallow middleware
+2020-04-13 15:26:35,114 INFO 19477 [egg-security] use noopen middleware
+2020-04-13 15:26:35,120 INFO 19477 [egg-security] use nosniff middleware
+2020-04-13 15:26:35,124 INFO 19477 [egg-security] use xssProtection middleware
+2020-04-13 15:26:35,126 INFO 19477 [egg-security] use xframe middleware
+2020-04-13 15:26:35,128 INFO 19477 [egg-security] use dta middleware
+2020-04-13 15:26:35,128 INFO 19477 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 15:26:35,166 INFO 19477 [egg:core] dump config after load, 7ms
+2020-04-13 15:26:35,176 INFO 19477 [egg-mongoose] starting...
+2020-04-13 15:26:35,294 INFO 19477 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 15:26:35,312 INFO 19477 [egg-mongoose] instance[0] start successfully
+2020-04-13 15:26:35,319 INFO 19477 [egg-watcher:application] watcher start success
+2020-04-13 15:26:35,341 INFO 19477 [egg:core] dump config after ready, 11ms
+2020-04-13 15:58:30,221 INFO 1146 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 15:58:30,326 INFO 1146 [egg-multipart] stream mode enable
+2020-04-13 15:58:31,710 INFO 1146 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 15:58:32,571 INFO 1146 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 15:58:32,574 INFO 1146 [egg-security] use csrf middleware
+2020-04-13 15:58:32,576 INFO 1146 [egg-security] use methodnoallow middleware
+2020-04-13 15:58:32,577 INFO 1146 [egg-security] use noopen middleware
+2020-04-13 15:58:32,579 INFO 1146 [egg-security] use nosniff middleware
+2020-04-13 15:58:32,589 INFO 1146 [egg-security] use xssProtection middleware
+2020-04-13 15:58:32,590 INFO 1146 [egg-security] use xframe middleware
+2020-04-13 15:58:32,592 INFO 1146 [egg-security] use dta middleware
+2020-04-13 15:58:32,592 INFO 1146 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 15:58:32,620 INFO 1146 [egg:core] dump config after load, 6ms
+2020-04-13 15:58:32,628 INFO 1146 [egg-mongoose] starting...
+2020-04-13 15:58:32,744 INFO 1146 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 15:58:32,759 INFO 1146 [egg-mongoose] instance[0] start successfully
+2020-04-13 15:58:32,771 INFO 1146 [egg-watcher:application] watcher start success
+2020-04-13 15:58:32,798 INFO 1146 [egg:core] dump config after ready, 17ms
+2020-04-13 16:01:19,794 INFO 1392 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 16:01:19,860 INFO 1392 [egg-multipart] stream mode enable
+2020-04-13 16:01:21,564 INFO 1392 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 16:01:23,078 INFO 1392 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 16:01:23,087 INFO 1392 [egg-security] use csrf middleware
+2020-04-13 16:01:23,091 INFO 1392 [egg-security] use methodnoallow middleware
+2020-04-13 16:01:23,093 INFO 1392 [egg-security] use noopen middleware
+2020-04-13 16:01:23,095 INFO 1392 [egg-security] use nosniff middleware
+2020-04-13 16:01:23,098 INFO 1392 [egg-security] use xssProtection middleware
+2020-04-13 16:01:23,100 INFO 1392 [egg-security] use xframe middleware
+2020-04-13 16:01:23,101 INFO 1392 [egg-security] use dta middleware
+2020-04-13 16:01:23,101 INFO 1392 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 16:01:23,201 INFO 1392 [egg:core] dump config after load, 17ms
+2020-04-13 16:01:23,216 INFO 1392 [egg-mongoose] starting...
+2020-04-13 16:01:23,534 INFO 1392 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 16:01:23,644 INFO 1392 [egg-mongoose] instance[0] start successfully
+2020-04-13 16:01:23,656 INFO 1392 [egg-watcher:application] watcher start success
+2020-04-13 16:01:23,692 INFO 1392 [egg:core] dump config after ready, 19ms
+2020-04-13 16:01:30,472 INFO 1426 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 16:01:30,682 INFO 1426 [egg-multipart] stream mode enable
+2020-04-13 16:01:32,568 INFO 1426 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 16:01:33,367 INFO 1426 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 16:01:33,370 INFO 1426 [egg-security] use csrf middleware
+2020-04-13 16:01:33,373 INFO 1426 [egg-security] use methodnoallow middleware
+2020-04-13 16:01:33,375 INFO 1426 [egg-security] use noopen middleware
+2020-04-13 16:01:33,377 INFO 1426 [egg-security] use nosniff middleware
+2020-04-13 16:01:33,378 INFO 1426 [egg-security] use xssProtection middleware
+2020-04-13 16:01:33,379 INFO 1426 [egg-security] use xframe middleware
+2020-04-13 16:01:33,381 INFO 1426 [egg-security] use dta middleware
+2020-04-13 16:01:33,381 INFO 1426 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 16:01:33,411 INFO 1426 [egg:core] dump config after load, 6ms
+2020-04-13 16:01:33,421 INFO 1426 [egg-mongoose] starting...
+2020-04-13 16:01:33,536 INFO 1426 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 16:01:33,555 INFO 1426 [egg-mongoose] instance[0] start successfully
+2020-04-13 16:01:33,603 INFO 1426 [egg-watcher:application] watcher start success
+2020-04-13 16:01:33,615 INFO 1426 [egg:core] dump config after ready, 8ms
+2020-04-13 16:02:52,160 INFO 1531 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 16:02:52,211 INFO 1531 [egg-multipart] stream mode enable
+2020-04-13 16:02:53,137 INFO 1531 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 16:02:53,737 INFO 1531 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 16:02:53,740 INFO 1531 [egg-security] use csrf middleware
+2020-04-13 16:02:53,742 INFO 1531 [egg-security] use methodnoallow middleware
+2020-04-13 16:02:53,743 INFO 1531 [egg-security] use noopen middleware
+2020-04-13 16:02:53,745 INFO 1531 [egg-security] use nosniff middleware
+2020-04-13 16:02:53,746 INFO 1531 [egg-security] use xssProtection middleware
+2020-04-13 16:02:53,748 INFO 1531 [egg-security] use xframe middleware
+2020-04-13 16:02:53,749 INFO 1531 [egg-security] use dta middleware
+2020-04-13 16:02:53,749 INFO 1531 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 16:02:53,777 INFO 1531 [egg:core] dump config after load, 6ms
+2020-04-13 16:02:53,783 INFO 1531 [egg-mongoose] starting...
+2020-04-13 16:02:53,881 INFO 1531 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 16:02:53,894 INFO 1531 [egg-mongoose] instance[0] start successfully
+2020-04-13 16:02:53,903 INFO 1531 [egg-watcher:application] watcher start success
+2020-04-13 16:02:53,924 INFO 1531 [egg:core] dump config after ready, 10ms
+2020-04-13 16:40:41,781 INFO 2716 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 16:40:41,846 INFO 2716 [egg-multipart] stream mode enable
+2020-04-13 16:40:43,368 INFO 2716 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 16:40:44,052 INFO 2716 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 16:40:44,056 INFO 2716 [egg-security] use csrf middleware
+2020-04-13 16:40:44,060 INFO 2716 [egg-security] use methodnoallow middleware
+2020-04-13 16:40:44,061 INFO 2716 [egg-security] use noopen middleware
+2020-04-13 16:40:44,063 INFO 2716 [egg-security] use nosniff middleware
+2020-04-13 16:40:44,076 INFO 2716 [egg-security] use xssProtection middleware
+2020-04-13 16:40:44,078 INFO 2716 [egg-security] use xframe middleware
+2020-04-13 16:40:44,087 INFO 2716 [egg-security] use dta middleware
+2020-04-13 16:40:44,087 INFO 2716 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 16:40:44,118 INFO 2716 [egg:core] dump config after load, 7ms
+2020-04-13 16:40:44,125 INFO 2716 [egg-mongoose] starting...
+2020-04-13 16:40:44,226 INFO 2716 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 16:40:44,238 INFO 2716 [egg-mongoose] instance[0] start successfully
+2020-04-13 16:40:44,247 INFO 2716 [egg-watcher:application] watcher start success
+2020-04-13 16:40:44,262 INFO 2716 [egg:core] dump config after ready, 8ms
+2020-04-13 16:42:30,704 WARN 2716 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 16:42:30,706 WARN 2716 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 17:05:43,848 WARN 2716 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 17:05:43,854 WARN 2716 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 17:22:45,062 INFO 6913 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 17:22:45,149 INFO 6913 [egg-multipart] stream mode enable
+2020-04-13 17:22:46,644 INFO 6913 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 17:22:47,445 INFO 6913 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 17:22:47,449 INFO 6913 [egg-security] use csrf middleware
+2020-04-13 17:22:47,451 INFO 6913 [egg-security] use methodnoallow middleware
+2020-04-13 17:22:47,452 INFO 6913 [egg-security] use noopen middleware
+2020-04-13 17:22:47,454 INFO 6913 [egg-security] use nosniff middleware
+2020-04-13 17:22:47,457 INFO 6913 [egg-security] use xssProtection middleware
+2020-04-13 17:22:47,460 INFO 6913 [egg-security] use xframe middleware
+2020-04-13 17:22:47,465 INFO 6913 [egg-security] use dta middleware
+2020-04-13 17:22:47,465 INFO 6913 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 17:22:49,483 INFO 6913 [egg:core] dump config after load, 22ms
+2020-04-13 17:22:49,500 INFO 6913 [egg-mongoose] starting...
+2020-04-13 17:22:49,832 INFO 6913 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 17:22:49,848 INFO 6913 [egg-mongoose] instance[0] start successfully
+2020-04-13 17:22:49,872 INFO 6913 [egg-watcher:application] watcher start success
+2020-04-13 17:22:49,894 INFO 6913 [egg:core] dump config after ready, 13ms
+2020-04-13 17:26:50,587 INFO 7296 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 17:26:50,655 INFO 7296 [egg-multipart] stream mode enable
+2020-04-13 17:26:53,489 INFO 7296 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 17:26:54,322 INFO 7296 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 17:26:54,325 INFO 7296 [egg-security] use csrf middleware
+2020-04-13 17:26:54,327 INFO 7296 [egg-security] use methodnoallow middleware
+2020-04-13 17:26:54,328 INFO 7296 [egg-security] use noopen middleware
+2020-04-13 17:26:54,330 INFO 7296 [egg-security] use nosniff middleware
+2020-04-13 17:26:54,332 INFO 7296 [egg-security] use xssProtection middleware
+2020-04-13 17:26:54,334 INFO 7296 [egg-security] use xframe middleware
+2020-04-13 17:26:54,335 INFO 7296 [egg-security] use dta middleware
+2020-04-13 17:26:54,336 INFO 7296 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 17:26:56,869 INFO 7296 [egg:core] dump config after load, 15ms
+2020-04-13 17:26:56,885 INFO 7296 [egg-mongoose] starting...
+2020-04-13 17:26:57,006 INFO 7296 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 17:26:57,023 INFO 7296 [egg-mongoose] instance[0] start successfully
+2020-04-13 17:26:57,035 INFO 7296 [egg-watcher:application] watcher start success
+2020-04-13 17:26:57,057 INFO 7296 [egg:core] dump config after ready, 18ms
+2020-04-13 17:30:37,331 INFO 7637 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 17:30:37,397 INFO 7637 [egg-multipart] stream mode enable
+2020-04-13 17:30:39,183 INFO 7637 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 17:30:40,393 INFO 7637 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 17:30:40,397 INFO 7637 [egg-security] use csrf middleware
+2020-04-13 17:30:40,399 INFO 7637 [egg-security] use methodnoallow middleware
+2020-04-13 17:30:40,401 INFO 7637 [egg-security] use noopen middleware
+2020-04-13 17:30:40,404 INFO 7637 [egg-security] use nosniff middleware
+2020-04-13 17:30:40,410 INFO 7637 [egg-security] use xssProtection middleware
+2020-04-13 17:30:40,413 INFO 7637 [egg-security] use xframe middleware
+2020-04-13 17:30:40,415 INFO 7637 [egg-security] use dta middleware
+2020-04-13 17:30:40,415 INFO 7637 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 17:30:40,449 INFO 7637 [egg:core] dump config after load, 7ms
+2020-04-13 17:30:40,457 INFO 7637 [egg-mongoose] starting...
+2020-04-13 17:30:40,556 INFO 7637 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 17:30:40,602 INFO 7637 [egg-mongoose] instance[0] start successfully
+2020-04-13 17:30:40,618 INFO 7637 [egg-watcher:application] watcher start success
+2020-04-13 17:30:40,683 INFO 7637 [egg:core] dump config after ready, 52ms
+2020-04-13 17:31:45,016 INFO 7745 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 17:31:45,123 INFO 7745 [egg-multipart] stream mode enable
+2020-04-13 17:31:46,519 INFO 7745 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 17:31:47,624 INFO 7745 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 17:31:47,629 INFO 7745 [egg-security] use csrf middleware
+2020-04-13 17:31:47,632 INFO 7745 [egg-security] use methodnoallow middleware
+2020-04-13 17:31:47,634 INFO 7745 [egg-security] use noopen middleware
+2020-04-13 17:31:47,638 INFO 7745 [egg-security] use nosniff middleware
+2020-04-13 17:31:47,675 INFO 7745 [egg-security] use xssProtection middleware
+2020-04-13 17:31:47,680 INFO 7745 [egg-security] use xframe middleware
+2020-04-13 17:31:47,684 INFO 7745 [egg-security] use dta middleware
+2020-04-13 17:31:47,684 INFO 7745 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 17:31:47,743 INFO 7745 [egg:core] dump config after load, 17ms
+2020-04-13 17:31:47,767 INFO 7745 [egg-mongoose] starting...
+2020-04-13 17:31:48,005 INFO 7745 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 17:31:48,060 INFO 7745 [egg-mongoose] instance[0] start successfully
+2020-04-13 17:31:48,146 INFO 7745 [egg-watcher:application] watcher start success
+2020-04-13 17:31:48,164 INFO 7745 [egg:core] dump config after ready, 11ms
+2020-04-13 17:33:50,489 INFO 7936 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-13 17:33:50,633 INFO 7936 [egg-multipart] stream mode enable
+2020-04-13 17:33:53,304 INFO 7936 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-13 17:33:55,032 INFO 7936 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-13 17:33:55,037 INFO 7936 [egg-security] use csrf middleware
+2020-04-13 17:33:55,042 INFO 7936 [egg-security] use methodnoallow middleware
+2020-04-13 17:33:55,044 INFO 7936 [egg-security] use noopen middleware
+2020-04-13 17:33:55,046 INFO 7936 [egg-security] use nosniff middleware
+2020-04-13 17:33:55,047 INFO 7936 [egg-security] use xssProtection middleware
+2020-04-13 17:33:55,050 INFO 7936 [egg-security] use xframe middleware
+2020-04-13 17:33:55,052 INFO 7936 [egg-security] use dta middleware
+2020-04-13 17:33:55,052 INFO 7936 [egg-security] compose 7 middlewares into one security middleware
+2020-04-13 17:33:55,089 INFO 7936 [egg:core] dump config after load, 7ms
+2020-04-13 17:33:55,098 INFO 7936 [egg-mongoose] starting...
+2020-04-13 17:33:55,295 INFO 7936 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-13 17:33:55,344 INFO 7936 [egg-mongoose] instance[0] start successfully
+2020-04-13 17:33:55,364 INFO 7936 [egg-watcher:application] watcher start success
+2020-04-13 17:33:55,376 INFO 7936 [egg:core] dump config after ready, 9ms
+2020-04-13 20:08:50,119 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 20:57:17,141 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-13 22:45:31,657 WARN 7936 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-13 22:45:31,657 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 00:33:36,787 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 02:21:41,091 WARN 7936 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 02:21:41,092 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 04:09:45,350 WARN 7936 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 04:09:45,351 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 05:57:50,459 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 07:45:55,546 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 08:00:04,791 WARN 7936 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 08:00:04,792 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:02:48,110 WARN 7936 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-14 09:02:48,111 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-14 09:08:29,277 WARN 7936 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-20 10:51:48,298 INFO 2281 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-20 10:51:48,351 INFO 2281 [egg-multipart] stream mode enable
+2020-04-20 10:51:49,630 INFO 2281 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-20 10:51:50,520 INFO 2281 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-20 10:51:50,527 INFO 2281 [egg-security] use csrf middleware
+2020-04-20 10:51:50,529 INFO 2281 [egg-security] use methodnoallow middleware
+2020-04-20 10:51:50,531 INFO 2281 [egg-security] use noopen middleware
+2020-04-20 10:51:50,533 INFO 2281 [egg-security] use nosniff middleware
+2020-04-20 10:51:50,535 INFO 2281 [egg-security] use xssProtection middleware
+2020-04-20 10:51:50,541 INFO 2281 [egg-security] use xframe middleware
+2020-04-20 10:51:50,543 INFO 2281 [egg-security] use dta middleware
+2020-04-20 10:51:50,543 INFO 2281 [egg-security] compose 7 middlewares into one security middleware
+2020-04-20 10:51:50,577 INFO 2281 [egg:core] dump config after load, 7ms
+2020-04-20 10:51:50,586 INFO 2281 [egg-mongoose] starting...
+2020-04-20 10:51:50,687 ERROR 2281 [egg-mongoose] mongodb://127.0.0.1:27017/heacol disconnected
+2020-04-20 10:51:50,704 ERROR 2281 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:198:13)
+    at createConnection (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/pool.js:561:14)
+    at connect (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/pool.js:994:11)
+    at makeConnection (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:31:7)
+    at callback (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:264:5)
+    at Socket.err (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:294:7)
+    at Object.onceWrapper (events.js:286:20)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "MongoNetworkError"
+pid: 2281
+hostname: bogon
+
+2020-04-20 10:51:50,712 ERROR 2281 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:198:13)
+    at createConnection (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/pool.js:561:14)
+    at connect (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/pool.js:994:11)
+    at makeConnection (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:31:7)
+    at callback (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:264:5)
+    at Socket.err (/Volumes/Work/ylz/healthCollection/node_modules/mongodb/lib/core/connection/connect.js:294:7)
+    at Object.onceWrapper (events.js:286:20)
+    at Socket.emit (events.js:198:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "MongoNetworkError"
+pid: 2281
+hostname: bogon
+
+2020-04-20 10:51:50,833 INFO 2281 [egg:core] dump config after ready, 56ms
+2020-04-20 10:51:50,890 INFO 2281 [egg-watcher:application] watcher start success
+2020-04-20 10:53:26,359 INFO 2446 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-20 10:53:26,644 INFO 2446 [egg-multipart] stream mode enable
+2020-04-20 10:53:28,055 INFO 2446 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-20 10:53:29,207 INFO 2446 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-20 10:53:29,211 INFO 2446 [egg-security] use csrf middleware
+2020-04-20 10:53:29,214 INFO 2446 [egg-security] use methodnoallow middleware
+2020-04-20 10:53:29,219 INFO 2446 [egg-security] use noopen middleware
+2020-04-20 10:53:29,221 INFO 2446 [egg-security] use nosniff middleware
+2020-04-20 10:53:29,224 INFO 2446 [egg-security] use xssProtection middleware
+2020-04-20 10:53:29,225 INFO 2446 [egg-security] use xframe middleware
+2020-04-20 10:53:29,229 INFO 2446 [egg-security] use dta middleware
+2020-04-20 10:53:29,229 INFO 2446 [egg-security] compose 7 middlewares into one security middleware
+2020-04-20 10:53:29,278 INFO 2446 [egg:core] dump config after load, 11ms
+2020-04-20 10:53:29,349 INFO 2446 [egg-mongoose] starting...
+2020-04-20 10:53:29,442 INFO 2446 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-20 10:53:29,454 INFO 2446 [egg-mongoose] instance[0] start successfully
+2020-04-20 10:53:29,467 INFO 2446 [egg-watcher:application] watcher start success
+2020-04-20 10:53:29,502 INFO 2446 [egg:core] dump config after ready, 16ms
+2020-04-20 10:54:51,471 INFO 2569 [egg:logger] init all loggers with options: {"dir":"/Volumes/Work/ylz/healthCollection/logs/health_collection","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"health_collection-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-20 10:54:51,527 INFO 2569 [egg-multipart] stream mode enable
+2020-04-20 10:54:52,747 INFO 2569 [egg-mongoose] connecting mongodb://127.0.0.1:27017/heacol
+2020-04-20 10:54:53,597 INFO 2569 [egg-static] starting static serve /public/ -> /Volumes/Work/ylz/healthCollection/app/public
+2020-04-20 10:54:53,600 INFO 2569 [egg-security] use csrf middleware
+2020-04-20 10:54:53,602 INFO 2569 [egg-security] use methodnoallow middleware
+2020-04-20 10:54:53,604 INFO 2569 [egg-security] use noopen middleware
+2020-04-20 10:54:53,606 INFO 2569 [egg-security] use nosniff middleware
+2020-04-20 10:54:53,608 INFO 2569 [egg-security] use xssProtection middleware
+2020-04-20 10:54:53,610 INFO 2569 [egg-security] use xframe middleware
+2020-04-20 10:54:53,613 INFO 2569 [egg-security] use dta middleware
+2020-04-20 10:54:53,613 INFO 2569 [egg-security] compose 7 middlewares into one security middleware
+2020-04-20 10:54:53,644 INFO 2569 [egg:core] dump config after load, 7ms
+2020-04-20 10:54:53,650 INFO 2569 [egg-mongoose] starting...
+2020-04-20 10:54:53,748 INFO 2569 [egg-mongoose] mongodb://127.0.0.1:27017/heacol connected successfully
+2020-04-20 10:54:53,759 INFO 2569 [egg-mongoose] instance[0] start successfully
+2020-04-20 10:54:53,770 INFO 2569 [egg-watcher:application] watcher start success
+2020-04-20 10:54:53,790 INFO 2569 [egg:core] dump config after ready, 10ms
+2020-04-20 11:22:31,868 WARN 2569 [ClusterClient:Watcher] follower closed, and try to init it again

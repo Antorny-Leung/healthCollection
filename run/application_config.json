@@ -88,25 +88,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Volumes/Work/ylz/health_collection/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Volumes/Work/ylz/healthCollection/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-session/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-security/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-jsonp/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-onerror/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-i18n/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-watcher/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-schedule/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-development/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-static/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg-view/config/locales",
-        "/Volumes/Work/ylz/health_collection/node_modules/egg/config/locales",
-        "/Volumes/Work/ylz/health_collection/config/locales"
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-session/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-security/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-jsonp/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-onerror/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-i18n/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-watcher/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-schedule/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-multipart/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-development/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-static/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-view/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-mongoose/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg-jwt/config/locales",
+        "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/locales",
+        "/Volumes/Work/ylz/healthCollection/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -117,8 +119,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Volumes/Work/ylz/health_collection/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Volumes/Work/ylz/health_collection/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Volumes/Work/ylz/healthCollection/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Volumes/Work/ylz/healthCollection/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -164,18 +166,44 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Volumes/Work/ylz/health_collection/app/public",
+      "dir": "/Volumes/Work/ylz/healthCollection/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Volumes/Work/ylz/health_collection/app/view",
+      "root": "/Volumes/Work/ylz/healthCollection/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
+    },
+    "mongoose": {
+      "url": "mongodb://127.0.0.1:27017/heacol",
+      "options": {
+        "autoReconnect": true,
+        "reconnectTries": 1.7976931348623157e+308,
+        "bufferMaxEntries": 0,
+        "useNewUrlParser": true
+      },
+      "plugins": [],
+      "loadModel": true,
+      "app": true,
+      "agent": false,
+      "client": {
+        "url": "mongodb://127.0.0.1:27017/heacol",
+        "options": {
+          "autoReconnect": true,
+          "reconnectTries": 1.7976931348623157e+308,
+          "bufferMaxEntries": 0,
+          "useNewUrlParser": true
+        }
+      }
+    },
+    "jwt": {
+      "secret": "<String len: 6>",
+      "enable": false
     },
     "env": "local",
     "name": "health_collection",
@@ -196,8 +224,14 @@
         "declarations": true
       },
       "dependencies": {
+        "dateformat": "^3.0.3",
         "egg": "^2.15.1",
-        "egg-scripts": "^2.11.0"
+        "egg-jwt": "^3.1.7",
+        "egg-mongoose": "^3.2.0",
+        "egg-scripts": "^2.11.0",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5",
+        "urlencode": "^1.1.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -233,9 +267,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Volumes/Work/ylz/health_collection",
+    "baseDir": "/Volumes/Work/ylz/healthCollection",
     "HOME": "/Users/antorny",
-    "rundir": "/Volumes/Work/ylz/health_collection/run",
+    "rundir": "/Volumes/Work/ylz/healthCollection/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -267,7 +301,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Volumes/Work/ylz/health_collection/logs/health_collection",
+      "dir": "/Volumes/Work/ylz/healthCollection/logs/health_collection",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -335,7 +369,37 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
+    "hihealth": {
+      "redirect_uri": "",
+      "client_id": 101940703,
+      "client_secret": "<String len: 64>",
+      "getAuthorizationCode": "https://login.cloud.huawei.com/oauth2/v2/authorize?response_type=code&client_id=101940703\n    &redirect_uri=http://qbz7cj.natappfree.cc&scope=https://www.huawei.com/health/profile.readonly+https://www.huawei.com/health/sport.readonly+\n    https://www.huawei.com/health/health.wgt.readonly+https://www.huawei.com/health/health.slp.readonly+\n    https://www.huawei.com/health/health.hr.readonly+https://www.huawei.com/health/health.ecg.readonly+\n    https://www.huawei.com/health/health.bg.readonly+https://www.huawei.com/health/motionpath.readonly+\n    https://www.huawei.com/health/health.bp.readonly+https://www.huawei.com/health/health.ps.readonly+\n    https://www.huawei.com/health/device.readonly+https://www.huawei.com/health/motionpath.readonly&display=mobile",
+      "getAccessToken": "https://oauth-login.cloud.huawei.com/oauth2/v2/token",
+      "refreshAccessToken": "https://oauth-login.cloud.huawei.com/oauth2/v2/token",
+      "getUserInfoBase": "https://oauth-api.cloud.huawei.com/rest.php?nsp_ts=TIMESTAMP&nsp_svc=huawei.oauth2.user.getTokenInfo",
+      "getSportsStat": "https://healthopen.hicloud.com/rest.php? nsp_ts=TIMESTAMP&&nsp_svc=com.huawei.fit.getSportsStat",
+      "getMotionPathData": "https://healthopen.hicloud.com/rest.php?nsp_ts==TIMESTAMP&nsp_svc=com.huawei.fit.getMotionPathData",
+      "getMotionPathDetail": "https://healthopen.hicloud.com/rest.php?nsp_ts=TIMESTAMP&nsp_svc=com.huawei.fit.getMotionPathDetail",
+      "getHealthStat": "https://healthopen.hicloud.com/rest.php?nsp_ts=TIMESTAMP&nsp_svc=com.huawei.fit.getHealthStat",
+      "getHealthData": "https://healthopen.hicloud.com/rest.php?nsp_ts=TIMESTAMP&nsp_svc=com.huawei.fit.getHealthData",
+      "getUserInfo": "https://healthopen.hicloud.com/rest.php? nsp_ts={timestamp}&nsp_svc=com.huawei.fit.getUserInfo",
+      "getDeviceInfo": "https://healthopen.hicloud.com/rest.php? nsp_ts={timestamp}&nsp_svc=com.huawei.fit.getDeviceInfo"
+    },
+    "hmscore": {
+      "baseurl": "https://health-api.cloud.huawei.com/hihealth/v1/",
+      "redirect_uri": "http://ucbfd3.natappfree.cc/api/oauth/getAccessToken",
+      "client_id": 101940703,
+      "client_secret": "<String len: 64>",
+      "getAuthorizationCode": "https://login.cloud.huawei.com/oauth2/v2/authorize?\n    response_type=code&client_id=101940703&redirect_uri=http://z2qiy2.natappfree.cc/api/oauth/getAccessToken\n    &scope=https://www.huawei.com/healthkit/heightweight.both+https://www.huawei.com/healthkit/goals.both+\n    https://www.huawei.com/healthkit/index.both+https://www.huawei.com/healthkit/step.both+\n    https://www.huawei.com/healthkit/distance.both+https://www.huawei.com/healthkit/speed.both+\n    https://www.huawei.com/healthkit/calories.both+https://www.huawei.com/healthkit/pulmonary.both+\n    https://www.huawei.com/healthkit/strength.both+https://www.huawei.com/healthkit/activity.both+\n    https://www.huawei.com/healthkit/location.both+https://www.huawei.com/healthkit/bodyfat.both+\n    https://www.huawei.com/healthkit/sleep.both+https://www.huawei.com/healthkit/heartrate.both+\n    https://www.huawei.com/healthkit/stress.both+https://www.huawei.com/healthkit/relaxtraining.both+\n    https://www.huawei.com/healthkit/nutrition.both+https://www.huawei.com/healthkit/hearthealth.both+\n    https://www.huawei.com/healthkit/bloodglucose.both+https://www.huawei.com/healthkit/bloodpressure.both+\n    https://www.huawei.com/healthkit/oxygensaturation.both+https://www.huawei.com/healthkit/bodytemperature.both+\n    https://www.huawei.com/healthkit/reproductive.both&access_type=offline&display=page\n    ",
+      "getAccessToken": "https://oauth-login.cloud.huawei.com/oauth2/v2/token",
+      "refreshAccessToken": "https://oauth-login.cloud.huawei.com/oauth2/v2/token",
+      "createdataCollectors": "dataCollectors",
+      "deletedataCollectors": "dataCollectors",
+      "getdataCollectors": "dataCollectors/DATACOLLECTORID/sampleSets/STARTTIME-ENDTIME"
+    },
+    "middleware": [
+      "jwt"
+    ],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",
@@ -360,8 +424,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-session",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -373,8 +437,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-security",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -386,8 +450,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-jsonp",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -399,8 +463,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-onerror",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -410,8 +474,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-i18n",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -421,8 +485,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-watcher",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -432,8 +496,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-schedule",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -445,8 +509,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-multipart",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-multipart",
       "version": "2.10.1"
     },
     "development": {
@@ -460,8 +524,8 @@
       "env": [
         "local"
       ],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-development",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -473,8 +537,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-logrotator",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -484,8 +548,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-static",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -495,9 +559,33 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Volumes/Work/ylz/health_collection/node_modules/egg/config/plugin.js",
-      "path": "/Volumes/Work/ylz/health_collection/node_modules/egg-view",
+      "from": "/Volumes/Work/ylz/healthCollection/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-view",
       "version": "2.1.2"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/Work/ylz/healthCollection/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-mongoose",
+      "version": "3.2.0"
+    },
+    "jwt": {
+      "enable": true,
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [
+        "onerror"
+      ],
+      "env": [],
+      "from": "/Volumes/Work/ylz/healthCollection/config/plugin.js",
+      "path": "/Volumes/Work/ylz/healthCollection/node_modules/egg-jwt",
+      "version": "3.1.7"
     }
   }
 }
